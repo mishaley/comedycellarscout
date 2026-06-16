@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T13:40:08",
+  "generated_at": "2026-06-16T13:41:14",
   "available_dates": [
     "2026-06-01",
     "2026-06-02",
@@ -76,8 +76,8 @@
       "weekday": "TUE",
       "drop_in": 3,
       "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Dave Attell headlines with his legendary club prowess and crowd engagement. Tuesday in June gives this a decent drop-in window, though the supporting cast is solid mid-tier talent rather than heavy hitters who draw the big names."
+      "crowd_work": 5,
+      "blurb": "Dave Attell headlines and he's a Cellar legend who works the room hard. Tuesday night ups drop-in odds, and this is a solid joke-writer lineup that should play well."
     },
     {
       "id": "43913",
@@ -113,8 +113,8 @@
       "weekday": "TUE",
       "drop_in": 3,
       "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Ryan Hamilton brings clean, solid writing and Greer Barnes has Chappelle Show cred, but this is a workmanlike Tuesday late show\u2014competent comics doing their sets without much standout firepower."
+      "crowd_work": 4,
+      "blurb": "Ryan Hamilton is clean and workmanlike, Greer Barnes brings energy and crowd engagement. Tuesday late show keeps drop-in possibilities alive but the bill skews a bit broader than your usual taste."
     },
     {
       "id": "43915",
@@ -151,7 +151,7 @@
       "drop_in": 4,
       "taste": 4,
       "crowd_work": 5,
-      "blurb": "Colin Quinn is Cellar royalty and a notorious crowd-work machine who'll riff with the front row all night. Wednesday early show in June is prime drop-in territory, and Quinn's presence could pull in heavy hitters testing material."
+      "blurb": "Colin Quinn is a Cellar institution and Wednesday is historically the best drop-in night. Quinn himself is a cerebral crowd-worker and Pete Lee leans into the front row\u2014strong all around."
     },
     {
       "id": "43916",
@@ -187,8 +187,8 @@
       "weekday": "WED",
       "drop_in": 4,
       "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Greer Barnes anchors another Wednesday late show with Chappelle connections, and the SNL/alt-comedy mix (Fidance, Shornima) creates the eclectic vibe that sometimes attracts surprise guests working out new bits."
+      "crowd_work": 4,
+      "blurb": "Wednesday late show with Ian Fidance (podcast crowd favorite) and Greer Barnes again. Drop-in window stays open but the lineup is more eclectic\u2014hit or miss on pure joke craft."
     }
   ]
 }
