@@ -467,6 +467,97 @@ def write_comic_links(links: dict, comment: str) -> None:
     LINKS_PATH.write_text(json.dumps(payload, indent=2) + "\n")
 
 
+# ---------- WhatsApp alerts --------------------------------------------------
+# When a standout (avg of the 3 scores >= threshold) posts while still bookable,
+# ping the user once on WhatsApp via CallMeBot. De-duped by show id so the
+# every-30-min evening scans don't spam the same show.
+ALERTED_PATH = HERE / "alerted.json"
+STANDOUT_THRESHOLD = 3.5  # keep in sync with the HTML viewer
+CALLMEBOT_URL = "https://api.callmebot.com/whatsapp.php"
+
+
+def _show_avg(s: dict) -> float:
+    return (s.get("drop_in", 0) + s.get("taste", 0) + s.get("crowd_work", 0)) / 3
+
+
+def load_alerted() -> set[str]:
+    try:
+        return set(json.loads(ALERTED_PATH.read_text()).get("alerted_ids", []))
+    except Exception:
+        return set()
+
+
+def save_alerted(ids: set[str]) -> None:
+    ALERTED_PATH.write_text(
+        json.dumps({"alerted_ids": sorted(ids)}, indent=2) + "\n"
+    )
+
+
+def _alert_text(s: dict) -> str:
+    names = [c.get("name", "") for c in s.get("comedians", []) if c.get("name")]
+    if len(names) > 4:
+        who = ", ".join(names[:4]) + f", +{len(names) - 4} more"
+    else:
+        who = ", ".join(names)
+    when = f"{s.get('weekday', '')} {s.get('date', '')} · {s.get('time', '')}".strip()
+    if s.get("sold_out") is False and isinstance(s.get("seats_left"), int) \
+            and 0 < s["seats_left"] <= 10:
+        avail = f"Almost gone · {s['seats_left']} seats left"
+    elif s.get("sold_out") is False:
+        avail = "Seats available"
+    else:
+        avail = "Availability unconfirmed — check now"
+    return (
+        f"🎤 Standout at the Comedy Cellar!\n"
+        f"{when}\n"
+        f"{who}\n"
+        f"A-list {s.get('drop_in', 0)} · Taste {s.get('taste', 0)} · "
+        f"Crowd {s.get('crowd_work', 0)}\n"
+        f"{avail}\n"
+        f"Book: {RESV_PAGE_URL}"
+    )
+
+
+def _send_whatsapp(text: str, phone: str, apikey: str) -> bool:
+    qs = urllib.parse.urlencode({"phone": phone, "text": text, "apikey": apikey})
+    try:
+        with urllib.request.urlopen(f"{CALLMEBOT_URL}?{qs}", timeout=30) as r:
+            r.read()
+        return True
+    except Exception as e:  # noqa: BLE001 — best-effort; never fail the scan
+        print(f"WhatsApp send failed: {e}", file=sys.stderr)
+        return False
+
+
+def notify_standouts(shows: list[dict]) -> None:
+    """Send a one-time WhatsApp for each newly-posted, still-bookable standout."""
+    phone = os.environ.get("CALLMEBOT_PHONE")
+    apikey = os.environ.get("CALLMEBOT_APIKEY")
+    if not (phone and apikey):
+        return  # alerts not configured — silently skip
+
+    today = dt.date.today().isoformat()
+    alerted = load_alerted()
+    sent = 0
+    for s in shows:
+        sid = str(s.get("id", ""))
+        if not sid or sid in alerted:
+            continue
+        if s.get("date", "") < today:
+            continue
+        if _show_avg(s) < STANDOUT_THRESHOLD:
+            continue
+        if s.get("sold_out") is True:          # only ping while bookable
+            continue
+        if _send_whatsapp(_alert_text(s), phone, apikey):
+            alerted.add(sid)
+            sent += 1
+            time.sleep(1)  # be gentle with the free relay
+    if sent:
+        save_alerted(alerted)
+        print(f"WhatsApp: alerted on {sent} new standout(s).")
+
+
 # ---------- Main -------------------------------------------------------------
 
 def main():
@@ -577,6 +668,9 @@ def main():
 
     # Check live reservation availability so the viewer can flag sold-out shows.
     annotate_availability(merged)
+
+    # Ping WhatsApp once for any newly-posted, still-bookable standout.
+    notify_standouts(merged)
 
     # Resolve web-property links for every comic on the bills plus the taste
     # list, caching new ones. Skipped entirely in --no-ai mode.

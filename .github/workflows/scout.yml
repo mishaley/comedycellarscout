@@ -45,14 +45,16 @@ jobs:
       - name: Run the scout
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
         run: python scout.py
 
       - name: Commit refreshed data
         run: |
           git config user.name  "scout-bot"
           git config user.email "scout-bot@users.noreply.github.com"
-          if ! git diff --quiet -- scout_data.json comic_links.json; then
-            git add scout_data.json comic_links.json
+          if ! git diff --quiet -- scout_data.json comic_links.json alerted.json; then
+            git add scout_data.json comic_links.json alerted.json
             git commit -m "Refresh lineup data + comic links [skip ci]"
             git push
           else
