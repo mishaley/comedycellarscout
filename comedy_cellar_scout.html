@@ -467,13 +467,23 @@ async function saveToCloud() {
     taste_benchmark: working.taste,
   };
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${CONFIG_FILE}`;
+  const hint = (status) =>
+    status === 401 ? "bad/expired token" :
+    status === 404 ? "token can't see repo — check Repository access" :
+    status === 403 ? "token lacks Contents: write" :
+    status === 409 || status === 422 ? "sync conflict — reload" : "error";
   try {
     // Need the current file sha to update it.
     const getRes = await fetch(`${url}?ref=${BRANCH}`, {
       headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
     });
-    if (getRes.status === 401) { setSaveStatus("err","Bad token (401)"); return; }
-    const cur = getRes.ok ? await getRes.json() : {};
+    if (!getRes.ok) {
+      const e = await getRes.json().catch(()=>({}));
+      setSaveStatus("err", `Save failed ${getRes.status} — ${hint(getRes.status)}`);
+      console.error("GitHub GET failed", getRes.status, e);
+      return;
+    }
+    const cur = await getRes.json();
     const putRes = await fetch(url, {
       method: "PUT",
       headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
@@ -490,8 +500,8 @@ async function saveToCloud() {
       // reconciles and drops it once the cloud reflects these edits.
     } else {
       const e = await putRes.json().catch(()=>({}));
-      setSaveStatus("err", `Save failed (${putRes.status})`);
-      console.error("Save failed", e);
+      setSaveStatus("err", `Save failed ${putRes.status} — ${hint(putRes.status)}`);
+      console.error("GitHub PUT failed", putRes.status, e);
     }
   } catch (e) {
     setSaveStatus("err", "Save failed (network)");
