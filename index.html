@@ -607,12 +607,14 @@ function updateSaveStatusIdle() {
 
 // Sold-out visibility toggle. State lives in the URL (?soldout=true/false) so a
 // shared link opens in the same state; falls back to the per-browser
-// preference when the URL has no param.
+// preference when the URL has no param. Default is ON: only an explicit "false"
+// /"0" (URL param or saved preference) hides sold-out shows, so a fresh visitor
+// in a clean/incognito session sees them.
 const soldoutBox = document.getElementById("show-soldout");
 const soldoutParam = new URLSearchParams(location.search).get("soldout");
 soldoutBox.checked = soldoutParam !== null
-  ? (soldoutParam === "true" || soldoutParam === "1")
-  : localStorage.getItem("cc_show_soldout") === "1";
+  ? (soldoutParam !== "false" && soldoutParam !== "0")
+  : localStorage.getItem("cc_show_soldout") !== "0";
 function syncSoldoutUrl() {
   const u = new URL(location.href);
   u.searchParams.set("soldout", soldoutBox.checked ? "true" : "false");
