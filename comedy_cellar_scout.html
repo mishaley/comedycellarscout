@@ -388,6 +388,7 @@ function renderShows() {
   const todayIso = new Date().toLocaleDateString("en-CA");
   const shows = (DATA.shows || [])
     .filter(s => s.date >= todayIso)
+    .filter(s => s.sold_out !== true)   // hide shows known to be sold out
     .map(s => ({...s, avg: ((s.drop_in||0)+(s.taste||0)+(s.crowd_work||0))/3}));
   const standout = shows.filter(s => s.avg >= STANDOUT_THRESHOLD);
   const other = shows.filter(s => s.avg < STANDOUT_THRESHOLD);
