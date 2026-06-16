@@ -100,6 +100,10 @@
     font-size: 14px; line-height: 1; padding: 0 2px;
   }
   .taste .chip button:hover { color: #c0392b; }
+  /* Comic name links inside chips */
+  .comic-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--muted); }
+  .comic-link:hover { color: #c0392b; border-bottom-color: #c0392b; }
+  .chip2 a.comic-link { border-bottom-color: var(--chip-border); }
   .taste .add { display: flex; gap: 6px; }
   .taste .add input {
     flex: 1; border: 1px solid var(--chip-border); border-radius: 8px;
@@ -263,6 +267,7 @@ const LS_WORKING = "ccscout_working";  // {dates:[], taste:[]}
 const LS_TOKEN = "ccscout_token";
 
 let DATA = null;                       // scout_data.json (shows, generated_at)
+let COMIC_LINKS = {};                  // comic name -> verified best web property
 let working = { dates: new Set(), taste: [] };
 let configComment = "";                // preserve the _comment field on save
 let saveTimer = null;
@@ -272,6 +277,10 @@ async function boot() {
   // Load shows (+ generated time).
   try { DATA = await (await fetch("scout_data.json", {cache:"no-store"})).json(); }
   catch { DATA = { shows: [], generated_at: null }; }
+
+  // Load verified comic web properties (name -> URL).
+  try { COMIC_LINKS = (await (await fetch("comic_links.json", {cache:"no-store"})).json()).links || {}; }
+  catch { COMIC_LINKS = {}; }
 
   // Load the editable config. Prefer the user's local working copy if present.
   let cfg = { available_dates: [], taste_benchmark: [] };
@@ -349,7 +358,7 @@ function buildCalendar(monthStart) {
 function renderTaste() {
   const root = document.getElementById("taste");
   const chips = working.taste.map((t,i) =>
-    `<span class="chip">${escapeHtml(t)}<button title="Remove" data-i="${i}">×</button></span>`).join("");
+    `<span class="chip">${comicNameHtml(t)}<button title="Remove" data-i="${i}">×</button></span>`).join("");
   root.innerHTML = `
     <div class="chips">${chips || '<span class="hint">No comics yet.</span>'}</div>
     <div class="add">
@@ -391,7 +400,7 @@ function renderShows() {
 
 function card(s, isStandout) {
   const dateLabel = `${s.weekday||""} ${prettyShort(s.date)}`.trim().toUpperCase();
-  const chips = (s.comedians||[]).map(c=>`<span class="chip2">${escapeHtml(c.name)}</span>`).join("");
+  const chips = (s.comedians||[]).map(c=>`<span class="chip2">${comicNameHtml(c.name)}</span>`).join("");
   return `<div class="card ${isStandout?"standout":""}">
     <div class="tag">${isStandout?"STANDOUT":"BELOW THRESHOLD"}</div>
     <div class="date">${dateLabel}</div>
@@ -508,6 +517,13 @@ document.getElementById("reset-cloud").onclick = async () => {
 function prettyShort(iso){ const [y,m,d]=iso.split("-").map(Number);
   return new Date(y,m-1,d).toLocaleDateString("en-US",{month:"short",day:"numeric"}).toUpperCase(); }
 function escapeHtml(s){ return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+// Comic name as a link to their verified web property, or plain text if unknown.
+function comicNameHtml(name){
+  const url = COMIC_LINKS[name];
+  const safe = escapeHtml(name);
+  if (!url) return safe;
+  return `<a class="comic-link" href="${escapeHtml(url)}" target="_blank" rel="noopener" title="${escapeHtml(name)} online">${safe}</a>`;
+}
 
 boot();
 </script>
