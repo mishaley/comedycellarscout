@@ -151,7 +151,6 @@
   .score { border: 1px solid var(--line); border-radius: 6px; padding: 6px 4px; text-align: center; }
   .score .label { font-size: 8px; letter-spacing: 1px; color: var(--muted); font-weight: 700; }
   .score .val { font-size: 18px; font-weight: 700; }
-  .score .val .denom { font-size: 10px; color: var(--muted); font-weight: 400; }
   .score.hot .val { color: var(--accent); }
   .book { display:block; margin-top: 11px; text-align: center; background:#d9d6cd; color:#555; border-radius:6px; padding:8px; font-size:13px; text-decoration:none; }
   .card.standout .book { background:#1a1a1a; color:#fff; }
@@ -414,7 +413,7 @@ function card(s, isStandout) {
     <a class="book" href="https://www.comedycellar.com/reservation/" target="_blank" rel="noopener">${isStandout?"Book →":"Book anyway →"}</a>
   </div>`;
 }
-function box(label,val){ return `<div class="score ${val>=4?"hot":""}"><div class="label">${label}</div><div class="val">${val||0}<span class="denom">/5</span></div></div>`; }
+function box(label,val){ return `<div class="score ${val>=4?"hot":""}"><div class="label">${label}</div><div class="val">${val||0}</div></div>`; }
 
 // ---- Editing + persistence --------------------------------------------------
 function toggleDate(iso) {
