@@ -11,7 +11,7 @@
   :root {
     --bg: #fafaf7;
     --ink: #1a1a1a;
-    --muted: #8a8a82;
+    --muted: #6f6f66;
     --line: #e6e3dc;
     --accent: #b58a1f;
     --chip-border: #d7d2c5;
@@ -21,7 +21,7 @@
   html, body { height: 100%; }
   body {
     margin: 0; background: var(--bg); color: var(--ink); overflow: hidden;
-    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    font: 15.5px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text",
           "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
@@ -31,7 +31,7 @@
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 410px 1fr;
     grid-template-areas: "header header" "side main";
   }
   header.bar {
@@ -40,14 +40,14 @@
     padding: 10px 20px; border-bottom: 1px solid var(--line);
     background: #fff;
   }
-  header.bar img.logo { height: 52px; border-radius: 4px; }
-  header.bar .title { font-size: 18px; font-weight: 700; line-height: 1.1; }
+  header.bar img.logo { height: 56px; border-radius: 4px; }
+  header.bar .title { font-size: 21px; font-weight: 700; line-height: 1.1; }
   header.bar .title .scout { color: var(--accent); }
-  header.bar .sub { color: var(--muted); font-size: 12px; font-style: italic; }
+  header.bar .sub { color: var(--muted); font-size: 13px; font-style: italic; }
   header.bar .spacer { flex: 1; }
-  header.bar .checked { color: var(--muted); font-size: 12px; text-align: right; }
+  header.bar .checked { color: var(--muted); font-size: 13px; text-align: right; }
   #save-status {
-    font-size: 12px; color: var(--muted); min-width: 130px; text-align: right;
+    font-size: 13px; color: var(--muted); min-width: 130px; text-align: right;
     transition: color .2s;
   }
   #save-status.ok { color: #2e7d32; }
@@ -56,7 +56,7 @@
   #save-status.view { color: var(--muted); }
   .gear {
     border: 1px solid var(--line); background: #fff; border-radius: 8px;
-    padding: 7px 11px; cursor: pointer; font-size: 13px;
+    padding: 8px 12px; cursor: pointer; font-size: 14px;
   }
   .gear:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -66,20 +66,20 @@
     overflow-y: auto; padding: 16px; background: #fcfbf8;
   }
   .panel-title {
-    font-size: 11px; letter-spacing: 1.3px; color: var(--muted);
+    font-size: 12.5px; letter-spacing: 1.3px; color: var(--muted);
     font-weight: 700; margin: 4px 0 10px; text-transform: uppercase;
   }
-  .hint { font-size: 11px; color: var(--muted); margin: 0 0 12px; }
+  .hint { font-size: 12.5px; color: var(--muted); margin: 0 0 12px; }
 
   .cal { margin-bottom: 18px; }
-  .cal h3 { margin: 0 0 8px; text-align: center; font-size: 14px; }
+  .cal h3 { margin: 0 0 8px; text-align: center; font-size: 15px; }
   .cal table { width: 100%; border-collapse: collapse; }
-  .cal th { color: var(--muted); font-size: 10px; font-weight: 600; padding-bottom: 4px; }
+  .cal th { color: var(--muted); font-size: 11px; font-weight: 600; padding-bottom: 4px; }
   .cal td { text-align: center; padding: 2px; }
   .cal td .day {
     display: inline-grid; place-content: center;
-    width: 30px; height: 30px; border-radius: 7px;
-    font-size: 13px; color: var(--muted); cursor: pointer;
+    width: 34px; height: 34px; border-radius: 7px;
+    font-size: 14px; color: var(--muted); cursor: pointer;
     user-select: none; transition: background .12s, color .12s;
   }
   .cal td .day:hover { background: #efece3; }
@@ -101,12 +101,12 @@
   .taste .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
   .taste .chip {
     background: #fff; border: 1px solid var(--chip-border); border-radius: 999px;
-    padding: 4px 6px 4px 11px; font-size: 12px; display: inline-flex;
+    padding: 5px 7px 5px 12px; font-size: 13px; display: inline-flex;
     align-items: center; gap: 4px;
   }
   .taste .chip button {
     border: none; background: none; cursor: pointer; color: var(--muted);
-    font-size: 14px; line-height: 1; padding: 0 2px;
+    font-size: 16px; line-height: 1; padding: 0 2px;
   }
   .taste .chip button:hover { color: #c0392b; }
   /* Comic name links inside chips */
@@ -116,16 +116,16 @@
   .taste .add { display: flex; gap: 6px; }
   .taste .add input {
     flex: 1; border: 1px solid var(--chip-border); border-radius: 8px;
-    padding: 6px 9px; font-size: 12px;
+    padding: 7px 10px; font-size: 13px;
   }
   .taste .add button {
     border: 1px solid var(--accent); background: var(--accent); color: #fff;
-    border-radius: 8px; padding: 6px 12px; font-size: 12px; cursor: pointer;
+    border-radius: 8px; padding: 7px 13px; font-size: 13px; cursor: pointer;
   }
 
   .sidebtns { margin-top: 14px; display: flex; gap: 8px; }
   .sidebtns button, .linkbtn {
-    font-size: 11px; color: var(--muted); background: none;
+    font-size: 12.5px; color: var(--muted); background: none;
     border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px;
     cursor: pointer;
   }
@@ -134,43 +134,43 @@
   /* ---- Main panel ---- */
   main { grid-area: main; overflow-y: auto; padding: 18px 22px; }
   .status-row { display:flex; align-items:flex-start; justify-content:center; gap:14px; margin: 2px 0 16px; }
-  .status { text-align: center; font-weight: 600; flex: 1; }
-  .status .sub { display:block; font-weight: 400; color: var(--muted); font-size: 12px; margin-top: 4px; }
-  .soldout-toggle { display:flex; align-items:center; gap:5px; font-size:12px; color: var(--muted);
+  .status { text-align: center; font-weight: 600; flex: 1; font-size: 16px; }
+  .status .sub { display:block; font-weight: 400; color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .soldout-toggle { display:flex; align-items:center; gap:5px; font-size:13px; color: var(--muted);
     white-space:nowrap; cursor:pointer; user-select:none; padding-top:2px; }
   .soldout-toggle input { cursor:pointer; }
   .card.sold { opacity: .55; }
   .divider-label {
-    text-align: center; color: var(--muted); font-size: 11px;
+    text-align: center; color: var(--muted); font-size: 12px;
     letter-spacing: 1.5px; margin: 22px 0 14px;
   }
-  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
   .card {
     background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-    padding: 14px; position: relative; display: flex; flex-direction: column;
+    padding: 16px; position: relative; display: flex; flex-direction: column;
   }
   .card.standout { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
   .card .tag {
-    position: absolute; top: 11px; right: 11px; font-size: 9px; letter-spacing: 1px;
+    position: absolute; top: 11px; right: 11px; font-size: 10px; letter-spacing: 1px;
     color: var(--muted); background: #f0ede4; padding: 3px 7px; border-radius: 4px; font-weight: 700;
   }
   .card.standout .tag { background: var(--accent); color: #fff; }
-  .card .date { color: var(--muted); font-size: 11px; letter-spacing: 1px; font-weight: 600; }
-  .card .time { font-size: 19px; font-weight: 700; }
-  .card .room { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+  .card .date { color: var(--muted); font-size: 12px; letter-spacing: 1px; font-weight: 600; }
+  .card .time { font-size: 22px; font-weight: 700; }
+  .card .room { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
   .chips2 { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 9px; }
-  .chip2 { background: #fff; border: 1px solid var(--chip-border); border-radius: 999px; padding: 3px 9px; font-size: 11px; }
-  .blurb { font-style: italic; color: #4a4a4a; font-size: 12px; margin: 2px 0 10px; flex-grow: 1; }
+  .chip2 { background: #fff; border: 1px solid var(--chip-border); border-radius: 999px; padding: 4px 10px; font-size: 12.5px; }
+  .blurb { font-style: italic; color: #43433d; font-size: 13.5px; line-height: 1.5; margin: 2px 0 10px; flex-grow: 1; }
   .scores { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
-  .score { border: 1px solid var(--line); border-radius: 6px; padding: 6px 4px; text-align: center; }
-  .score .label { font-size: 8px; letter-spacing: 1px; color: var(--muted); font-weight: 700; }
-  .score .val { font-size: 18px; font-weight: 700; }
+  .score { border: 1px solid var(--line); border-radius: 6px; padding: 7px 4px; text-align: center; }
+  .score .label { font-size: 9.5px; letter-spacing: 1px; color: var(--muted); font-weight: 700; }
+  .score .val { font-size: 21px; font-weight: 700; }
   .score.hot .val { color: var(--accent); }
-  .book { display:block; margin-top: 11px; text-align: center; background:#d9d6cd; color:#555; border-radius:6px; padding:8px; font-size:13px; text-decoration:none; }
+  .book { display:block; margin-top: 11px; text-align: center; background:#d9d6cd; color:#444; border-radius:6px; padding:9px; font-size:14px; text-decoration:none; }
   .card.standout .book { background:#1a1a1a; color:#fff; }
   .book.soldout { background:#ede3e1; color:#b03a2e; cursor:default; font-weight:600; }
   .card.standout .book.soldout { background:#f4dedb; color:#b03a2e; }
-  .avail { margin-top: 9px; font-size: 11px; font-weight: 600; text-align: center; }
+  .avail { margin-top: 9px; font-size: 12.5px; font-weight: 600; text-align: center; }
   .avail.sold { color:#b03a2e; }
   .avail.low { color:#c47d12; }
   .avail.ok { color:#2e7d32; }
@@ -186,8 +186,8 @@
     background: #fff; border-radius: 12px; padding: 22px; width: min(480px, 92vw);
     box-shadow: 0 20px 60px rgba(0,0,0,.3);
   }
-  .modal h2 { margin: 0 0 6px; font-size: 17px; }
-  .modal p { font-size: 12.5px; color: #555; margin: 8px 0; }
+  .modal h2 { margin: 0 0 6px; font-size: 19px; }
+  .modal p { font-size: 13.5px; color: #4a4a44; margin: 8px 0; }
   .modal input[type=password], .modal input[type=text] {
     width: 100%; border: 1px solid var(--chip-border); border-radius: 8px;
     padding: 9px 11px; font-size: 13px; margin: 6px 0;
