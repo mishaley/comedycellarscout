@@ -479,7 +479,7 @@ def write_comic_links(links: dict, comment: str) -> None:
 # ping the user once on WhatsApp via CallMeBot. De-duped by show id so the
 # every-30-min evening scans don't spam the same show.
 ALERTED_PATH = HERE / "alerted.json"
-STANDOUT_THRESHOLD = 3.5  # keep in sync with the HTML viewer
+STANDOUT_THRESHOLD = 4.0  # selective enough to differentiate; keep in sync with the HTML viewer
 CALLMEBOT_URL = "https://api.callmebot.com/whatsapp.php"
 
 
@@ -487,9 +487,10 @@ CALLMEBOT_URL = "https://api.callmebot.com/whatsapp.php"
 # A-list drop-in next, taste as a guide. Weights sum to 1 so the score stays
 # on the 1-5 scale. Keep in sync with SCORE_WEIGHTS in the HTML viewer.
 SCORE_WEIGHTS = {"crowd_work": 0.5, "drop_in": 0.3, "taste": 0.2}
-# Crowd work is the top priority, so a strong crowd-work score alone qualifies
-# a night even if the weighted total just misses. Keep in sync with the viewer.
-CROWD_FLOOR = 4
+# Crowd work is the top priority, so *exceptional* crowd work alone (a perfect
+# 5) qualifies a night even if the weighted total just misses. A merely-good 4
+# no longer auto-qualifies. Keep in sync with the viewer.
+CROWD_FLOOR = 5
 
 
 def weighted_score(s: dict) -> float:

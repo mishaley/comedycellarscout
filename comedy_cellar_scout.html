@@ -286,15 +286,18 @@
 // ---- Repo coordinates (this site's own repo) --------------------------------
 const OWNER = "mishaley", REPO = "comedy-cellar-scout", BRANCH = "main";
 const CONFIG_FILE = "config.json";
-const STANDOUT_THRESHOLD = 3.5;
+// "Standout" should be selective enough to actually differentiate nights, not
+// rubber-stamp anything decent. At 4.0 a bill needs genuinely strong marks
+// across the board (e.g. 5/5/4 or 4/4/5) to clear it. Keep in sync with scout.py.
+const STANDOUT_THRESHOLD = 4.0;
 // Priority for what makes a great Cellar night: crowd work first, an A-list
 // drop-in next, taste as a guide. Weights sum to 1 so the score stays on the
 // 1-5 scale. Keep in sync with weighted_score() in scout.py.
 const SCORE_WEIGHTS = { crowd_work: 0.5, drop_in: 0.3, taste: 0.2 };
-// Crowd work is the top priority, so a strong crowd-work score alone makes a
-// night worth flagging even if the weighted total just misses. Keep in sync
-// with scout.py.
-const CROWD_FLOOR = 4;
+// Crowd work is the top priority, so *exceptional* crowd work alone (a perfect
+// 5) makes a night worth flagging even if the weighted total just misses. A
+// merely-good 4 no longer auto-qualifies. Keep in sync with scout.py.
+const CROWD_FLOOR = 5;
 function weightedScore(s){
   return (s.crowd_work||0)*SCORE_WEIGHTS.crowd_work
        + (s.drop_in||0)*SCORE_WEIGHTS.drop_in
@@ -476,14 +479,14 @@ function card(s, kind) {            // kind: "standout" | "best" | "other"
   let avail = "", book;
   const seats = s.seats_left;
   if (s.sold_out === true) {
-    avail = `<div class="avail sold">Sold out as of last check</div>`;
-    book = `<a class="book soldout" href="${RESV_URL}" target="_blank" rel="noopener">Sold out — check other times →</a>`;
+    // Sold out: a single, plain "Sold out" — no separate status line.
+    book = `<span class="book soldout">Sold out</span>`;
   } else {
     if (s.sold_out === false && typeof seats === "number" && seats > 0 && seats <= 10)
       avail = `<div class="avail low">Almost sold out · ${seats} seat${seats===1?"":"s"} left</div>`;
     else if (s.sold_out === false)
       avail = `<div class="avail ok">Seats available</div>`;
-    book = `<a class="book" href="${RESV_URL}" target="_blank" rel="noopener">${featured?"Book →":"Book anyway →"}</a>`;
+    book = `<a class="book" href="${RESV_URL}" target="_blank" rel="noopener">Book →</a>`;
   }
   return `<div class="card ${featured?"standout":""} ${s.sold_out===true?"sold":""}">
     <div class="tag">${tag}</div>
