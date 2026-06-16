@@ -53,6 +53,7 @@
   #save-status.ok { color: #2e7d32; }
   #save-status.err { color: #c0392b; }
   #save-status.busy { color: var(--accent); }
+  #save-status.view { color: var(--muted); }
   .gear {
     border: 1px solid var(--line); background: #fff; border-radius: 8px;
     padding: 7px 11px; cursor: pointer; font-size: 13px;
@@ -86,6 +87,13 @@
   .cal td.has .day:hover { background: #9c7619; }
   .cal td.today .day { box-shadow: inset 0 0 0 2px #1a1a1a; }
   .cal td.empty .day { visibility: hidden; cursor: default; }
+
+  /* ---- View-only (shared link, no editing token) ---- */
+  body.view-only .cal td .day { cursor: default; }
+  body.view-only .cal td .day:hover { background: none; }
+  body.view-only .cal td.has .day:hover { background: var(--accent); }
+  body.view-only #reset-cloud,
+  body.view-only .edit-hint { display: none; }
 
   /* ---- Taste editor ---- */
   .taste { margin-top: 6px; }
@@ -221,12 +229,12 @@
 
   <aside>
     <div class="panel-title">Your availability</div>
-    <p class="hint">Click any date to toggle whether you're free that night. The
+    <p class="hint edit-hint">Click any date to toggle whether you're free that night. The
       scout only scans nights you select.</p>
     <div id="calendars"></div>
 
     <div class="panel-title" style="margin-top:18px">Taste — comics you like</div>
-    <p class="hint">Used to score each bill. Add or remove anyone.</p>
+    <p class="hint edit-hint">Used to score each bill. Add or remove anyone.</p>
     <div class="taste" id="taste"></div>
 
     <div class="sidebtns">
@@ -348,7 +356,10 @@ async function boot() {
 }
 
 // ---- Rendering --------------------------------------------------------------
-function renderAll() { renderCalendars(); renderTaste(); renderShows(); }
+function renderAll() {
+  document.body.classList.toggle("view-only", !canEdit());
+  renderCalendars(); renderTaste(); renderShows();
+}
 
 function renderCalendars() {
   const root = document.getElementById("calendars");
@@ -379,7 +390,7 @@ function buildCalendar(monthStart) {
     if (working.dates.has(iso)) td.classList.add("has");
     if (iso === todayIso) td.classList.add("today");
     td.innerHTML = `<span class="day">${d}</span>`;
-    td.querySelector(".day").onclick = () => toggleDate(iso);
+    if (canEdit()) td.querySelector(".day").onclick = () => toggleDate(iso);
     row.appendChild(td);
     if ((firstWeekday + d) % 7 === 0) { tbody.appendChild(row); row = document.createElement("tr"); }
   }
@@ -389,14 +400,16 @@ function buildCalendar(monthStart) {
 
 function renderTaste() {
   const root = document.getElementById("taste");
+  const editable = canEdit();
   const chips = working.taste.map((t,i) =>
-    `<span class="chip">${comicNameHtml(t)}<button title="Remove" data-i="${i}">×</button></span>`).join("");
+    `<span class="chip">${comicNameHtml(t)}${editable ? `<button title="Remove" data-i="${i}">×</button>` : ""}</span>`).join("");
   root.innerHTML = `
     <div class="chips">${chips || '<span class="hint">No comics yet.</span>'}</div>
-    <div class="add">
+    ${editable ? `<div class="add">
       <input id="taste-input" type="text" placeholder="Add a comic…" autocomplete="off">
       <button id="taste-add">Add</button>
-    </div>`;
+    </div>` : ""}`;
+  if (!editable) return;
   root.querySelectorAll(".chip button").forEach(b =>
     b.onclick = () => { working.taste.splice(+b.dataset.i,1); commitEdit(); });
   const input = root.querySelector("#taste-input");
@@ -507,6 +520,10 @@ function scheduleCloudSave() {
 }
 
 function getToken(){ return localStorage.getItem(LS_TOKEN) || ""; }
+// Editing is owner-only: anyone with the GitHub token (saved in this browser)
+// can edit; everyone else sees a read-only view. No login — possession of a
+// shared link grants viewing, possession of the token grants editing.
+function canEdit(){ return !!getToken(); }
 
 async function saveToCloud() {
   const token = getToken();
@@ -572,21 +589,21 @@ function setSaveStatus(kind, text) {
   el.className = kind; el.textContent = text;
 }
 function updateSaveStatusIdle() {
-  setSaveStatus(getToken() ? "" : "err",
-    getToken() ? "Synced to cloud" : "Local only — add token to sync");
+  setSaveStatus(canEdit() ? "" : "view",
+    canEdit() ? "Synced to cloud" : "View only");
 }
 
-// Sold-out visibility toggle. State lives in the URL (?soldout=1/0) so a
+// Sold-out visibility toggle. State lives in the URL (?soldout=true/false) so a
 // shared link opens in the same state; falls back to the per-browser
 // preference when the URL has no param.
 const soldoutBox = document.getElementById("show-soldout");
 const soldoutParam = new URLSearchParams(location.search).get("soldout");
 soldoutBox.checked = soldoutParam !== null
-  ? (soldoutParam === "1" || soldoutParam === "true")
+  ? (soldoutParam === "true" || soldoutParam === "1")
   : localStorage.getItem("cc_show_soldout") === "1";
 function syncSoldoutUrl() {
   const u = new URL(location.href);
-  u.searchParams.set("soldout", soldoutBox.checked ? "1" : "0");
+  u.searchParams.set("soldout", soldoutBox.checked ? "true" : "false");
   history.replaceState(null, "", u);
 }
 syncSoldoutUrl();  // reflect the current state in the URL on load
@@ -608,6 +625,7 @@ document.getElementById("token-save").onclick = () => {
   const v = document.getElementById("token-input").value.trim();
   if (v) localStorage.setItem(LS_TOKEN, v); else localStorage.removeItem(LS_TOKEN);
   modal.classList.remove("open");
+  renderAll();  // flip between editable and view-only immediately
   // Push the current local state right away so existing edits sync immediately.
   if (v) saveToCloud(); else updateSaveStatusIdle();
 };
@@ -615,6 +633,7 @@ document.getElementById("token-clear").onclick = () => {
   localStorage.removeItem(LS_TOKEN);
   document.getElementById("token-input").value = "";
   updateSaveStatusIdle();
+  renderAll();
 };
 document.getElementById("reset-cloud").onclick = async () => {
   localStorage.removeItem(LS_WORKING);
