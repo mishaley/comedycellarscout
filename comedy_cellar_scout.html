@@ -472,36 +472,42 @@ async function saveToCloud() {
     status === 404 ? "token can't see repo — check Repository access" :
     status === 403 ? "token lacks Contents: write" :
     status === 409 || status === 422 ? "sync conflict — reload" : "error";
+  const ghHeaders = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" };
   try {
-    // Need the current file sha to update it.
-    const getRes = await fetch(`${url}?ref=${BRANCH}`, {
-      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
-    });
-    if (!getRes.ok) {
-      const e = await getRes.json().catch(()=>({}));
-      setSaveStatus("err", `Save failed ${getRes.status} — ${hint(getRes.status)}`);
-      console.error("GitHub GET failed", getRes.status, e);
-      return;
-    }
-    const cur = await getRes.json();
-    const putRes = await fetch(url, {
-      method: "PUT",
-      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
-                 "Content-Type": "application/json" },
-      body: JSON.stringify({
-        message: "Update availability/taste from web app",
-        content: b64(JSON.stringify(fileBody, null, 2) + "\n"),
-        sha: cur.sha, branch: BRANCH,
-      }),
-    });
-    if (putRes.ok) {
-      setSaveStatus("ok", "Saved · scout re-running");
-      // Keep the local copy until Pages redeploys the new config.json; boot()
-      // reconciles and drops it once the cloud reflects these edits.
-    } else {
+    // A 409/422 means another commit (e.g. the daily workflow bot) landed
+    // between our GET and PUT, so the sha went stale. Re-fetch and retry.
+    for (let attempt = 0; attempt < 4; attempt++) {
+      const getRes = await fetch(`${url}?ref=${BRANCH}`, { headers: ghHeaders });
+      if (!getRes.ok) {
+        const e = await getRes.json().catch(()=>({}));
+        setSaveStatus("err", `Save failed ${getRes.status} — ${hint(getRes.status)}`);
+        console.error("GitHub GET failed", getRes.status, e);
+        return;
+      }
+      const cur = await getRes.json();
+      const putRes = await fetch(url, {
+        method: "PUT",
+        headers: { ...ghHeaders, "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: "Update availability/taste from web app",
+          content: b64(JSON.stringify(fileBody, null, 2) + "\n"),
+          sha: cur.sha, branch: BRANCH,
+        }),
+      });
+      if (putRes.ok) {
+        setSaveStatus("ok", "Saved · scout re-running");
+        // Keep the local copy until Pages redeploys the new config.json; boot()
+        // reconciles and drops it once the cloud reflects these edits.
+        return;
+      }
+      if ((putRes.status === 409 || putRes.status === 422) && attempt < 3) {
+        await new Promise(r => setTimeout(r, 400 * (attempt + 1)));
+        continue; // sha was stale — re-fetch and try again
+      }
       const e = await putRes.json().catch(()=>({}));
       setSaveStatus("err", `Save failed ${putRes.status} — ${hint(putRes.status)}`);
       console.error("GitHub PUT failed", putRes.status, e);
+      return;
     }
   } catch (e) {
     setSaveStatus("err", "Save failed (network)");
