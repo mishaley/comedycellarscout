@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-06-16T08:35:19",
+  "available_dates": [
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-15",
+    "2026-06-16",
+    "2026-06-17",
+    "2026-06-21",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-25",
+    "2026-06-28",
+    "2026-06-29",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-19",
+    "2026-07-20",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-26",
+    "2026-07-27",
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30"
+  ],
+  "taste_benchmark": [
+    "Sam Morril",
+    "Jeff Arcuri",
+    "Mark Normand"
+  ],
+  "shows": [
+    {
+      "id": "43912",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Regina DeCicco",
+          "credits": "WARM UP COMIC FOR \"THE VIEW\", SIRIUS XM, AXS-TV, \"SHERRI\""
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Ryan Goodcase",
+          "credits": "NETFLIX IS A JOKE FEST, DON'T TELL, WINNER SAN FRANCISCO INTERNATIONAL COMEDY COMPETITION, WINNER 2019 WORLD SERIES OF COMEDY"
+        },
+        {
+          "name": "Dave Attell",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF \"DAVES OLD PORN\" ON SHOWTIME, COMEDY CENTRAL'S \"INSOMNIAC WITH DAVE ATTELL\", THE DAVID LETTERMAN,T HE TONIGHT SHOW, IFC'S \"Z ROCK\", \"TOUGH CROWD\"."
+        }
+      ],
+      "date": "2026-06-16",
+      "weekday": "TUE",
+      "drop_in": 3,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Dave Attell headlines with his grimy crowd-work mastery\u2014worth the front row. The rest of the bill leans more mainstream/TV-polished than the Cellar regulars you love."
+    },
+    {
+      "id": "43913",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Gregg Rogell",
+          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
+        },
+        {
+          "name": "Elle Orlando",
+          "credits": "DONT TELL COMEDY, CREATOR TO WATCH 2024"
+        },
+        {
+          "name": "Ryan Hamilton",
+          "credits": "FROM THE TONIGHT SHOW, HOUR SPECIAL ON NETFLIX, FROM THE  \"LATE SHOW WITH STEPHEN COLBERT\",  \"CONAN O'BRIEN SHOW\", \"LAST COMIC STANDING\","
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        }
+      ],
+      "date": "2026-06-16",
+      "weekday": "TUE",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Ryan Hamilton and Greer Barnes anchor a solid but unremarkable Tuesday night. Missing the sharp joke-craft and NYC edge you're hunting for."
+    },
+    {
+      "id": "43915",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "James Mattern",
+          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
+        },
+        {
+          "name": "Pete Lee",
+          "credits": "COMEDY CENTRAL HALF HOUR, FROM THE DAVID LETTERMAN SHOW, NBC'S LAST COMIC STANDING, VH1'S BEST WEEK EVER"
+        },
+        {
+          "name": "Erin Jackson",
+          "credits": "FROM THE CONAN O\"BRIEN SHOW, LAST COMIC STANDING"
+        },
+        {
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Phil Hanley",
+          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
+        },
+        {
+          "name": "Lenny Marcus",
+          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
+        }
+      ],
+      "date": "2026-06-17",
+      "weekday": "WED",
+      "drop_in": 3,
+      "taste": 4,
+      "crowd_work": 4,
+      "blurb": "Colin Quinn on a Wednesday 7:30 is excellent\u2014cerebral and crowd-friendly. Pete Lee and the crew deliver reliable club comedy with good front-row energy."
+    },
+    {
+      "id": "43916",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Eric Neumann",
+          "credits": "FROM THE TONIGHT SHOW STARRINGJIMMY FALLON, NETFLIX, COMEDY CENTRAL, IFC"
+        },
+        {
+          "name": "Ian Fidance",
+          "credits": "BEIN IAN PODCAST, NPR\u2019S THIS AMERICAN LIFE, NETFLIX, SOPRANOS PRIMA VOLTA"
+        },
+        {
+          "name": "Kc Shornima",
+          "credits": "WEEKEND UPDATE WRITER AT SATURDAY NIGHT LIVE, JUST FOR LAUGHS NEW FACES"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        }
+      ],
+      "date": "2026-06-17",
+      "weekday": "WED",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Ian Fidance brings alt-comedy chaos and Greer Barnes closes strong, but the middle feels a bit uneven. Solid Wednesday late show, not essential."
+    }
+  ]
+}

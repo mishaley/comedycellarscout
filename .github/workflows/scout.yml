@@ -1,0 +1,63 @@
+name: Comedy Cellar Scout
+
+on:
+  # Daily at 14:00 UTC ≈ 9-10am US Eastern (after Cellar posts lineups).
+  schedule:
+    - cron: "0 14 * * *"
+  # Manual "Run workflow" button in the Actions tab.
+  workflow_dispatch:
+  # Re-deploy whenever you push code/availability changes.
+  push:
+    branches: [main]
+
+# GITHUB_TOKEN needs to commit refreshed data and publish Pages.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Only one run at a time; let a newer run cancel an in-flight one.
+concurrency:
+  group: scout
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the scout
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scout.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "scout-bot"
+          git config user.email "scout-bot@users.noreply.github.com"
+          if ! git diff --quiet -- scout_data.json; then
+            git add scout_data.json
+            git commit -m "Refresh lineup data [skip ci]"
+            git push
+          else
+            echo "No data changes."
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Publish the static site files only.
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

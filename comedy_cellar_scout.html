@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Comedy Cellar Scout</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #888;
+    --line: #e6e3dc;
+    --accent: #b58a1f;        /* olive-gold from screenshot */
+    --accent-bg: #b58a1f;
+    --accent-text: #fff;
+    --chip-bg: #fff;
+    --chip-border: #d7d2c5;
+    --card: #fff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 920px; margin: 0 auto; padding: 24px 20px 80px; }
+
+  header { text-align: center; }
+  header img.header-img {
+    display: block; width: min(560px, 100%); margin: 0 auto;
+    border-radius: 6px;
+  }
+  header .header-fallback {
+    width: min(560px, 100%); aspect-ratio: 16/9; margin: 0 auto;
+    background:
+      radial-gradient(circle at 30% 40%, #c93636 0 18%, transparent 19%),
+      radial-gradient(circle at 65% 35%, #f0c419 0 22%, transparent 23%),
+      radial-gradient(circle at 75% 70%, #2e7d32 0 16%, transparent 17%),
+      linear-gradient(135deg, #2a1810, #4a1f0f);
+    border-radius: 6px;
+    display: grid; place-content: center; color: #fff;
+    font-weight: 700; letter-spacing: 2px;
+  }
+  h1 {
+    font-size: 24px; font-weight: 700; margin: 18px 0 4px;
+  }
+  h1 .scout { color: var(--accent); }
+  .subtitle {
+    color: var(--muted); font-style: italic; font-size: 14px;
+    margin: 0 0 18px;
+  }
+  .checked {
+    color: var(--muted); font-size: 13px; text-align: center;
+    border-top: 1px solid var(--line);
+    padding-top: 18px; margin-top: 8px;
+  }
+
+  /* Calendars */
+  .calendars {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+    max-width: 640px; margin: 28px auto 0;
+  }
+  @media (max-width: 600px) { .calendars { grid-template-columns: 1fr; } }
+  .cal {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px; background: #fff;
+  }
+  .cal h3 {
+    margin: 0 0 12px; text-align: center; font-size: 15px; font-weight: 600;
+  }
+  .cal table { width: 100%; border-collapse: collapse; }
+  .cal th {
+    color: var(--muted); font-size: 11px; font-weight: 600;
+    text-align: center; padding-bottom: 6px;
+  }
+  .cal td {
+    text-align: center; padding: 3px;
+    font-size: 13px; color: var(--muted);
+  }
+  .cal td .day {
+    display: inline-grid; place-content: center;
+    width: 28px; height: 28px; border-radius: 6px;
+  }
+  .cal td.has .day {
+    background: var(--accent-bg); color: var(--accent-text);
+    font-weight: 600; cursor: pointer;
+  }
+  .cal td.selected .day {
+    outline: 2px solid #1a1a1a; outline-offset: 1px;
+  }
+
+  /* Section headers */
+  .section-status {
+    text-align: center; margin: 44px 0 6px; font-weight: 600;
+  }
+  .section-status .sub {
+    display: block; font-weight: 400; color: var(--muted);
+    font-size: 13px; margin-top: 6px;
+  }
+  .divider-label {
+    text-align: center; color: var(--muted); font-size: 11px;
+    letter-spacing: 1.5px; margin: 40px 0 18px;
+  }
+
+  /* Show cards */
+  .cards {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+  }
+  @media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 16px; position: relative;
+    display: flex; flex-direction: column;
+  }
+  .card .tag {
+    position: absolute; top: 12px; right: 12px;
+    font-size: 10px; letter-spacing: 1px; color: var(--muted);
+    background: #f0ede4; padding: 3px 8px; border-radius: 4px;
+    font-weight: 600;
+  }
+  .card.standout .tag {
+    background: var(--accent-bg); color: #fff;
+  }
+  .card .date {
+    color: var(--muted); font-size: 12px; letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .card .time { font-size: 20px; font-weight: 700; margin: 2px 0 2px; }
+  .card .room { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
+  .chip {
+    background: var(--chip-bg); border: 1px solid var(--chip-border);
+    border-radius: 999px; padding: 4px 10px; font-size: 12px;
+  }
+  .blurb {
+    font-style: italic; color: #4a4a4a; font-size: 13px;
+    margin: 4px 0 12px; flex-grow: 1;
+  }
+
+  .scores { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .score {
+    border: 1px solid var(--line); border-radius: 6px;
+    padding: 8px 6px; text-align: center;
+  }
+  .score .label {
+    font-size: 9px; letter-spacing: 1.2px; color: var(--muted);
+    font-weight: 600;
+  }
+  .score .val { font-size: 20px; font-weight: 700; margin-top: 2px; }
+  .score .val .denom { font-size: 11px; color: var(--muted); font-weight: 400; }
+  .score.hot .val { color: var(--accent); }
+
+  .book {
+    display: block; margin-top: 14px; text-align: center;
+    background: #d9d6cd; color: #555;
+    border-radius: 6px; padding: 9px; font-size: 14px;
+    text-decoration: none;
+  }
+  .card.standout .book {
+    background: #1a1a1a; color: #fff;
+  }
+
+  .empty-note {
+    text-align: center; color: var(--muted); font-size: 13px;
+    margin: 30px 0;
+  }
+  .controls {
+    text-align: center; margin: 20px 0;
+  }
+  .controls button {
+    background: none; border: 1px solid var(--line); padding: 6px 14px;
+    border-radius: 6px; font-size: 12px; cursor: pointer;
+    color: var(--muted);
+  }
+  .controls button:hover { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <img id="header-img" class="header-img"
+         src="header.png" alt="Comedy Cellar stained glass"
+         onerror="this.style.display='none';
+                  document.getElementById('header-fallback').style.display='grid'">
+    <div id="header-fallback" class="header-fallback" style="display:none">
+      COMEDY CELLAR
+    </div>
+    <h1>🎤 <u>Comedy Cellar</u> <span class="scout">Scout</span></h1>
+    <p class="subtitle">MacDougal Street · All nights · First two shows only</p>
+  </header>
+
+  <div class="checked" id="checked">Last checked: —</div>
+
+  <div class="calendars" id="calendars"></div>
+
+  <div class="section-status" id="section-status"></div>
+
+  <div id="standout-cards" class="cards"></div>
+
+  <div id="other-divider" class="divider-label" style="display:none">
+    AVAILABLE BUT NOT A STANDOUT
+  </div>
+  <div id="other-cards" class="cards"></div>
+
+  <div id="not-posted-divider" class="divider-label" style="display:none">
+    LINEUP NOT YET POSTED
+  </div>
+
+  <div class="controls">
+    <button id="clear-filter" style="display:none">Show all dates</button>
+  </div>
+
+</div>
+
+<script>
+// Threshold for "standout" — show is a standout if avg score >= this.
+const STANDOUT_THRESHOLD = 3.5;
+
+// Loaded data + UI state.
+let DATA = null;
+let selectedDate = null; // ISO yyyy-mm-dd or null = all
+
+async function load() {
+  try {
+    const res = await fetch("scout_data.json", { cache: "no-store" });
+    DATA = await res.json();
+  } catch (e) {
+    document.getElementById("section-status").textContent =
+      "Could not load scout_data.json — run scout.py first.";
+    return;
+  }
+  render();
+}
+
+function render() {
+  // "Last checked" — pretty-print the generated_at timestamp.
+  if (DATA.generated_at) {
+    const d = new Date(DATA.generated_at);
+    document.getElementById("checked").textContent =
+      "Last checked: " + d.toLocaleDateString("en-US",
+        { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+  }
+
+  renderCalendars();
+  renderShows();
+
+  const btn = document.getElementById("clear-filter");
+  btn.style.display = selectedDate ? "inline-block" : "none";
+  btn.onclick = () => { selectedDate = null; render(); };
+}
+
+function renderCalendars() {
+  const root = document.getElementById("calendars");
+  root.innerHTML = "";
+  const dateSet = new Set(DATA.available_dates || []);
+  // Show current month and next month.
+  const today = new Date();
+  const months = [
+    new Date(today.getFullYear(), today.getMonth(), 1),
+    new Date(today.getFullYear(), today.getMonth() + 1, 1),
+  ];
+  for (const m of months) root.appendChild(buildCalendar(m, dateSet));
+}
+
+function buildCalendar(monthStart, dateSet) {
+  const monthName = monthStart.toLocaleDateString("en-US",
+    { month: "long", year: "numeric" });
+  const wrap = document.createElement("div");
+  wrap.className = "cal";
+  wrap.innerHTML = `<h3>${monthName}</h3>
+    <table><thead><tr>
+      <th>MO</th><th>TU</th><th>WE</th><th>TH</th>
+      <th>FR</th><th>SA</th><th>SU</th>
+    </tr></thead><tbody></tbody></table>`;
+  const tbody = wrap.querySelector("tbody");
+
+  // Monday-first weekday for the 1st of the month.
+  // JS getDay(): 0=Sun..6=Sat. We want Mon=0..Sun=6.
+  const firstWeekday = (monthStart.getDay() + 6) % 7;
+  const daysInMonth = new Date(
+    monthStart.getFullYear(), monthStart.getMonth() + 1, 0).getDate();
+
+  let row = document.createElement("tr");
+  for (let i = 0; i < firstWeekday; i++) row.appendChild(document.createElement("td"));
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const cell = document.createElement("td");
+    const iso = new Date(monthStart.getFullYear(), monthStart.getMonth(), d)
+      .toLocaleDateString("en-CA"); // yyyy-mm-dd
+    const has = dateSet.has(iso);
+    cell.innerHTML = `<span class="day">${d}</span>`;
+    if (has) {
+      cell.classList.add("has");
+      if (iso === selectedDate) cell.classList.add("selected");
+      cell.onclick = () => {
+        selectedDate = (selectedDate === iso) ? null : iso;
+        render();
+      };
+    }
+    row.appendChild(cell);
+    if ((firstWeekday + d) % 7 === 0) {
+      tbody.appendChild(row);
+      row = document.createElement("tr");
+    }
+  }
+  if (row.children.length) tbody.appendChild(row);
+  return wrap;
+}
+
+function renderShows() {
+  const shows = (DATA.shows || []).filter(
+    s => !selectedDate || s.date === selectedDate);
+
+  // Split by score average.
+  const scored = shows.map(s => ({
+    ...s,
+    avg: ((s.drop_in || 0) + (s.taste || 0) + (s.crowd_work || 0)) / 3,
+  }));
+  const standout = scored.filter(s => s.avg >= STANDOUT_THRESHOLD);
+  const other = scored.filter(s => s.avg < STANDOUT_THRESHOLD);
+
+  // Status header.
+  const status = document.getElementById("section-status");
+  if (standout.length === 0) {
+    status.innerHTML = `No standout shows yet${selectedDate ?
+      " for " + prettyDate(selectedDate) : " on your selected dates"}
+      <span class="sub">The daily scan will flag anything strong the moment
+      lineups post — typically Thursday evenings.</span>`;
+  } else {
+    status.innerHTML = `${standout.length} standout show${standout.length === 1
+      ? "" : "s"} flagged.`;
+  }
+
+  // Cards.
+  const stand = document.getElementById("standout-cards");
+  const oth = document.getElementById("other-cards");
+  stand.innerHTML = standout.map(s => cardHtml(s, true)).join("");
+  oth.innerHTML = other.map(s => cardHtml(s, false)).join("");
+
+  document.getElementById("other-divider").style.display =
+    other.length ? "block" : "none";
+  // We don't have "not yet posted" data per se; only show divider if filtered
+  // to a single date that has zero shows total.
+  document.getElementById("not-posted-divider").style.display =
+    (selectedDate && shows.length === 0) ? "block" : "none";
+}
+
+function prettyDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("en-US",
+    { weekday: "short", month: "short", day: "numeric" });
+}
+
+function cardHtml(s, isStandout) {
+  const dateLabel = `${s.weekday || ""} ${prettyDateShort(s.date)}`.trim()
+    .toUpperCase();
+  const chips = (s.comedians || [])
+    .map(c => `<span class="chip">${escapeHtml(c.name)}</span>`).join("");
+  return `
+    <div class="card ${isStandout ? "standout" : ""}">
+      <div class="tag">${isStandout ? "STANDOUT" : "BELOW THRESHOLD"}</div>
+      <div class="date">${dateLabel}</div>
+      <div class="time">${escapeHtml(s.time || "")}</div>
+      <div class="room">${escapeHtml(s.room || "")}</div>
+      <div class="chips">${chips}</div>
+      <div class="blurb">${escapeHtml(s.blurb || "")}</div>
+      <div class="scores">
+        ${scoreBox("DROP-IN", s.drop_in)}
+        ${scoreBox("TASTE", s.taste)}
+        ${scoreBox("CROWD WORK", s.crowd_work)}
+      </div>
+      <a class="book" href="https://www.comedycellar.com/reservation/"
+         target="_blank" rel="noopener">
+         ${isStandout ? "Book →" : "Book anyway →"}
+      </a>
+    </div>`;
+}
+
+function scoreBox(label, val) {
+  const hot = val >= 4;
+  return `<div class="score ${hot ? "hot" : ""}">
+    <div class="label">${label}</div>
+    <div class="val">${val || 0}<span class="denom">/5</span></div>
+  </div>`;
+}
+
+function prettyDateShort(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("en-US",
+    { month: "short", day: "numeric" }).toUpperCase();
+}
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[c]);
+}
+
+load();
+</script>
+</body>
+</html>
