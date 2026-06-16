@@ -124,8 +124,13 @@
 
   /* ---- Main panel ---- */
   main { grid-area: main; overflow-y: auto; padding: 18px 22px; }
-  .status { text-align: center; font-weight: 600; margin: 2px 0 16px; }
+  .status-row { display:flex; align-items:flex-start; justify-content:center; gap:14px; margin: 2px 0 16px; }
+  .status { text-align: center; font-weight: 600; flex: 1; }
   .status .sub { display:block; font-weight: 400; color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .soldout-toggle { display:flex; align-items:center; gap:5px; font-size:12px; color: var(--muted);
+    white-space:nowrap; cursor:pointer; user-select:none; padding-top:2px; }
+  .soldout-toggle input { cursor:pointer; }
+  .card.sold { opacity: .55; }
   .divider-label {
     text-align: center; color: var(--muted); font-size: 11px;
     letter-spacing: 1.5px; margin: 22px 0 14px;
@@ -230,7 +235,12 @@
   </aside>
 
   <main>
-    <div class="status" id="status"></div>
+    <div class="status-row">
+      <div class="status" id="status"></div>
+      <label class="soldout-toggle" title="Sold-out shows are hidden by default">
+        <input type="checkbox" id="show-soldout"> Show sold-out
+      </label>
+    </div>
     <div id="standout-cards" class="cards"></div>
     <div id="other-divider" class="divider-label" style="display:none">AVAILABLE BUT NOT A STANDOUT</div>
     <div id="other-cards" class="cards"></div>
@@ -386,19 +396,24 @@ function renderTaste() {
 
 function renderShows() {
   const todayIso = new Date().toLocaleDateString("en-CA");
-  const shows = (DATA.shows || [])
-    .filter(s => s.date >= todayIso)
-    .filter(s => s.sold_out !== true)   // hide shows known to be sold out
+  const showSold = document.getElementById("show-soldout")?.checked;
+  const upcoming = (DATA.shows || []).filter(s => s.date >= todayIso);
+  const soldCount = upcoming.filter(s => s.sold_out === true).length;
+  const shows = upcoming
+    .filter(s => showSold || s.sold_out !== true)   // hide sold-out unless toggled on
     .map(s => ({...s, avg: ((s.drop_in||0)+(s.taste||0)+(s.crowd_work||0))/3}));
   const standout = shows.filter(s => s.avg >= STANDOUT_THRESHOLD);
   const other = shows.filter(s => s.avg < STANDOUT_THRESHOLD);
 
+  const hiddenNote = (!showSold && soldCount)
+    ? `<span class="sub">${soldCount} sold-out show${soldCount===1?"":"s"} hidden — tick “Show sold-out” to see ${soldCount===1?"it":"them"}.</span>`
+    : "";
   const status = document.getElementById("status");
   if (standout.length === 0) {
     status.innerHTML = `No standout shows on your upcoming dates yet
-      <span class="sub">The daily scan flags anything strong the moment lineups post — typically Thursday evenings.</span>`;
+      <span class="sub">The scan flags anything strong the moment lineups post — typically Thursday evenings.</span>${hiddenNote}`;
   } else {
-    status.innerHTML = `${standout.length} standout show${standout.length===1?"":"s"} flagged`;
+    status.innerHTML = `${standout.length} standout show${standout.length===1?"":"s"} flagged${hiddenNote}`;
   }
   document.getElementById("standout-cards").innerHTML = standout.map(s=>card(s,true)).join("");
   document.getElementById("other-cards").innerHTML = other.map(s=>card(s,false)).join("");
@@ -422,7 +437,7 @@ function card(s, isStandout) {
       avail = `<div class="avail ok">Seats available</div>`;
     book = `<a class="book" href="${RESV_URL}" target="_blank" rel="noopener">${isStandout?"Book →":"Book anyway →"}</a>`;
   }
-  return `<div class="card ${isStandout?"standout":""}">
+  return `<div class="card ${isStandout?"standout":""} ${s.sold_out===true?"sold":""}">
     <div class="tag">${isStandout?"STANDOUT":"BELOW THRESHOLD"}</div>
     <div class="date">${dateLabel}</div>
     <div class="time">${escapeHtml(s.time||"")}</div>
@@ -526,6 +541,14 @@ function updateSaveStatusIdle() {
   setSaveStatus(getToken() ? "" : "err",
     getToken() ? "Synced to cloud" : "Local only — add token to sync");
 }
+
+// Sold-out visibility toggle (persisted per browser).
+const soldoutBox = document.getElementById("show-soldout");
+soldoutBox.checked = localStorage.getItem("cc_show_soldout") === "1";
+soldoutBox.onchange = () => {
+  localStorage.setItem("cc_show_soldout", soldoutBox.checked ? "1" : "0");
+  renderShows();
+};
 
 // ---- Settings modal ---------------------------------------------------------
 const modal = document.getElementById("modal-bg");

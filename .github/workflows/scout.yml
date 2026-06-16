@@ -1,9 +1,15 @@
 name: Comedy Cellar Scout
 
 on:
-  # Daily at 14:00 UTC ≈ 9-10am US Eastern (after Cellar posts lineups).
+  # Times are UTC. Through end of July, NYC is EDT (UTC-4).
   schedule:
+    # Morning catch-up ≈ 10am ET — picks up anything posted overnight.
     - cron: "0 14 * * *"
+    # Evening sweep every 30 min, 6pm ET–midnight ET (22:00–23:59 UTC):
+    # this is when lineups drop and good shows sell out, so we scan often.
+    - cron: "0,30 22-23 * * *"
+    # …continuing past midnight ET into the small hours (00:00–03:59 UTC).
+    - cron: "0,30 0-3 * * *"
   # Manual "Run workflow" button in the Actions tab.
   workflow_dispatch:
   # Re-deploy whenever you push code/availability changes.
