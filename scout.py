@@ -187,11 +187,23 @@ fan. Score each show on three axes from 1-5 (integers). Be honest and use the
 full range — 3 is "fine, not special." Save 5s for real standouts.
 
 1. DROP-IN (1-5): Likelihood of a major celebrity drop-in (Chappelle, Chris
-   Rock, Louis CK, Jerry Seinfeld, John Mulaney, Bill Burr, etc.).
-   Pattern signals: weekend nights, A-list headliners already on the bill,
-   line-ups stacked with NYC heavyweights, "specials" being worked out. Weekday
-   early shows are usually low. The first two shows of the night are less
-   drop-in-prone than the late show but still get them.
+   Rock, Louis CK, Jerry Seinfeld, John Mulaney, Bill Burr, etc.). Big names use
+   the Cellar to TEST NEW MATERIAL, so they favor quieter weeknights over packed
+   weekends — they won't bump a paying Friday/Saturday crowd, and they want a
+   low-pressure, phone-free room. Historical pattern (a 10-year analysis of
+   Cellar lineups, plus the documented all-star nights):
+     - Mon-Wed: HIGHEST. Early week is prime. The legendary all-star nights
+       (the 2013 Rock -> Chappelle set, the 2017 Seinfeld/Rock/Chappelle/Schumer
+       night) both landed on WEDNESDAYS.
+     - Sunday: good — quiet, low-pressure room.
+     - Thursday: LOWEST — many regulars leave town to headline weekend gigs.
+     - Fri/Sat: only moderate. Bigger crowds and the occasional marquee surprise,
+       but regulars are least likely to bump a sold-out early show.
+   Other signals that raise the score: an A-list headliner already on the bill,
+   lineups stacked with NYC heavyweights, comics visibly working out a special.
+   Seasonal nudge: spring (especially May) skews higher; Nov-Dec lower (comics
+   decamp to LA). The first two shows are slightly less drop-in-prone than the
+   late show but still get them.
 
 2. TASTE (1-5): How well the bill matches the fan's taste. Benchmark comics:
    {", ".join(taste)}.
