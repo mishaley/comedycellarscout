@@ -542,11 +542,23 @@ function updateSaveStatusIdle() {
     getToken() ? "Synced to cloud" : "Local only — add token to sync");
 }
 
-// Sold-out visibility toggle (persisted per browser).
+// Sold-out visibility toggle. State lives in the URL (?soldout=1/0) so a
+// shared link opens in the same state; falls back to the per-browser
+// preference when the URL has no param.
 const soldoutBox = document.getElementById("show-soldout");
-soldoutBox.checked = localStorage.getItem("cc_show_soldout") === "1";
+const soldoutParam = new URLSearchParams(location.search).get("soldout");
+soldoutBox.checked = soldoutParam !== null
+  ? (soldoutParam === "1" || soldoutParam === "true")
+  : localStorage.getItem("cc_show_soldout") === "1";
+function syncSoldoutUrl() {
+  const u = new URL(location.href);
+  u.searchParams.set("soldout", soldoutBox.checked ? "1" : "0");
+  history.replaceState(null, "", u);
+}
+syncSoldoutUrl();  // reflect the current state in the URL on load
 soldoutBox.onchange = () => {
   localStorage.setItem("cc_show_soldout", soldoutBox.checked ? "1" : "0");
+  syncSoldoutUrl();
   renderShows();
 };
 
