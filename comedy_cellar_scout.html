@@ -2,403 +2,511 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Comedy Cellar Scout</title>
 <style>
   :root {
     --bg: #fafaf7;
     --ink: #1a1a1a;
-    --muted: #888;
+    --muted: #8a8a82;
     --line: #e6e3dc;
-    --accent: #b58a1f;        /* olive-gold from screenshot */
-    --accent-bg: #b58a1f;
-    --accent-text: #fff;
-    --chip-bg: #fff;
+    --accent: #b58a1f;
     --chip-border: #d7d2c5;
     --card: #fff;
   }
   * { box-sizing: border-box; }
+  html, body { height: 100%; }
   body {
-    margin: 0; background: var(--bg); color: var(--ink);
-    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    margin: 0; background: var(--bg); color: var(--ink); overflow: hidden;
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text",
           "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .page { max-width: 920px; margin: 0 auto; padding: 24px 20px 80px; }
 
-  header { text-align: center; }
-  header img.header-img {
-    display: block; width: min(560px, 100%); margin: 0 auto;
-    border-radius: 6px;
+  /* ---- Top-level dashboard grid: fills viewport, no page scroll ---- */
+  .app {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 380px 1fr;
+    grid-template-areas: "header header" "side main";
   }
-  header .header-fallback {
-    width: min(560px, 100%); aspect-ratio: 16/9; margin: 0 auto;
-    background:
-      radial-gradient(circle at 30% 40%, #c93636 0 18%, transparent 19%),
-      radial-gradient(circle at 65% 35%, #f0c419 0 22%, transparent 23%),
-      radial-gradient(circle at 75% 70%, #2e7d32 0 16%, transparent 17%),
-      linear-gradient(135deg, #2a1810, #4a1f0f);
-    border-radius: 6px;
-    display: grid; place-content: center; color: #fff;
-    font-weight: 700; letter-spacing: 2px;
+  header.bar {
+    grid-area: header;
+    display: flex; align-items: center; gap: 16px;
+    padding: 10px 20px; border-bottom: 1px solid var(--line);
+    background: #fff;
   }
-  h1 {
-    font-size: 24px; font-weight: 700; margin: 18px 0 4px;
+  header.bar img.logo { height: 52px; border-radius: 4px; }
+  header.bar .title { font-size: 18px; font-weight: 700; line-height: 1.1; }
+  header.bar .title .scout { color: var(--accent); }
+  header.bar .sub { color: var(--muted); font-size: 12px; font-style: italic; }
+  header.bar .spacer { flex: 1; }
+  header.bar .checked { color: var(--muted); font-size: 12px; text-align: right; }
+  #save-status {
+    font-size: 12px; color: var(--muted); min-width: 130px; text-align: right;
+    transition: color .2s;
   }
-  h1 .scout { color: var(--accent); }
-  .subtitle {
-    color: var(--muted); font-style: italic; font-size: 14px;
-    margin: 0 0 18px;
+  #save-status.ok { color: #2e7d32; }
+  #save-status.err { color: #c0392b; }
+  #save-status.busy { color: var(--accent); }
+  .gear {
+    border: 1px solid var(--line); background: #fff; border-radius: 8px;
+    padding: 7px 11px; cursor: pointer; font-size: 13px;
   }
-  .checked {
-    color: var(--muted); font-size: 13px; text-align: center;
-    border-top: 1px solid var(--line);
-    padding-top: 18px; margin-top: 8px;
-  }
+  .gear:hover { border-color: var(--accent); color: var(--accent); }
 
-  /* Calendars */
-  .calendars {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
-    max-width: 640px; margin: 28px auto 0;
+  /* ---- Sidebar ---- */
+  aside {
+    grid-area: side; border-right: 1px solid var(--line);
+    overflow-y: auto; padding: 16px; background: #fcfbf8;
   }
-  @media (max-width: 600px) { .calendars { grid-template-columns: 1fr; } }
-  .cal {
-    border: 1px solid var(--line); border-radius: 10px;
-    padding: 16px; background: #fff;
+  .panel-title {
+    font-size: 11px; letter-spacing: 1.3px; color: var(--muted);
+    font-weight: 700; margin: 4px 0 10px; text-transform: uppercase;
   }
-  .cal h3 {
-    margin: 0 0 12px; text-align: center; font-size: 15px; font-weight: 600;
-  }
+  .hint { font-size: 11px; color: var(--muted); margin: 0 0 12px; }
+
+  .cal { margin-bottom: 18px; }
+  .cal h3 { margin: 0 0 8px; text-align: center; font-size: 14px; }
   .cal table { width: 100%; border-collapse: collapse; }
-  .cal th {
-    color: var(--muted); font-size: 11px; font-weight: 600;
-    text-align: center; padding-bottom: 6px;
-  }
-  .cal td {
-    text-align: center; padding: 3px;
-    font-size: 13px; color: var(--muted);
-  }
+  .cal th { color: var(--muted); font-size: 10px; font-weight: 600; padding-bottom: 4px; }
+  .cal td { text-align: center; padding: 2px; }
   .cal td .day {
     display: inline-grid; place-content: center;
-    width: 28px; height: 28px; border-radius: 6px;
+    width: 30px; height: 30px; border-radius: 7px;
+    font-size: 13px; color: var(--muted); cursor: pointer;
+    user-select: none; transition: background .12s, color .12s;
   }
-  .cal td.has .day {
-    background: var(--accent-bg); color: var(--accent-text);
-    font-weight: 600; cursor: pointer;
+  .cal td .day:hover { background: #efece3; }
+  .cal td.has .day { background: var(--accent); color: #fff; font-weight: 600; }
+  .cal td.has .day:hover { background: #9c7619; }
+  .cal td.today .day { box-shadow: inset 0 0 0 2px #1a1a1a; }
+  .cal td.empty .day { visibility: hidden; cursor: default; }
+
+  /* ---- Taste editor ---- */
+  .taste { margin-top: 6px; }
+  .taste .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .taste .chip {
+    background: #fff; border: 1px solid var(--chip-border); border-radius: 999px;
+    padding: 4px 6px 4px 11px; font-size: 12px; display: inline-flex;
+    align-items: center; gap: 4px;
   }
-  .cal td.selected .day {
-    outline: 2px solid #1a1a1a; outline-offset: 1px;
+  .taste .chip button {
+    border: none; background: none; cursor: pointer; color: var(--muted);
+    font-size: 14px; line-height: 1; padding: 0 2px;
+  }
+  .taste .chip button:hover { color: #c0392b; }
+  .taste .add { display: flex; gap: 6px; }
+  .taste .add input {
+    flex: 1; border: 1px solid var(--chip-border); border-radius: 8px;
+    padding: 6px 9px; font-size: 12px;
+  }
+  .taste .add button {
+    border: 1px solid var(--accent); background: var(--accent); color: #fff;
+    border-radius: 8px; padding: 6px 12px; font-size: 12px; cursor: pointer;
   }
 
-  /* Section headers */
-  .section-status {
-    text-align: center; margin: 44px 0 6px; font-weight: 600;
+  .sidebtns { margin-top: 14px; display: flex; gap: 8px; }
+  .sidebtns button, .linkbtn {
+    font-size: 11px; color: var(--muted); background: none;
+    border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px;
+    cursor: pointer;
   }
-  .section-status .sub {
-    display: block; font-weight: 400; color: var(--muted);
-    font-size: 13px; margin-top: 6px;
-  }
+  .sidebtns button:hover { color: var(--ink); border-color: var(--muted); }
+
+  /* ---- Main panel ---- */
+  main { grid-area: main; overflow-y: auto; padding: 18px 22px; }
+  .status { text-align: center; font-weight: 600; margin: 2px 0 16px; }
+  .status .sub { display:block; font-weight: 400; color: var(--muted); font-size: 12px; margin-top: 4px; }
   .divider-label {
     text-align: center; color: var(--muted); font-size: 11px;
-    letter-spacing: 1.5px; margin: 40px 0 18px;
+    letter-spacing: 1.5px; margin: 22px 0 14px;
   }
-
-  /* Show cards */
-  .cards {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
-  }
-  @media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .card {
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 10px; padding: 16px; position: relative;
-    display: flex; flex-direction: column;
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px; position: relative; display: flex; flex-direction: column;
   }
+  .card.standout { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
   .card .tag {
-    position: absolute; top: 12px; right: 12px;
-    font-size: 10px; letter-spacing: 1px; color: var(--muted);
-    background: #f0ede4; padding: 3px 8px; border-radius: 4px;
-    font-weight: 600;
+    position: absolute; top: 11px; right: 11px; font-size: 9px; letter-spacing: 1px;
+    color: var(--muted); background: #f0ede4; padding: 3px 7px; border-radius: 4px; font-weight: 700;
   }
-  .card.standout .tag {
-    background: var(--accent-bg); color: #fff;
-  }
-  .card .date {
-    color: var(--muted); font-size: 12px; letter-spacing: 1px;
-    font-weight: 600;
-  }
-  .card .time { font-size: 20px; font-weight: 700; margin: 2px 0 2px; }
-  .card .room { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
-
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
-  .chip {
-    background: var(--chip-bg); border: 1px solid var(--chip-border);
-    border-radius: 999px; padding: 4px 10px; font-size: 12px;
-  }
-  .blurb {
-    font-style: italic; color: #4a4a4a; font-size: 13px;
-    margin: 4px 0 12px; flex-grow: 1;
-  }
-
-  .scores { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
-  .score {
-    border: 1px solid var(--line); border-radius: 6px;
-    padding: 8px 6px; text-align: center;
-  }
-  .score .label {
-    font-size: 9px; letter-spacing: 1.2px; color: var(--muted);
-    font-weight: 600;
-  }
-  .score .val { font-size: 20px; font-weight: 700; margin-top: 2px; }
-  .score .val .denom { font-size: 11px; color: var(--muted); font-weight: 400; }
+  .card.standout .tag { background: var(--accent); color: #fff; }
+  .card .date { color: var(--muted); font-size: 11px; letter-spacing: 1px; font-weight: 600; }
+  .card .time { font-size: 19px; font-weight: 700; }
+  .card .room { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+  .chips2 { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 9px; }
+  .chip2 { background: #fff; border: 1px solid var(--chip-border); border-radius: 999px; padding: 3px 9px; font-size: 11px; }
+  .blurb { font-style: italic; color: #4a4a4a; font-size: 12px; margin: 2px 0 10px; flex-grow: 1; }
+  .scores { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
+  .score { border: 1px solid var(--line); border-radius: 6px; padding: 6px 4px; text-align: center; }
+  .score .label { font-size: 8px; letter-spacing: 1px; color: var(--muted); font-weight: 700; }
+  .score .val { font-size: 18px; font-weight: 700; }
+  .score .val .denom { font-size: 10px; color: var(--muted); font-weight: 400; }
   .score.hot .val { color: var(--accent); }
+  .book { display:block; margin-top: 11px; text-align: center; background:#d9d6cd; color:#555; border-radius:6px; padding:8px; font-size:13px; text-decoration:none; }
+  .card.standout .book { background:#1a1a1a; color:#fff; }
 
-  .book {
-    display: block; margin-top: 14px; text-align: center;
-    background: #d9d6cd; color: #555;
-    border-radius: 6px; padding: 9px; font-size: 14px;
-    text-decoration: none;
+  /* ---- Settings modal ---- */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(0,0,0,.4);
+    display: none; align-items: center; justify-content: center; z-index: 50;
   }
-  .card.standout .book {
-    background: #1a1a1a; color: #fff;
+  .modal-bg.open { display: flex; }
+  .modal {
+    background: #fff; border-radius: 12px; padding: 22px; width: min(480px, 92vw);
+    box-shadow: 0 20px 60px rgba(0,0,0,.3);
   }
+  .modal h2 { margin: 0 0 6px; font-size: 17px; }
+  .modal p { font-size: 12.5px; color: #555; margin: 8px 0; }
+  .modal input[type=password], .modal input[type=text] {
+    width: 100%; border: 1px solid var(--chip-border); border-radius: 8px;
+    padding: 9px 11px; font-size: 13px; margin: 6px 0;
+  }
+  .modal a { color: var(--accent); }
+  .modal .row { display: flex; gap: 8px; margin-top: 12px; }
+  .modal .row button {
+    flex: 1; border-radius: 8px; padding: 9px; font-size: 13px; cursor: pointer; border: 1px solid var(--line); background:#fff;
+  }
+  .modal .row button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-  .empty-note {
-    text-align: center; color: var(--muted); font-size: 13px;
-    margin: 30px 0;
+  /* ---- Mobile fallback: stack and allow scroll ---- */
+  @media (max-width: 820px) {
+    body { overflow: auto; }
+    .app { height: auto; grid-template-columns: 1fr; grid-template-areas: "header" "side" "main"; }
+    aside { border-right: none; border-bottom: 1px solid var(--line); overflow: visible; }
+    main { overflow: visible; }
+    header.bar { flex-wrap: wrap; gap: 8px 12px; }
+    header.bar .spacer { display: none; }
+    header.bar .checked, #save-status { text-align: left; min-width: 0; }
+    .cal td .day { width: 34px; height: 34px; }
   }
-  .controls {
-    text-align: center; margin: 20px 0;
-  }
-  .controls button {
-    background: none; border: 1px solid var(--line); padding: 6px 14px;
-    border-radius: 6px; font-size: 12px; cursor: pointer;
-    color: var(--muted);
-  }
-  .controls button:hover { color: var(--ink); }
 </style>
 </head>
 <body>
-<div class="page">
+<div class="app">
 
-  <header>
-    <img id="header-img" class="header-img"
-         src="header.png" alt="Comedy Cellar stained glass"
-         onerror="this.style.display='none';
-                  document.getElementById('header-fallback').style.display='grid'">
-    <div id="header-fallback" class="header-fallback" style="display:none">
-      COMEDY CELLAR
+  <header class="bar">
+    <img class="logo" src="header.png" alt="Comedy Cellar"
+         onerror="this.style.display='none'">
+    <div>
+      <div class="title">🎤 Comedy Cellar <span class="scout">Scout</span></div>
+      <div class="sub">MacDougal Street · First two shows only</div>
     </div>
-    <h1>🎤 <u>Comedy Cellar</u> <span class="scout">Scout</span></h1>
-    <p class="subtitle">MacDougal Street · All nights · First two shows only</p>
+    <div class="spacer"></div>
+    <div class="checked" id="checked">Last checked: —</div>
+    <div id="save-status">—</div>
+    <button class="gear" id="open-settings">⚙ Settings</button>
   </header>
 
-  <div class="checked" id="checked">Last checked: —</div>
+  <aside>
+    <div class="panel-title">Your availability</div>
+    <p class="hint">Click any date to toggle whether you're free that night. The
+      scout only scans nights you select.</p>
+    <div id="calendars"></div>
 
-  <div class="calendars" id="calendars"></div>
+    <div class="panel-title" style="margin-top:18px">Taste — comics you like</div>
+    <p class="hint">Used to score each bill. Add or remove anyone.</p>
+    <div class="taste" id="taste"></div>
 
-  <div class="section-status" id="section-status"></div>
+    <div class="sidebtns">
+      <button id="reset-cloud" title="Discard local edits and reload the saved cloud version">↺ Reset to cloud</button>
+    </div>
+  </aside>
 
-  <div id="standout-cards" class="cards"></div>
-
-  <div id="other-divider" class="divider-label" style="display:none">
-    AVAILABLE BUT NOT A STANDOUT
-  </div>
-  <div id="other-cards" class="cards"></div>
-
-  <div id="not-posted-divider" class="divider-label" style="display:none">
-    LINEUP NOT YET POSTED
-  </div>
-
-  <div class="controls">
-    <button id="clear-filter" style="display:none">Show all dates</button>
-  </div>
+  <main>
+    <div class="status" id="status"></div>
+    <div id="standout-cards" class="cards"></div>
+    <div id="other-divider" class="divider-label" style="display:none">AVAILABLE BUT NOT A STANDOUT</div>
+    <div id="other-cards" class="cards"></div>
+  </main>
 
 </div>
 
+<!-- Settings modal -->
+<div class="modal-bg" id="modal-bg">
+  <div class="modal">
+    <h2>Sync settings</h2>
+    <p>To save your calendar and taste edits to the cloud (so the daily scout
+      uses them), paste a GitHub <b>fine-grained personal access token</b> with
+      <b>Contents: Read &amp; write</b> on the
+      <code>comedy-cellar-scout</code> repo.</p>
+    <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">
+      → Create a token</a> (set Repository access → Only select repositories →
+      comedy-cellar-scout; Permissions → Contents → Read and write).</p>
+    <input type="password" id="token-input" placeholder="github_pat_..."
+           autocomplete="off" spellcheck="false">
+    <p style="color:#8a8a82">Stored only in this browser (localStorage). Never sent
+      anywhere except GitHub's API. Clear it anytime.</p>
+    <div class="row">
+      <button id="token-clear">Clear token</button>
+      <button class="primary" id="token-save">Save token</button>
+    </div>
+    <div class="row">
+      <button id="modal-close">Close</button>
+    </div>
+  </div>
+</div>
+
 <script>
-// Threshold for "standout" — show is a standout if avg score >= this.
+// ---- Repo coordinates (this site's own repo) --------------------------------
+const OWNER = "mishaley", REPO = "comedy-cellar-scout", BRANCH = "main";
+const CONFIG_FILE = "config.json";
 const STANDOUT_THRESHOLD = 3.5;
 
-// Loaded data + UI state.
-let DATA = null;
-let selectedDate = null; // ISO yyyy-mm-dd or null = all
+const LS_WORKING = "ccscout_working";  // {dates:[], taste:[]}
+const LS_TOKEN = "ccscout_token";
 
-async function load() {
-  try {
-    const res = await fetch("scout_data.json", { cache: "no-store" });
-    DATA = await res.json();
-  } catch (e) {
-    document.getElementById("section-status").textContent =
-      "Could not load scout_data.json — run scout.py first.";
-    return;
+let DATA = null;                       // scout_data.json (shows, generated_at)
+let working = { dates: new Set(), taste: [] };
+let configComment = "";                // preserve the _comment field on save
+let saveTimer = null;
+
+// ---- Boot -------------------------------------------------------------------
+async function boot() {
+  // Load shows (+ generated time).
+  try { DATA = await (await fetch("scout_data.json", {cache:"no-store"})).json(); }
+  catch { DATA = { shows: [], generated_at: null }; }
+
+  // Load the editable config. Prefer the user's local working copy if present.
+  let cfg = { available_dates: [], taste_benchmark: [] };
+  try { cfg = await (await fetch("config.json", {cache:"no-store"})).json(); }
+  catch {}
+  configComment = cfg._comment || "";
+
+  const serverDates = (cfg.available_dates || []).slice().sort();
+  const serverTaste = (cfg.taste_benchmark || []).slice();
+  const saved = localStorage.getItem(LS_WORKING);
+  if (saved) {
+    const w = JSON.parse(saved);
+    working = { dates: new Set(w.dates || []), taste: w.taste || [] };
+    // If the served (cloud) config already matches our local edits, the cloud
+    // has caught up — drop the local override so future cloud edits flow in.
+    const sameDates = JSON.stringify([...working.dates].sort()) === JSON.stringify(serverDates);
+    const sameTaste = JSON.stringify(working.taste) === JSON.stringify(serverTaste);
+    if (sameDates && sameTaste) {
+      localStorage.removeItem(LS_WORKING);
+      working = { dates: new Set(serverDates), taste: serverTaste.slice() };
+    }
+  } else {
+    working = { dates: new Set(serverDates), taste: serverTaste.slice() };
   }
-  render();
-}
 
-function render() {
-  // "Last checked" — pretty-print the generated_at timestamp.
   if (DATA.generated_at) {
-    const d = new Date(DATA.generated_at);
     document.getElementById("checked").textContent =
-      "Last checked: " + d.toLocaleDateString("en-US",
+      "Last checked: " + new Date(DATA.generated_at).toLocaleDateString("en-US",
         { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   }
-
-  renderCalendars();
-  renderShows();
-
-  const btn = document.getElementById("clear-filter");
-  btn.style.display = selectedDate ? "inline-block" : "none";
-  btn.onclick = () => { selectedDate = null; render(); };
+  updateSaveStatusIdle();
+  renderAll();
 }
+
+// ---- Rendering --------------------------------------------------------------
+function renderAll() { renderCalendars(); renderTaste(); renderShows(); }
 
 function renderCalendars() {
   const root = document.getElementById("calendars");
   root.innerHTML = "";
-  const dateSet = new Set(DATA.available_dates || []);
-  // Show current month and next month.
   const today = new Date();
   const months = [
     new Date(today.getFullYear(), today.getMonth(), 1),
     new Date(today.getFullYear(), today.getMonth() + 1, 1),
   ];
-  for (const m of months) root.appendChild(buildCalendar(m, dateSet));
+  for (const m of months) root.appendChild(buildCalendar(m));
 }
 
-function buildCalendar(monthStart, dateSet) {
-  const monthName = monthStart.toLocaleDateString("en-US",
-    { month: "long", year: "numeric" });
+function buildCalendar(monthStart) {
   const wrap = document.createElement("div");
   wrap.className = "cal";
-  wrap.innerHTML = `<h3>${monthName}</h3>
-    <table><thead><tr>
-      <th>MO</th><th>TU</th><th>WE</th><th>TH</th>
-      <th>FR</th><th>SA</th><th>SU</th>
-    </tr></thead><tbody></tbody></table>`;
+  wrap.innerHTML = `<h3>${monthStart.toLocaleDateString("en-US",{month:"long",year:"numeric"})}</h3>
+    <table><thead><tr><th>MO</th><th>TU</th><th>WE</th><th>TH</th><th>FR</th><th>SA</th><th>SU</th></tr></thead><tbody></tbody></table>`;
   const tbody = wrap.querySelector("tbody");
-
-  // Monday-first weekday for the 1st of the month.
-  // JS getDay(): 0=Sun..6=Sat. We want Mon=0..Sun=6.
   const firstWeekday = (monthStart.getDay() + 6) % 7;
-  const daysInMonth = new Date(
-    monthStart.getFullYear(), monthStart.getMonth() + 1, 0).getDate();
+  const daysInMonth = new Date(monthStart.getFullYear(), monthStart.getMonth()+1, 0).getDate();
+  const todayIso = new Date().toLocaleDateString("en-CA");
 
   let row = document.createElement("tr");
-  for (let i = 0; i < firstWeekday; i++) row.appendChild(document.createElement("td"));
-
-  for (let d = 1; d <= daysInMonth; d++) {
-    const cell = document.createElement("td");
-    const iso = new Date(monthStart.getFullYear(), monthStart.getMonth(), d)
-      .toLocaleDateString("en-CA"); // yyyy-mm-dd
-    const has = dateSet.has(iso);
-    cell.innerHTML = `<span class="day">${d}</span>`;
-    if (has) {
-      cell.classList.add("has");
-      if (iso === selectedDate) cell.classList.add("selected");
-      cell.onclick = () => {
-        selectedDate = (selectedDate === iso) ? null : iso;
-        render();
-      };
-    }
-    row.appendChild(cell);
-    if ((firstWeekday + d) % 7 === 0) {
-      tbody.appendChild(row);
-      row = document.createElement("tr");
-    }
+  for (let i=0;i<firstWeekday;i++){ const td=document.createElement("td"); td.className="empty"; td.innerHTML='<span class="day"></span>'; row.appendChild(td); }
+  for (let d=1; d<=daysInMonth; d++) {
+    const iso = new Date(monthStart.getFullYear(), monthStart.getMonth(), d).toLocaleDateString("en-CA");
+    const td = document.createElement("td");
+    if (working.dates.has(iso)) td.classList.add("has");
+    if (iso === todayIso) td.classList.add("today");
+    td.innerHTML = `<span class="day">${d}</span>`;
+    td.querySelector(".day").onclick = () => toggleDate(iso);
+    row.appendChild(td);
+    if ((firstWeekday + d) % 7 === 0) { tbody.appendChild(row); row = document.createElement("tr"); }
   }
   if (row.children.length) tbody.appendChild(row);
   return wrap;
 }
 
-function renderShows() {
-  const shows = (DATA.shows || []).filter(
-    s => !selectedDate || s.date === selectedDate);
-
-  // Split by score average.
-  const scored = shows.map(s => ({
-    ...s,
-    avg: ((s.drop_in || 0) + (s.taste || 0) + (s.crowd_work || 0)) / 3,
-  }));
-  const standout = scored.filter(s => s.avg >= STANDOUT_THRESHOLD);
-  const other = scored.filter(s => s.avg < STANDOUT_THRESHOLD);
-
-  // Status header.
-  const status = document.getElementById("section-status");
-  if (standout.length === 0) {
-    status.innerHTML = `No standout shows yet${selectedDate ?
-      " for " + prettyDate(selectedDate) : " on your selected dates"}
-      <span class="sub">The daily scan will flag anything strong the moment
-      lineups post — typically Thursday evenings.</span>`;
-  } else {
-    status.innerHTML = `${standout.length} standout show${standout.length === 1
-      ? "" : "s"} flagged.`;
-  }
-
-  // Cards.
-  const stand = document.getElementById("standout-cards");
-  const oth = document.getElementById("other-cards");
-  stand.innerHTML = standout.map(s => cardHtml(s, true)).join("");
-  oth.innerHTML = other.map(s => cardHtml(s, false)).join("");
-
-  document.getElementById("other-divider").style.display =
-    other.length ? "block" : "none";
-  // We don't have "not yet posted" data per se; only show divider if filtered
-  // to a single date that has zero shows total.
-  document.getElementById("not-posted-divider").style.display =
-    (selectedDate && shows.length === 0) ? "block" : "none";
-}
-
-function prettyDate(iso) {
-  const [y, m, d] = iso.split("-").map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString("en-US",
-    { weekday: "short", month: "short", day: "numeric" });
-}
-
-function cardHtml(s, isStandout) {
-  const dateLabel = `${s.weekday || ""} ${prettyDateShort(s.date)}`.trim()
-    .toUpperCase();
-  const chips = (s.comedians || [])
-    .map(c => `<span class="chip">${escapeHtml(c.name)}</span>`).join("");
-  return `
-    <div class="card ${isStandout ? "standout" : ""}">
-      <div class="tag">${isStandout ? "STANDOUT" : "BELOW THRESHOLD"}</div>
-      <div class="date">${dateLabel}</div>
-      <div class="time">${escapeHtml(s.time || "")}</div>
-      <div class="room">${escapeHtml(s.room || "")}</div>
-      <div class="chips">${chips}</div>
-      <div class="blurb">${escapeHtml(s.blurb || "")}</div>
-      <div class="scores">
-        ${scoreBox("DROP-IN", s.drop_in)}
-        ${scoreBox("TASTE", s.taste)}
-        ${scoreBox("CROWD WORK", s.crowd_work)}
-      </div>
-      <a class="book" href="https://www.comedycellar.com/reservation/"
-         target="_blank" rel="noopener">
-         ${isStandout ? "Book →" : "Book anyway →"}
-      </a>
+function renderTaste() {
+  const root = document.getElementById("taste");
+  const chips = working.taste.map((t,i) =>
+    `<span class="chip">${escapeHtml(t)}<button title="Remove" data-i="${i}">×</button></span>`).join("");
+  root.innerHTML = `
+    <div class="chips">${chips || '<span class="hint">No comics yet.</span>'}</div>
+    <div class="add">
+      <input id="taste-input" type="text" placeholder="Add a comic…" autocomplete="off">
+      <button id="taste-add">Add</button>
     </div>`;
+  root.querySelectorAll(".chip button").forEach(b =>
+    b.onclick = () => { working.taste.splice(+b.dataset.i,1); commitEdit(); });
+  const input = root.querySelector("#taste-input");
+  const add = () => {
+    const v = input.value.trim();
+    if (v && !working.taste.some(t => t.toLowerCase()===v.toLowerCase())) {
+      working.taste.push(v); commitEdit();
+    } else { input.value=""; }
+  };
+  root.querySelector("#taste-add").onclick = add;
+  input.onkeydown = e => { if (e.key === "Enter") add(); };
 }
 
-function scoreBox(label, val) {
-  const hot = val >= 4;
-  return `<div class="score ${hot ? "hot" : ""}">
-    <div class="label">${label}</div>
-    <div class="val">${val || 0}<span class="denom">/5</span></div>
+function renderShows() {
+  const todayIso = new Date().toLocaleDateString("en-CA");
+  const shows = (DATA.shows || [])
+    .filter(s => s.date >= todayIso)
+    .map(s => ({...s, avg: ((s.drop_in||0)+(s.taste||0)+(s.crowd_work||0))/3}));
+  const standout = shows.filter(s => s.avg >= STANDOUT_THRESHOLD);
+  const other = shows.filter(s => s.avg < STANDOUT_THRESHOLD);
+
+  const status = document.getElementById("status");
+  if (standout.length === 0) {
+    status.innerHTML = `No standout shows on your upcoming dates yet
+      <span class="sub">The daily scan flags anything strong the moment lineups post — typically Thursday evenings.</span>`;
+  } else {
+    status.innerHTML = `${standout.length} standout show${standout.length===1?"":"s"} flagged`;
+  }
+  document.getElementById("standout-cards").innerHTML = standout.map(s=>card(s,true)).join("");
+  document.getElementById("other-cards").innerHTML = other.map(s=>card(s,false)).join("");
+  document.getElementById("other-divider").style.display = other.length ? "block":"none";
+}
+
+function card(s, isStandout) {
+  const dateLabel = `${s.weekday||""} ${prettyShort(s.date)}`.trim().toUpperCase();
+  const chips = (s.comedians||[]).map(c=>`<span class="chip2">${escapeHtml(c.name)}</span>`).join("");
+  return `<div class="card ${isStandout?"standout":""}">
+    <div class="tag">${isStandout?"STANDOUT":"BELOW THRESHOLD"}</div>
+    <div class="date">${dateLabel}</div>
+    <div class="time">${escapeHtml(s.time||"")}</div>
+    <div class="room">${escapeHtml(s.room||"")}</div>
+    <div class="chips2">${chips}</div>
+    <div class="blurb">${escapeHtml(s.blurb||"")}</div>
+    <div class="scores">
+      ${box("DROP-IN",s.drop_in)}${box("TASTE",s.taste)}${box("CROWD WORK",s.crowd_work)}
+    </div>
+    <a class="book" href="https://www.comedycellar.com/reservation/" target="_blank" rel="noopener">${isStandout?"Book →":"Book anyway →"}</a>
   </div>`;
 }
+function box(label,val){ return `<div class="score ${val>=4?"hot":""}"><div class="label">${label}</div><div class="val">${val||0}<span class="denom">/5</span></div></div>`; }
 
-function prettyDateShort(iso) {
-  const [y, m, d] = iso.split("-").map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString("en-US",
-    { month: "short", day: "numeric" }).toUpperCase();
+// ---- Editing + persistence --------------------------------------------------
+function toggleDate(iso) {
+  if (working.dates.has(iso)) working.dates.delete(iso); else working.dates.add(iso);
+  commitEdit();
+}
+function commitEdit() {
+  // Persist locally immediately, re-render, then debounce a cloud save.
+  localStorage.setItem(LS_WORKING, JSON.stringify({
+    dates: [...working.dates].sort(), taste: working.taste,
+  }));
+  renderAll();
+  scheduleCloudSave();
+}
+function scheduleCloudSave() {
+  clearTimeout(saveTimer);
+  setSaveStatus("busy", "Saving…");
+  saveTimer = setTimeout(saveToCloud, 1500);
 }
 
-function escapeHtml(s) {
-  return String(s || "").replace(/[&<>"']/g, c => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  })[c]);
+function getToken(){ return localStorage.getItem(LS_TOKEN) || ""; }
+
+async function saveToCloud() {
+  const token = getToken();
+  if (!token) { setSaveStatus("err", "Not synced — add token"); return; }
+  const fileBody = {
+    _comment: configComment || "Edited via the Comedy Cellar Scout web app.",
+    available_dates: [...working.dates].sort(),
+    taste_benchmark: working.taste,
+  };
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${CONFIG_FILE}`;
+  try {
+    // Need the current file sha to update it.
+    const getRes = await fetch(`${url}?ref=${BRANCH}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+    });
+    if (getRes.status === 401) { setSaveStatus("err","Bad token (401)"); return; }
+    const cur = getRes.ok ? await getRes.json() : {};
+    const putRes = await fetch(url, {
+      method: "PUT",
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
+                 "Content-Type": "application/json" },
+      body: JSON.stringify({
+        message: "Update availability/taste from web app",
+        content: b64(JSON.stringify(fileBody, null, 2) + "\n"),
+        sha: cur.sha, branch: BRANCH,
+      }),
+    });
+    if (putRes.ok) {
+      setSaveStatus("ok", "Saved · scout re-running");
+      // Keep the local copy until Pages redeploys the new config.json; boot()
+      // reconciles and drops it once the cloud reflects these edits.
+    } else {
+      const e = await putRes.json().catch(()=>({}));
+      setSaveStatus("err", `Save failed (${putRes.status})`);
+      console.error("Save failed", e);
+    }
+  } catch (e) {
+    setSaveStatus("err", "Save failed (network)");
+    console.error(e);
+  }
 }
 
-load();
+function b64(str){ return btoa(String.fromCharCode(...new TextEncoder().encode(str))); }
+
+function setSaveStatus(kind, text) {
+  const el = document.getElementById("save-status");
+  el.className = kind; el.textContent = text;
+}
+function updateSaveStatusIdle() {
+  setSaveStatus(getToken() ? "" : "err",
+    getToken() ? "Synced to cloud" : "Local only — add token to sync");
+}
+
+// ---- Settings modal ---------------------------------------------------------
+const modal = document.getElementById("modal-bg");
+document.getElementById("open-settings").onclick = () => {
+  document.getElementById("token-input").value = getToken();
+  modal.classList.add("open");
+};
+document.getElementById("modal-close").onclick = () => modal.classList.remove("open");
+modal.onclick = e => { if (e.target === modal) modal.classList.remove("open"); };
+document.getElementById("token-save").onclick = () => {
+  const v = document.getElementById("token-input").value.trim();
+  if (v) localStorage.setItem(LS_TOKEN, v); else localStorage.removeItem(LS_TOKEN);
+  modal.classList.remove("open");
+  updateSaveStatusIdle();
+};
+document.getElementById("token-clear").onclick = () => {
+  localStorage.removeItem(LS_TOKEN);
+  document.getElementById("token-input").value = "";
+  updateSaveStatusIdle();
+};
+document.getElementById("reset-cloud").onclick = async () => {
+  localStorage.removeItem(LS_WORKING);
+  await boot();
+  setSaveStatus("", "Reset to cloud version");
+};
+
+function prettyShort(iso){ const [y,m,d]=iso.split("-").map(Number);
+  return new Date(y,m-1,d).toLocaleDateString("en-US",{month:"short",day:"numeric"}).toUpperCase(); }
+function escapeHtml(s){ return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+boot();
 </script>
 </body>
 </html>

@@ -26,7 +26,7 @@ from pathlib import Path
 API_URL = "https://www.comedycellar.com/lineup/api/"
 HERE = Path(__file__).resolve().parent
 OUT_PATH = HERE / "scout_data.json"
-AVAILABILITY_PATH = HERE / "availability.json"
+CONFIG_PATH = HERE / "config.json"
 
 # How many days ahead to scan. Comedy Cellar posts lineups Thursday-ish for the
 # coming weekend, so most far-out dates will simply be empty.
@@ -55,22 +55,27 @@ TASTE_BENCHMARK = [
 HEADER_IMAGE = "header.jpg"
 
 
-# ---------- Availability ------------------------------------------------------
+# ---------- Config (availability + taste) ------------------------------------
 
-def load_availability() -> set[str]:
-    """Read the user's available nights from availability.json. Returns a set
-    of ISO date strings. Missing/broken file -> empty set (scout scans nothing
-    and the page just shows an empty calendar)."""
-    if not AVAILABILITY_PATH.exists():
-        print(f"  ! {AVAILABILITY_PATH.name} not found — no availability set.",
+def load_config() -> tuple[set[str], list[str]]:
+    """Read config.json -> (available_dates set, taste_benchmark list).
+
+    config.json is the single source of truth, editable from the web app or by
+    hand. Missing/broken -> empty availability and the default taste list.
+    """
+    if not CONFIG_PATH.exists():
+        print(f"  ! {CONFIG_PATH.name} not found — no availability set.",
               file=sys.stderr)
-        return set()
+        return set(), list(TASTE_BENCHMARK)
     try:
-        data = json.loads(AVAILABILITY_PATH.read_text())
-        return {d for d in data.get("available_dates", []) if d}
+        data = json.loads(CONFIG_PATH.read_text())
+        dates = {d for d in data.get("available_dates", []) if d}
+        taste = [t for t in data.get("taste_benchmark", []) if t] \
+            or list(TASTE_BENCHMARK)
+        return dates, taste
     except Exception as e:
-        print(f"  ! Could not read availability: {e}", file=sys.stderr)
-        return set()
+        print(f"  ! Could not read config: {e}", file=sys.stderr)
+        return set(), list(TASTE_BENCHMARK)
 
 
 # ---------- Scraping ----------------------------------------------------------
@@ -174,7 +179,8 @@ def time_to_minutes(t: str) -> int:
 
 # ---------- Claude scoring ----------------------------------------------------
 
-RUBRIC = f"""\
+def build_rubric(taste: list[str]) -> str:
+    return f"""\
 You are a comedy-club scout rating Comedy Cellar (MacDougal Street) shows for a
 fan. Score each show on three axes from 1-5 (integers). Be honest and use the
 full range — 3 is "fine, not special." Save 5s for real standouts.
@@ -187,7 +193,7 @@ full range — 3 is "fine, not special." Save 5s for real standouts.
    drop-in-prone than the late show but still get them.
 
 2. TASTE (1-5): How well the bill matches the fan's taste. Benchmark comics:
-   {", ".join(TASTE_BENCHMARK)}.
+   {", ".join(taste)}.
    Look for: sharp joke-writers, punchy club comics, modern New York alt-club
    sensibility, observational and self-aware over preachy or political.
 
@@ -205,7 +211,7 @@ Respond with ONLY a JSON array, one object per show in the same order given:
 No prose, no markdown fences."""
 
 
-def score_shows_with_claude(shows: list[dict]) -> list[dict]:
+def score_shows_with_claude(shows: list[dict], taste: list[str]) -> list[dict]:
     """Send the whole batch in one call. Returns list of score dicts."""
     import anthropic  # imported lazily so --no-ai works without the SDK
 
@@ -221,7 +227,7 @@ def score_shows_with_claude(shows: list[dict]) -> list[dict]:
     msg = client.messages.create(
         model=CLAUDE_MODEL,
         max_tokens=4096,
-        system=RUBRIC,
+        system=build_rubric(taste),
         messages=[{
             "role": "user",
             "content": "Score these shows:\n\n" + "\n\n".join(bill_text),
@@ -258,10 +264,10 @@ def main():
     all_shows = []
     scraped_dates = []
 
-    # Load YOUR availability. The scout only scans nights you're free, and the
-    # viewer highlights these on the calendar regardless of whether a lineup
-    # has been posted yet.
-    avail = load_availability()
+    # Load YOUR availability + taste. The scout only scans nights you're free,
+    # and the viewer highlights these on the calendar regardless of whether a
+    # lineup has been posted yet.
+    avail, taste = load_config()
     # Only scan availability dates that are today-or-future and within the
     # scan window.
     horizon = today + dt.timedelta(days=args.days)
@@ -317,7 +323,7 @@ def main():
     else:
         print("Scoring with Claude...")
         try:
-            scores = score_shows_with_claude(all_shows)
+            scores = score_shows_with_claude(all_shows, taste)
         except Exception as e:
             print(f"  ! Claude scoring failed: {e}", file=sys.stderr)
             scores = fallback_scores(all_shows)
@@ -354,7 +360,7 @@ def main():
         # The calendar reflects YOUR availability — every night you're free,
         # whether or not a lineup has posted yet.
         "available_dates": sorted(avail),
-        "taste_benchmark": TASTE_BENCHMARK,
+        "taste_benchmark": taste,
         "shows": merged,
     }
     out_path.write_text(json.dumps(payload, indent=2))

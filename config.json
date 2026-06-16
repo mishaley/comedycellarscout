@@ -1,5 +1,5 @@
 {
-  "_comment": "Nights you're available to go to the Comedy Cellar. The scout only scores shows on these dates, and the calendar highlights them. Edit freely — add/remove ISO dates (YYYY-MM-DD). Past dates are ignored automatically.",
+  "_comment": "Source of truth for the scout. Editable in the web app (calendar + taste list) or by hand. available_dates = nights you can go; taste_benchmark = comics whose style you like.",
   "available_dates": [
     "2026-06-01",
     "2026-06-02",
@@ -34,5 +34,11 @@
     "2026-07-28",
     "2026-07-29",
     "2026-07-30"
+  ],
+  "taste_benchmark": [
+    "Sam Morril",
+    "Jeff Arcuri",
+    "Mark Normand",
+    "Tom Cotter"
   ]
 }
