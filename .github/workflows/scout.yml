@@ -53,13 +53,28 @@ jobs:
         run: |
           git config user.name  "scout-bot"
           git config user.email "scout-bot@users.noreply.github.com"
-          if ! git diff --quiet -- scout_data.json comic_links.json alerted.json; then
-            git add scout_data.json comic_links.json alerted.json
-            git commit -m "Refresh lineup data + comic links [skip ci]"
-            git push
-          else
+          # Stage data files; alerted.json only exists once an alert has fired.
+          git add scout_data.json comic_links.json
+          if [ -f alerted.json ]; then git add alerted.json; fi
+          if git diff --cached --quiet; then
             echo "No data changes."
+            exit 0
           fi
+          git commit -m "Refresh lineup data + comic links [skip ci]"
+          # The remote moves often (other scans, web-app config edits), so a
+          # plain push can be rejected. Retry, rebasing our data commit on top
+          # and preferring our freshly-generated data on any conflict.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest."
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+          done
+          echo "Could not push after retries."
+          exit 1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
