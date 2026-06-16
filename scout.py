@@ -351,6 +351,13 @@ def fallback_scores(shows: list[dict]) -> list[dict]:
     } for _ in shows]
 
 
+def _lineup_sig(s: dict) -> tuple:
+    """Identity of a show's bill for the score cache: date, time, comic names.
+    If any of these differ from a prior scan, the bill is re-scored."""
+    return (s["date"], s["time"],
+            tuple(c.get("name", "") for c in s.get("comedians", [])))
+
+
 # ---------- Comic web-property links -----------------------------------------
 # Each comic chip in the viewer links to that comic's best web property, in
 # priority order: Instagram > YouTube > TikTok > personal website. We resolve
@@ -624,24 +631,61 @@ def main():
 
     print(f"\nFound {len(all_shows)} shows across {len(scraped_dates)} dates.")
 
+    # Load the prior run once — reused for both the score cache and the
+    # persistence merge below.
+    out_path = Path(args.out)
+    prior_data = {}
+    if out_path.exists():
+        try:
+            prior_data = json.loads(out_path.read_text())
+        except Exception as e:
+            print(f"  ! Could not read prior data: {e}", file=sys.stderr)
+
+    # Score cache: reuse prior scores for any bill we've already scored so the
+    # frequent evening scans don't re-pay Claude for unchanged lineups. A new
+    # or changed lineup is NOT in the cache, so it's always freshly scored (and
+    # can still trigger an alert). The cache is dropped entirely if the taste
+    # list changed, since taste drives the scoring.
+    score_cache = {}
+    if prior_data.get("taste_benchmark") == taste:
+        for s in prior_data.get("shows", []):
+            if all(k in s for k in ("drop_in", "taste", "crowd_work")):
+                score_cache[_lineup_sig(s)] = {
+                    "drop_in": s["drop_in"], "taste": s["taste"],
+                    "crowd_work": s["crowd_work"], "blurb": s.get("blurb", ""),
+                }
+
     if not all_shows:
-        scores = []
+        pass
     elif args.no_ai or not os.environ.get("ANTHROPIC_API_KEY"):
         if not args.no_ai:
             print("ANTHROPIC_API_KEY not set — running without scoring.",
                   file=sys.stderr)
-        scores = fallback_scores(all_shows)
+        for s, sc in zip(all_shows, fallback_scores(all_shows)):
+            s.update(sc)
     else:
-        print("Scoring with Claude...")
-        try:
-            scores = score_shows_with_claude(all_shows, taste)
-        except Exception as e:
-            print(f"  ! Claude scoring failed: {e}", file=sys.stderr)
-            scores = fallback_scores(all_shows)
-
-    # Merge scores back onto shows.
-    for s, sc in zip(all_shows, scores):
-        s.update(sc)
+        to_score, reused = [], 0
+        for s in all_shows:
+            cached = score_cache.get(_lineup_sig(s))
+            if cached:
+                s.update(cached)
+                reused += 1
+            else:
+                to_score.append(s)
+        if reused:
+            print(f"Reused cached scores for {reused} unchanged bill(s).")
+        if to_score:
+            print(f"Scoring {len(to_score)} new/changed show(s) with Claude...")
+            try:
+                for s, sc in zip(to_score,
+                                 score_shows_with_claude(to_score, taste)):
+                    s.update(sc)
+            except Exception as e:
+                print(f"  ! Claude scoring failed: {e}", file=sys.stderr)
+                for s, sc in zip(to_score, fallback_scores(to_score)):
+                    s.update(sc)
+        else:
+            print("All bills unchanged — no Claude scoring needed this run.")
 
     # Merge with prior run so scored shows persist. The Comedy Cellar API only
     # exposes the next ~3-4 days, so a date scraped today won't be re-scrapable
@@ -651,19 +695,13 @@ def main():
     #   - replace any date we successfully re-scraped (fresh data wins)
     #   - drop anything in the past
     fresh_dates = {s["date"] for s in all_shows}
-    out_path = Path(args.out)
     merged = list(all_shows)
-    if out_path.exists():
-        try:
-            prior = json.loads(out_path.read_text())
-            for s in prior.get("shows", []):
-                if s["date"] < today_iso:
-                    continue  # past
-                if s["date"] in fresh_dates:
-                    continue  # already replaced with fresh data
-                merged.append(s)
-        except Exception as e:
-            print(f"  ! Could not merge prior data: {e}", file=sys.stderr)
+    for s in prior_data.get("shows", []):
+        if s["date"] < today_iso:
+            continue  # past
+        if s["date"] in fresh_dates:
+            continue  # already replaced with fresh data
+        merged.append(s)
     merged.sort(key=lambda s: (s["date"], time_to_minutes(s["time"])))
 
     # Check live reservation availability so the viewer can flag sold-out shows.
