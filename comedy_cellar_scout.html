@@ -351,9 +351,17 @@ async function boot() {
   }
 
   if (DATA.generated_at) {
+    // Always render in Eastern Time (the club's local time) regardless of the
+    // viewer's timezone, with a clock time of day. No "ET" label needed.
+    // scout.py writes UTC; older data may lack a tz marker — treat as UTC.
+    let ts = DATA.generated_at;
+    if (!/[zZ]|[+-]\d{2}:?\d{2}$/.test(ts)) ts += "Z";
     document.getElementById("checked").textContent =
-      "Last checked: " + new Date(DATA.generated_at).toLocaleDateString("en-US",
-        { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+      "Last checked: " + new Date(ts).toLocaleString("en-US", {
+        timeZone: "America/New_York",
+        weekday: "long", month: "long", day: "numeric", year: "numeric",
+        hour: "numeric", minute: "2-digit", hour12: true,
+      });
   }
   updateSaveStatusIdle();
   renderAll();

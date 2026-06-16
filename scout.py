@@ -742,7 +742,9 @@ def main():
                   f"(+{len(links) - before} new).")
 
     payload = {
-        "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
+        # UTC with an explicit offset so the viewer can convert to Eastern Time
+        # reliably (a naive timestamp would be misread as the viewer's local tz).
+        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         # The calendar reflects YOUR availability — every night you're free,
         # whether or not a lineup has posted yet.
         "available_dates": sorted(avail),
