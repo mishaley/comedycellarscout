@@ -93,6 +93,7 @@
   body.view-only .cal td .day:hover { background: none; }
   body.view-only .cal td.has .day:hover { background: var(--accent); }
   body.view-only #reset-cloud,
+  body.view-only #open-settings,
   body.view-only .edit-hint { display: none; }
 
   /* ---- Taste editor ---- */
@@ -615,10 +616,15 @@ soldoutBox.onchange = () => {
 
 // ---- Settings modal ---------------------------------------------------------
 const modal = document.getElementById("modal-bg");
-document.getElementById("open-settings").onclick = () => {
+function openSettings() {
   document.getElementById("token-input").value = getToken();
   modal.classList.add("open");
-};
+}
+document.getElementById("open-settings").onclick = openSettings;
+// Owner escape hatch: the gear is hidden in view-only mode, so a fresh device
+// (no token yet) has no visible way in. Visiting with #settings opens the modal
+// so the owner can paste their token and unlock editing.
+if (location.hash === "#settings") openSettings();
 document.getElementById("modal-close").onclick = () => modal.classList.remove("open");
 modal.onclick = e => { if (e.target === modal) modal.classList.remove("open"); };
 document.getElementById("token-save").onclick = () => {
