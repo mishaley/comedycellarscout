@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T03:44:22+00:00",
+  "generated_at": "2026-06-19T16:27:35+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -88,7 +88,7 @@
       "crowd_work": 3,
       "blurb": "Sunday early show with solid TV credits but no marquee names or obvious stylistic match to your benchmarks\u2014Chris Turner's physical comedy stands out, but this feels like a safe pass.",
       "sold_out": false,
-      "seats_left": 39
+      "seats_left": 34
     },
     {
       "id": "43970",
@@ -126,8 +126,8 @@
       "taste": 2,
       "crowd_work": 3,
       "blurb": "Sunday evening mirrors the early show with overlapping comics; Usama Siddiquee adds energy but nothing here screams must-see for your taste profile.",
-      "sold_out": false,
-      "seats_left": 4
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "43952",
@@ -205,7 +205,7 @@
       "crowd_work": 4,
       "blurb": "Keith Robinson and Jordan Jensen bring heavyweight Cellar credentials to a Tuesday late show; Jensen's crowd-work chops and Robinson's veteran edge make this the stronger Tuesday option.",
       "sold_out": false,
-      "seats_left": 14
+      "seats_left": 11
     },
     {
       "id": "43958",
@@ -240,7 +240,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday early show with Jordan Jensen and a tight five-comic card\u2014midweek prime time for potential drop-ins, and Jensen's front-row game is reliable.",
       "sold_out": false,
-      "seats_left": 25
+      "seats_left": 4
     },
     {
       "id": "43959",
