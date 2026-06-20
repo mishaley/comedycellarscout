@@ -15,6 +15,11 @@ on:
     - cron: "0 8 * * *"
   # Manual "Run workflow" button in the Actions tab.
   workflow_dispatch:
+    inputs:
+      send_test_alert:
+        description: "Send a test WhatsApp alert to confirm notifications work"
+        type: boolean
+        default: false
   # Re-deploy whenever you push code/availability changes.
   push:
     branches: [main]
@@ -36,6 +41,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # On-demand proof that the WhatsApp pipeline works end-to-end with the
+      # real secrets, without waiting for a live standout. Trigger via the
+      # "Run workflow" button with "Send a test WhatsApp alert" checked.
+      - name: Send test WhatsApp alert
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.send_test_alert }}
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: |
+          if [ -z "${CALLMEBOT_PHONE}" ] || [ -z "${CALLMEBOT_APIKEY}" ]; then
+            echo "::error::CallMeBot secrets are not set."
+            exit 1
+          fi
+          TEXT="✅ Comedy Cellar Scout test alert — your WhatsApp notifications are working. You can ignore this message."
+          echo "Sending test alert to ${CALLMEBOT_PHONE} …"
+          RESP="$(curl -sS -G "https://api.callmebot.com/whatsapp.php" \
+            --data-urlencode "phone=${CALLMEBOT_PHONE}" \
+            --data-urlencode "apikey=${CALLMEBOT_APIKEY}" \
+            --data-urlencode "text=${TEXT}")"
+          echo "CallMeBot response: ${RESP}"
 
       - name: Set up Python
         uses: actions/setup-python@v5
