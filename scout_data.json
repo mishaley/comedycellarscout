@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T03:31:18+00:00",
+  "generated_at": "2026-06-21T11:16:27+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -126,8 +126,8 @@
       "taste": 2,
       "crowd_work": 3,
       "blurb": "Sunday evening mirrors the early show with overlapping comics; Usama Siddiquee adds energy but nothing here screams must-see for your taste profile.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "43952",
