@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T20:18:31+00:00",
+  "generated_at": "2026-06-24T21:54:35+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -200,7 +200,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines and is a crowd-work machine\u2014sit front row for maximum engagement. Sunday evening bumps drop-in odds slightly, but not a guaranteed all-star night.",
       "sold_out": false,
-      "seats_left": 55
+      "seats_left": 51
     },
     {
       "id": "44071",
@@ -278,7 +278,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
       "sold_out": false,
-      "seats_left": 70
+      "seats_left": 66
     },
     {
       "id": "44080",
