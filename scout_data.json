@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T23:36:30+00:00",
+  "generated_at": "2026-06-24T02:44:20+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -50,84 +50,6 @@
     "Aziz Ansari"
   ],
   "shows": [
-    {
-      "id": "43952",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Ian Lara",
-          "credits": "HBO SPECIAL ROMANTIC COMEDY, Comedy Central Half-hour, The Tonight show"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Rachel Feinstein",
-          "credits": "SPECIAL ON NETFLIX, FROM THE TONIGHT SHOW,  FROM THE MOVIE \"TRAINWRECK\", GUEST CO-HOST \"THE VIEW\", COMEDY CENTRAL HALF HOUR SPECIAL"
-        },
-        {
-          "name": "Brett Goldstein",
-          "credits": "FROM THE MOVIE \"Office Romance\", GOLDEN GLOBE AND CRITICS CHOICE NOMINATED HBO SPECIL 'THE SECOND BEST NIGHT OF YOUR LIFE' TED LASSO AND SHRINLIKG"
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        }
-      ],
-      "date": "2026-06-23",
-      "weekday": "TUE",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Rachel Feinstein and Brett Goldstein make this a strong Tuesday lineup\u2014Feinstein's sharp storytelling and Goldstein's HBO momentum align well with your taste, worth the trip.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "43953",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Jordan Jensen",
-          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        }
-      ],
-      "date": "2026-06-23",
-      "weekday": "TUE",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Keith Robinson and Jordan Jensen bring heavyweight Cellar credentials to a Tuesday late show; Jensen's crowd-work chops and Robinson's veteran edge make this the stronger Tuesday option.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "43958",
       "time": "6:45 pm",
@@ -199,6 +121,240 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Wednesday late show stacked with Cellar heavyweights: Keith Robinson, Judah Friedlander, Ricky Velez\u2014this is peak drop-in night with a killer regular lineup that hits your joke-density sweet spot.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44094",
+      "time": "1:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Josh Ocean Thomas",
+          "credits": "\"NETFLIX IS A JOKE\", 2025 COMICS TO WATCH, DON'T TELL COMEDY"
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Onika Mclean",
+          "credits": "HBO, NBC"
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        }
+      ],
+      "date": "2026-06-28",
+      "weekday": "SUN",
+      "drop_in": 2,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
+      "sold_out": false,
+      "seats_left": 5
+    },
+    {
+      "id": "44091",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Julio Diaz",
+          "credits": "HULU, DONTTELLCOMEDY"
+        },
+        {
+          "name": "Gary Vider",
+          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Leo Diangelis",
+          "credits": "FROM HBO, NETFLIX"
+        }
+      ],
+      "date": "2026-06-28",
+      "weekday": "SUN",
+      "drop_in": 3,
+      "taste": 3,
+      "crowd_work": 5,
+      "blurb": "Nikki Glaser headlines and is a crowd-work machine\u2014sit front row for maximum engagement. Sunday evening bumps drop-in odds slightly, but not a guaranteed all-star night.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44071",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Nathan Macintosh",
+          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Eva Evans",
+          "credits": "NETFLIX, VH1, DON'T TELL COMEDY"
+        },
+        {
+          "name": "Dan Soder",
+          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        }
+      ],
+      "date": "2026-06-29",
+      "weekday": "MON",
+      "drop_in": 3,
+      "taste": 4,
+      "crowd_work": 4,
+      "blurb": "Dan Soder and Nathan Macintosh anchor a solid Monday bill with strong joke-writing chops. Early week raises drop-in potential, especially with this caliber already booked.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44072",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Ryan Hamilton",
+          "credits": "FROM THE TONIGHT SHOW, HOUR SPECIAL ON NETFLIX, FROM THE  \"LATE SHOW WITH STEPHEN COLBERT\",  \"CONAN O'BRIEN SHOW\", \"LAST COMIC STANDING\","
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        },
+        {
+          "name": "Elle Orlando",
+          "credits": "DONT TELL COMEDY, CREATOR TO WATCH 2024"
+        },
+        {
+          "name": "Isiah Kelly",
+          "credits": "NETFLIX VERIFIED STAND UP, HBO MAX"
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        }
+      ],
+      "date": "2026-06-29",
+      "weekday": "MON",
+      "drop_in": 3,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44080",
+      "time": "6:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "LeClerc Andre",
+          "credits": "THE TONIGHT SHOW,"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Dan Soder",
+          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
+        }
+      ],
+      "date": "2026-07-02",
+      "weekday": "THU",
+      "drop_in": 4,
+      "taste": 5,
+      "crowd_work": 4,
+      "blurb": "Colin Quinn and Dan Soder on a Wednesday\u2014this is exactly the early-week setup where legendary all-star nights happen. Quinn's a Cellar institution and Wednesday is peak drop-in night.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44081",
+      "time": "8:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Gregg Rogell",
+          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
+        },
+        {
+          "name": "Aaron Chen",
+          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
+        },
+        {
+          "name": "Brett Goldstein",
+          "credits": "FROM THE MOVIE \"Office Romance\", GOLDEN GLOBE AND CRITICS CHOICE NOMINATED HBO SPECIL 'THE SECOND BEST NIGHT OF YOUR LIFE' TED LASSO AND SHRINLIKG"
+        },
+        {
+          "name": "Keith Robinson",
+          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+        },
+        {
+          "name": "Jared Freid",
+          "credits": "The Wizard of Ha's"
+        }
+      ],
+      "date": "2026-07-02",
+      "weekday": "THU",
+      "drop_in": 4,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
       "sold_out": true,
       "seats_left": 0
     }
