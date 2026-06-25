@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T18:35:23+00:00",
+  "generated_at": "2026-06-25T20:59:26+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -239,7 +239,7 @@
       "crowd_work": 4,
       "blurb": "Dan Soder and Nathan Macintosh anchor a solid Monday bill with strong joke-writing chops. Early week raises drop-in potential, especially with this caliber already booked.",
       "sold_out": false,
-      "seats_left": 36
+      "seats_left": 20
     },
     {
       "id": "44072",
@@ -317,7 +317,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn and Dan Soder on a Wednesday\u2014this is exactly the early-week setup where legendary all-star nights happen. Quinn's a Cellar institution and Wednesday is peak drop-in night.",
       "sold_out": false,
-      "seats_left": 51
+      "seats_left": 49
     },
     {
       "id": "44081",
