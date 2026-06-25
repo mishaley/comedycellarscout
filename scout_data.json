@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T23:07:28+00:00",
+  "generated_at": "2026-06-25T01:32:00+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -161,7 +161,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
       "sold_out": false,
-      "seats_left": 69
+      "seats_left": 63
     },
     {
       "id": "44091",
@@ -200,7 +200,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines and is a crowd-work machine\u2014sit front row for maximum engagement. Sunday evening bumps drop-in odds slightly, but not a guaranteed all-star night.",
       "sold_out": false,
-      "seats_left": 51
+      "seats_left": 34
     },
     {
       "id": "44071",
@@ -239,7 +239,7 @@
       "crowd_work": 4,
       "blurb": "Dan Soder and Nathan Macintosh anchor a solid Monday bill with strong joke-writing chops. Early week raises drop-in potential, especially with this caliber already booked.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 52
     },
     {
       "id": "44072",
@@ -317,7 +317,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn and Dan Soder on a Wednesday\u2014this is exactly the early-week setup where legendary all-star nights happen. Quinn's a Cellar institution and Wednesday is peak drop-in night.",
       "sold_out": false,
-      "seats_left": 68
+      "seats_left": 66
     },
     {
       "id": "44081",
@@ -356,7 +356,7 @@
       "crowd_work": 3,
       "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
       "sold_out": false,
-      "seats_left": 31
+      "seats_left": 23
     }
   ]
 }
