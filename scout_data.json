@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T01:32:00+00:00",
+  "generated_at": "2026-06-25T02:43:20+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -200,7 +200,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines and is a crowd-work machine\u2014sit front row for maximum engagement. Sunday evening bumps drop-in odds slightly, but not a guaranteed all-star night.",
       "sold_out": false,
-      "seats_left": 34
+      "seats_left": 22
     },
     {
       "id": "44071",
@@ -278,7 +278,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
       "sold_out": false,
-      "seats_left": 66
+      "seats_left": 62
     },
     {
       "id": "44080",
@@ -356,7 +356,7 @@
       "crowd_work": 3,
       "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
       "sold_out": false,
-      "seats_left": 23
+      "seats_left": 15
     }
   ]
 }
