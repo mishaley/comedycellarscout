@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T18:10:55+00:00",
+  "generated_at": "2026-06-26T20:18:27+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
       "sold_out": false,
-      "seats_left": 54
+      "seats_left": 46
     },
     {
       "id": "44091",
@@ -242,8 +242,8 @@
       "taste": 5,
       "crowd_work": 4,
       "blurb": "Colin Quinn and Dan Soder on a Wednesday\u2014this is exactly the early-week setup where legendary all-star nights happen. Quinn's a Cellar institution and Wednesday is peak drop-in night.",
-      "sold_out": false,
-      "seats_left": 14
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44081",
