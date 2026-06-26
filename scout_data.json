@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T22:40:23+00:00",
+  "generated_at": "2026-06-26T00:12:54+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -50,80 +50,6 @@
     "Aziz Ansari"
   ],
   "shows": [
-    {
-      "id": "43958",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Cipha Sounds",
-          "credits": "ROCNATION, HOT 97 MORNING SHOW, CHAPPELLE SHOW, VH-1, MTV"
-        },
-        {
-          "name": "Jordan Jensen",
-          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
-        },
-        {
-          "name": "Brian Landers",
-          "credits": "FROM NETFLIX"
-        },
-        {
-          "name": "Leo Diangelis",
-          "credits": "FROM HBO, NETFLIX"
-        }
-      ],
-      "date": "2026-06-25",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 3,
-      "crowd_work": 4,
-      "blurb": "Wednesday early show with Jordan Jensen and a tight five-comic card\u2014midweek prime time for potential drop-ins, and Jensen's front-row game is reliable.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "43959",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Ricky Velez",
-          "credits": "HBO COMEDY SPECIAL: HERES EVERYTHING,  LARRY WILMORE NIGHTLY SHOW, COMIC TO WATCH: COMEDY CENTRAL, NY'S FUNNIEST: NY COMEDY FESTIVAL,"
-        },
-        {
-          "name": "Judah Friedlander",
-          "credits": "FROM NBC'S EMMY WINNER \"30 ROCK\", THE MOVIES \"SHOWTIME\", FROM \"MEET THE PARENTS\"."
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        }
-      ],
-      "date": "2026-06-25",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Wednesday late show stacked with Cellar heavyweights: Keith Robinson, Judah Friedlander, Ricky Velez\u2014this is peak drop-in night with a killer regular lineup that hits your joke-density sweet spot.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44094",
       "time": "1:30 pm",
@@ -278,7 +204,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
       "sold_out": false,
-      "seats_left": 59
+      "seats_left": 47
     },
     {
       "id": "44080",
