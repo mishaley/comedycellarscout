@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T23:09:32+00:00",
+  "generated_at": "2026-06-27T01:28:59+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
       "sold_out": false,
-      "seats_left": 46
+      "seats_left": 44
     },
     {
       "id": "44091",
@@ -204,7 +204,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
       "sold_out": false,
-      "seats_left": 15
+      "seats_left": 11
     },
     {
       "id": "44080",
