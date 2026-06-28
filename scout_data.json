@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:52:48+00:00",
+  "generated_at": "2026-06-28T06:59:00+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 3,
       "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
       "sold_out": false,
-      "seats_left": 15
+      "seats_left": 14
     },
     {
       "id": "44091",
