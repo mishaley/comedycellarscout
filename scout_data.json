@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T19:05:46+00:00",
+  "generated_at": "2026-06-29T21:08:49+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -142,8 +142,8 @@
           "credits": "THE TONIGHT SHOW,"
         },
         {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
         },
         {
           "name": "Lynne Koplitz",
@@ -160,10 +160,10 @@
       ],
       "date": "2026-07-02",
       "weekday": "THU",
-      "drop_in": 4,
-      "taste": 5,
+      "drop_in": 3,
+      "taste": 3,
       "crowd_work": 4,
-      "blurb": "Colin Quinn and Dan Soder on a Wednesday\u2014this is exactly the early-week setup where legendary all-star nights happen. Quinn's a Cellar institution and Wednesday is peak drop-in night.",
+      "blurb": "Solid Thursday lineup with Nikki Glaser, Colin Quinn, and Dan Soder\u2014all proven club performers who work the room well, though Thursday traditionally sees fewer major drop-ins as headliners leave town for weekend gigs.",
       "sold_out": true,
       "seats_left": 0
     },
