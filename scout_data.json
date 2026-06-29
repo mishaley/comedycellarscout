@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T22:35:42+00:00",
+  "generated_at": "2026-06-29T00:12:15+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -50,84 +50,6 @@
     "Aziz Ansari"
   ],
   "shows": [
-    {
-      "id": "44094",
-      "time": "1:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Josh Ocean Thomas",
-          "credits": "\"NETFLIX IS A JOKE\", 2025 COMICS TO WATCH, DON'T TELL COMEDY"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Onika Mclean",
-          "credits": "HBO, NBC"
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        }
-      ],
-      "date": "2026-06-28",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Philipp Kostelecky is one of your benchmarks, and this daytime Sunday show has the low-pressure vibe that sometimes attracts drop-ins, though 1:30pm is less prime than evening.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44091",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Julio Diaz",
-          "credits": "HULU, DONTTELLCOMEDY"
-        },
-        {
-          "name": "Gary Vider",
-          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Leo Diangelis",
-          "credits": "FROM HBO, NETFLIX"
-        }
-      ],
-      "date": "2026-06-28",
-      "weekday": "SUN",
-      "drop_in": 3,
-      "taste": 3,
-      "crowd_work": 5,
-      "blurb": "Nikki Glaser headlines and is a crowd-work machine\u2014sit front row for maximum engagement. Sunday evening bumps drop-in odds slightly, but not a guaranteed all-star night.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44071",
       "time": "7:30 pm",
