@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:54:27+00:00",
+  "generated_at": "2026-06-29T19:05:46+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -86,8 +86,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Dan Soder and Nathan Macintosh anchor a solid Monday bill with strong joke-writing chops. Early week raises drop-in potential, especially with this caliber already booked.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44072",
