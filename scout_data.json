@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T18:19:45+00:00",
+  "generated_at": "2026-06-30T20:30:08+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -125,8 +125,8 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 7
     }
   ]
 }
