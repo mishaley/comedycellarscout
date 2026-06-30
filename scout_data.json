@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T22:37:42+00:00",
+  "generated_at": "2026-06-30T00:07:34+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -50,84 +50,6 @@
     "Aziz Ansari"
   ],
   "shows": [
-    {
-      "id": "44071",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Nathan Macintosh",
-          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Eva Evans",
-          "credits": "NETFLIX, VH1, DON'T TELL COMEDY"
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-06-29",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Dan Soder and Nathan Macintosh anchor a solid Monday bill with strong joke-writing chops. Early week raises drop-in potential, especially with this caliber already booked.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44072",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Ryan Hamilton",
-          "credits": "FROM THE TONIGHT SHOW, HOUR SPECIAL ON NETFLIX, FROM THE  \"LATE SHOW WITH STEPHEN COLBERT\",  \"CONAN O'BRIEN SHOW\", \"LAST COMIC STANDING\","
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Elle Orlando",
-          "credits": "DONT TELL COMEDY, CREATOR TO WATCH 2024"
-        },
-        {
-          "name": "Isiah Kelly",
-          "credits": "NETFLIX VERIFIED STAND UP, HBO MAX"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        }
-      ],
-      "date": "2026-06-29",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Philipp Kostelecky returns on a Monday late show\u2014historically prime for surprise guests. Ryan Hamilton brings clean, crafted material that matches your taste for tight joke-writing.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44080",
       "time": "6:45 pm",
