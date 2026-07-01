@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T20:27:34+00:00",
+  "generated_at": "2026-07-01T22:05:47+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -164,8 +164,8 @@
       "taste": 2,
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44195",
