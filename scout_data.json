@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T07:07:38+00:00",
+  "generated_at": "2026-07-01T11:24:21+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -129,6 +129,45 @@
       "seats_left": 0
     },
     {
+      "id": "44242",
+      "time": "12:30 am",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "James Mattern",
+          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
+        },
+        {
+          "name": "Yamaneika Saunders",
+          "credits": "\"WRITERS GUILD AWARD WINNER\", \"The Tonight Show\", Comedy Central Presents, Showtime's \"Nasty Show\", \"Grown and sexy\" on VH1, \"The Degenerates\" on Netflix, LaffMobb/Laff Tracks on TrueTV, Roast Battle on Comedy Central, Host of \"Off Topic with Yamaneika\" on Kevin Hart's LOL Radio on Sirius XM"
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Julio Diaz",
+          "credits": "HULU, DONTTELLCOMEDY"
+        },
+        {
+          "name": "Godfrey",
+          "credits": "HOST OF NEW FOX SHOW \"BULLSEYE\", FROM \"LOUIE\" CK SHOW. AS SEEN ON NBC'S \"30 ROCK\", THE MOVIE \"SOUL PLANE\", \"ZOOLANDER\", NBC'S \"3RD WATCH\", \"IT FACTOR\" ON BRAVO AND STAR OF 7 UP TV ADS."
+        }
+      ],
+      "date": "2026-07-03",
+      "weekday": "FRI",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 4,
+      "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
+      "sold_out": false,
+      "seats_left": 15
+    },
+    {
       "id": "44195",
       "time": "6:45 pm",
       "room": "MacDougal Street",
@@ -164,45 +203,6 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Colin Quinn headlines a solid Friday early show, but the weekend slot means drop-ins are unlikely. Quinn's a legend but not quite in your current wheelhouse.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44196",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Casey Balsham",
-          "credits": "APPLE TV, COMEDY UO"
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Dov Davidoff",
-          "credits": "FROM NBC'S \"SHADES OF BLUE\", HBO'S  \"CRASHING\",  FROM NBC'S \"RAINES\", \"JOHNNY\" FROM THE MOVIE \"INVINCIBLE\", THE TONIGHT SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\". FROM THE MOVIES \"MAX & GRACE\" AND \"ASH TUESDAY\"."
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Aaron Chen",
-          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
-        }
-      ],
-      "date": "2026-07-03",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Philipp Kostelecky makes this worth it\u2014he's one of your benchmarks. Keith Robinson and Dov Davidoff add solid joke-writing depth to the Friday lineup.",
       "sold_out": true,
       "seats_left": 0
     },
