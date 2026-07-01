@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T23:45:52+00:00",
+  "generated_at": "2026-07-01T02:56:46+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -125,6 +125,552 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44195",
+      "time": "6:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Casey Balsham",
+          "credits": "APPLE TV, COMEDY UO"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        }
+      ],
+      "date": "2026-07-03",
+      "weekday": "FRI",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Colin Quinn headlines a solid Friday early show, but the weekend slot means drop-ins are unlikely. Quinn's a legend but not quite in your current wheelhouse.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44196",
+      "time": "8:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Casey Balsham",
+          "credits": "APPLE TV, COMEDY UO"
+        },
+        {
+          "name": "Keith Robinson",
+          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+        },
+        {
+          "name": "Dov Davidoff",
+          "credits": "FROM NBC'S \"SHADES OF BLUE\", HBO'S  \"CRASHING\",  FROM NBC'S \"RAINES\", \"JOHNNY\" FROM THE MOVIE \"INVINCIBLE\", THE TONIGHT SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\". FROM THE MOVIES \"MAX & GRACE\" AND \"ASH TUESDAY\"."
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        },
+        {
+          "name": "Aaron Chen",
+          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
+        }
+      ],
+      "date": "2026-07-03",
+      "weekday": "FRI",
+      "drop_in": 2,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Philipp Kostelecky makes this worth it\u2014he's one of your benchmarks. Keith Robinson and Dov Davidoff add solid joke-writing depth to the Friday lineup.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44203",
+      "time": "12:30 am",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "James Mattern",
+          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
+        },
+        {
+          "name": "Alex English",
+          "credits": "FROM SNL, THAT DAMN MICHAEL CHE, PAUSE WITH SAM JAY, COMEDY CENTRAL"
+        },
+        {
+          "name": "Andy Haynes",
+          "credits": "LATE NIGHT WITH JIMMY FALLON, CONAN, COMEDY CENTRAL PRESENTS, ROAST BATTLE"
+        },
+        {
+          "name": "Molly Kearney",
+          "credits": "STAR OF \"DMV\" ON CBS, SATURDAY NIGHT LIVE CAST MEMBER, AMAZON PRIME'S LEAGUE OF THEIR OWN, DISNEY'S THE MIGHTY DUCKS"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Godfrey",
+          "credits": "HOST OF NEW FOX SHOW \"BULLSEYE\", FROM \"LOUIE\" CK SHOW. AS SEEN ON NBC'S \"30 ROCK\", THE MOVIE \"SOUL PLANE\", \"ZOOLANDER\", NBC'S \"3RD WATCH\", \"IT FACTOR\" ON BRAVO AND STAR OF 7 UP TV ADS."
+        }
+      ],
+      "date": "2026-07-04",
+      "weekday": "SAT",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
+      "sold_out": false,
+      "seats_left": 79
+    },
+    {
+      "id": "44200",
+      "time": "6:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Alvin Kuai",
+          "credits": "NEW YOSTRK COMEDY FESTIVAL, SF SKETCHFEST, SOUTH CHINA MORNING POST"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        }
+      ],
+      "date": "2026-07-04",
+      "weekday": "SAT",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Nikki Glaser tops a Saturday early bill with Colin Quinn. Solid pro lineup but weekend timing makes celebrity drop-ins less likely.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44207",
+      "time": "1:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Eva Evans",
+          "credits": "NETFLIX, VH1, DON'T TELL COMEDY"
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        },
+        {
+          "name": "Jenny Tian",
+          "credits": "DEADLINE' S 20 STAND-UPS TO KEEP AN EYE ON IN 2026, EDINBURGH FRINGE, TASKMASTER AU"
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        }
+      ],
+      "date": "2026-07-05",
+      "weekday": "SUN",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
+      "sold_out": false,
+      "seats_left": 45
+    },
+    {
+      "id": "44204",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Andy Haynes",
+          "credits": "LATE NIGHT WITH JIMMY FALLON, CONAN, COMEDY CENTRAL PRESENTS, ROAST BATTLE"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        }
+      ],
+      "date": "2026-07-05",
+      "weekday": "SUN",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44183",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Rich Aronovitch",
+          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
+        },
+        {
+          "name": "Gary Vider",
+          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Dan Soder",
+          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        },
+        {
+          "name": "Maddie Wiener",
+          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
+        }
+      ],
+      "date": "2026-07-06",
+      "weekday": "MON",
+      "drop_in": 3,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44184",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Petey DeAbreu",
+          "credits": "HBO:THAT DAMN MICHAEL CHE SHOW, NPR: WAIT WAIT...DON'T TELL ME"
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        },
+        {
+          "name": "Alex Edelman",
+          "credits": "EMMY WINNER, SPECIAL TONY AWARD WINNER FOR HIS STAND UP SHOW ON BROADWAY, THE LATE SHOW WITH STEPHEN COLBERT, CONAN, THE EDINBURGH COMEDY AWARD WINNER"
+        },
+        {
+          "name": "Sahib Singh",
+          "credits": "COMEDY CENTRAL, ADULT SWIM, JFL NEW FACES"
+        },
+        {
+          "name": "Dan Soder",
+          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
+        }
+      ],
+      "date": "2026-07-06",
+      "weekday": "MON",
+      "drop_in": 3,
+      "taste": 5,
+      "crowd_work": 3,
+      "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44186",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Petey DeAbreu",
+          "credits": "HBO:THAT DAMN MICHAEL CHE SHOW, NPR: WAIT WAIT...DON'T TELL ME"
+        },
+        {
+          "name": "Emma Willmann",
+          "credits": "From The Late Show with Stephen Colbert, MTV, Vh1, host of The Check Spot on SiriusXM"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Bobby St. Petersburg",
+          "credits": "FROM COMEDY CENTRAL,"
+        }
+      ],
+      "date": "2026-07-07",
+      "weekday": "TUE",
+      "drop_in": 4,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44187",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Andrew Fiori",
+          "credits": "FROM COMEDY CENTRAL, HOST OF THE RAW REPORT ON SIRIUSXM"
+        },
+        {
+          "name": "Andre De Freitas",
+          "credits": "BBC"
+        },
+        {
+          "name": "Erin Jackson",
+          "credits": "FROM THE CONAN O\"BRIEN SHOW, LAST COMIC STANDING"
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        },
+        {
+          "name": "Chris Turner",
+          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
+        }
+      ],
+      "date": "2026-07-07",
+      "weekday": "TUE",
+      "drop_in": 4,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44189",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Ashley Austin Morris",
+          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
+        },
+        {
+          "name": "Mike Yard",
+          "credits": "FROM \"NIGHTLY SHOW WITH LARRY WILMORE\", BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO."
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Molly Kearney",
+          "credits": "STAR OF \"DMV\" ON CBS, SATURDAY NIGHT LIVE CAST MEMBER, AMAZON PRIME'S LEAGUE OF THEIR OWN, DISNEY'S THE MIGHTY DUCKS"
+        },
+        {
+          "name": "Chris Turner",
+          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
+        }
+      ],
+      "date": "2026-07-08",
+      "weekday": "WED",
+      "drop_in": 5,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44190",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Ashley Austin Morris",
+          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
+        },
+        {
+          "name": "Josh Ocean Thomas",
+          "credits": "\"NETFLIX IS A JOKE\", 2025 COMICS TO WATCH, DON'T TELL COMEDY"
+        },
+        {
+          "name": "Onika Mclean",
+          "credits": "HBO, NBC"
+        },
+        {
+          "name": "Dov Davidoff",
+          "credits": "FROM NBC'S \"SHADES OF BLUE\", HBO'S  \"CRASHING\",  FROM NBC'S \"RAINES\", \"JOHNNY\" FROM THE MOVIE \"INVINCIBLE\", THE TONIGHT SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\". FROM THE MOVIES \"MAX & GRACE\" AND \"ASH TUESDAY\"."
+        },
+        {
+          "name": "Gary Vider",
+          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        }
+      ],
+      "date": "2026-07-08",
+      "weekday": "WED",
+      "drop_in": 5,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44192",
+      "time": "6:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Gray West",
+          "credits": "\"NY COMEDY FESTIVAL COMICS TO WATCH\""
+        },
+        {
+          "name": "Marina Franklin",
+          "credits": "FROM CONAN O'BRIEN SHOW, THE MOVIE \"TRAINWRECK\", \"LOUIE\", \"THE NIGHTLY SHOW\", \"THE JIM GAFFIGAN SHOW\""
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Bobby St. Petersburg",
+          "credits": "FROM COMEDY CENTRAL,"
+        }
+      ],
+      "date": "2026-07-09",
+      "weekday": "THU",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44193",
+      "time": "8:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Kevin Dombrowski",
+          "credits": "SIRIUS/XM, SNY"
+        },
+        {
+          "name": "Gregg Rogell",
+          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", MTV'S \"NIKKI AND SARA LIVE\", FROM THE CONAN O'BRIEN SHOW, TONIGHT SHOW, COMEDY CENTRAL HALF HOUR, LAST COMIC STANDING, FROM THE DOCUMENTARY FILM \"I AM COMIC\"."
+        },
+        {
+          "name": "Jeff Arcuri",
+          "credits": "THE LATE SHOW W/STEPHEN COLBERT"
+        },
+        {
+          "name": "Aaron Chen",
+          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
+        },
+        {
+          "name": "Chris Turner",
+          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
+        }
+      ],
+      "date": "2026-07-09",
+      "weekday": "THU",
+      "drop_in": 2,
+      "taste": 5,
+      "crowd_work": 3,
+      "blurb": "Jeff Arcuri headlines Thursday late\u2014he's one of your exact benchmarks. Worth it for him alone despite Thursday's lower drop-in odds.",
       "sold_out": true,
       "seats_left": 0
     }
