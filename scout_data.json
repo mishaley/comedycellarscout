@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T16:28:52+00:00",
+  "generated_at": "2026-07-01T18:28:20+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -165,7 +165,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 13
+      "seats_left": 9
     },
     {
       "id": "44195",
@@ -554,8 +554,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
-      "sold_out": false,
-      "seats_left": 2
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44190",
