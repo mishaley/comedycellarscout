@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T21:45:58+00:00",
+  "generated_at": "2026-07-02T23:11:17+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -165,7 +165,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 73
+      "seats_left": 65
     },
     {
       "id": "44195",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
       "sold_out": false,
-      "seats_left": 34
+      "seats_left": 30
     },
     {
       "id": "44183",
@@ -438,7 +438,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 26
+      "seats_left": 24
     },
     {
       "id": "44186",
@@ -477,7 +477,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 42
+      "seats_left": 40
     },
     {
       "id": "44187",
@@ -555,7 +555,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 67
+      "seats_left": 65
     },
     {
       "id": "44190",
