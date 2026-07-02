@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:15:12+00:00",
+  "generated_at": "2026-07-02T20:03:22+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -243,7 +243,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 148
+      "seats_left": 149
     },
     {
       "id": "44200",
@@ -321,7 +321,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 92
+      "seats_left": 90
     },
     {
       "id": "44204",
@@ -438,7 +438,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 41
+      "seats_left": 34
     },
     {
       "id": "44186",
@@ -477,7 +477,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 55
+      "seats_left": 43
     },
     {
       "id": "44187",
@@ -516,7 +516,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
       "sold_out": false,
-      "seats_left": 46
+      "seats_left": 41
     },
     {
       "id": "44189",
@@ -555,7 +555,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 69
+      "seats_left": 67
     },
     {
       "id": "44190",
@@ -594,7 +594,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 57
     },
     {
       "id": "44192",
@@ -671,8 +671,8 @@
       "taste": 5,
       "crowd_work": 3,
       "blurb": "Jeff Arcuri headlines Thursday late\u2014he's one of your exact benchmarks. Worth it for him alone despite Thursday's lower drop-in odds.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     }
   ]
 }
