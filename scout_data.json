@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:43:18+00:00",
+  "generated_at": "2026-07-02T06:36:13+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -86,8 +86,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Solid Thursday lineup with Nikki Glaser, Colin Quinn, and Dan Soder\u2014all proven club performers who work the room well, though Thursday traditionally sees fewer major drop-ins as headliners leave town for weekend gigs.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44081",
@@ -165,7 +165,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 73
+      "seats_left": 71
     },
     {
       "id": "44195",
@@ -204,7 +204,7 @@
       "crowd_work": 3,
       "blurb": "Colin Quinn headlines a solid Friday early show, but the weekend slot means drop-ins are unlikely. Quinn's a legend but not quite in your current wheelhouse.",
       "sold_out": false,
-      "seats_left": 39
+      "seats_left": 30
     },
     {
       "id": "44203",
@@ -282,7 +282,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser tops a Saturday early bill with Colin Quinn. Solid pro lineup but weekend timing makes celebrity drop-ins less likely.",
       "sold_out": false,
-      "seats_left": 43
+      "seats_left": 39
     },
     {
       "id": "44207",
@@ -321,7 +321,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 106
+      "seats_left": 100
     },
     {
       "id": "44204",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
       "sold_out": false,
-      "seats_left": 59
+      "seats_left": 55
     },
     {
       "id": "44183",
@@ -438,7 +438,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 55
+      "seats_left": 45
     },
     {
       "id": "44186",
@@ -477,7 +477,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 68
+      "seats_left": 60
     },
     {
       "id": "44187",
@@ -516,7 +516,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
       "sold_out": false,
-      "seats_left": 62
+      "seats_left": 50
     },
     {
       "id": "44189",
@@ -555,7 +555,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 70
+      "seats_left": 65
     },
     {
       "id": "44190",
@@ -672,7 +672,7 @@
       "crowd_work": 3,
       "blurb": "Jeff Arcuri headlines Thursday late\u2014he's one of your exact benchmarks. Worth it for him alone despite Thursday's lower drop-in odds.",
       "sold_out": false,
-      "seats_left": 58
+      "seats_left": 50
     }
   ]
 }
