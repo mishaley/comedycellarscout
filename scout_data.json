@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:36:13+00:00",
+  "generated_at": "2026-07-02T10:40:27+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
       "sold_out": false,
-      "seats_left": 55
+      "seats_left": 53
     },
     {
       "id": "44183",
@@ -399,7 +399,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 66
+      "seats_left": 62
     },
     {
       "id": "44184",
@@ -594,7 +594,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 62
+      "seats_left": 58
     },
     {
       "id": "44192",
@@ -672,7 +672,7 @@
       "crowd_work": 3,
       "blurb": "Jeff Arcuri headlines Thursday late\u2014he's one of your exact benchmarks. Worth it for him alone despite Thursday's lower drop-in odds.",
       "sold_out": false,
-      "seats_left": 50
+      "seats_left": 48
     }
   ]
 }
