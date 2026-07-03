@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T20:40:50+00:00",
+  "generated_at": "2026-07-03T22:08:07+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 24
+      "seats_left": 1
     },
     {
       "id": "44195",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 80
+      "seats_left": 76
     },
     {
       "id": "44204",
@@ -321,7 +321,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 44
+      "seats_left": 40
     },
     {
       "id": "44184",
@@ -399,7 +399,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 33
+      "seats_left": 31
     },
     {
       "id": "44187",
@@ -437,8 +437,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
-      "sold_out": false,
-      "seats_left": 3
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44189",
@@ -516,7 +516,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 52
+      "seats_left": 50
     },
     {
       "id": "44192",
