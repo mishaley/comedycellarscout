@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T19:27:29+00:00",
+  "generated_at": "2026-07-03T20:40:50+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 28
+      "seats_left": 24
     },
     {
       "id": "44195",
@@ -438,7 +438,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
       "sold_out": false,
-      "seats_left": 7
+      "seats_left": 3
     },
     {
       "id": "44189",
@@ -477,7 +477,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 54
     },
     {
       "id": "44190",
