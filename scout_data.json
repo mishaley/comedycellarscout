@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T06:08:30+00:00",
+  "generated_at": "2026-07-03T10:39:14+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 91
+      "seats_left": 95
     },
     {
       "id": "44204",
@@ -281,8 +281,8 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44183",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 8
+      "seats_left": 2
     },
     {
       "id": "44186",
