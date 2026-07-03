@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T23:11:17+00:00",
+  "generated_at": "2026-07-03T01:11:08+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -51,84 +51,6 @@
   ],
   "shows": [
     {
-      "id": "44080",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "LeClerc Andre",
-          "credits": "THE TONIGHT SHOW,"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        }
-      ],
-      "date": "2026-07-02",
-      "weekday": "THU",
-      "drop_in": 3,
-      "taste": 3,
-      "crowd_work": 4,
-      "blurb": "Solid Thursday lineup with Nikki Glaser, Colin Quinn, and Dan Soder\u2014all proven club performers who work the room well, though Thursday traditionally sees fewer major drop-ins as headliners leave town for weekend gigs.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44081",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Aaron Chen",
-          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
-        },
-        {
-          "name": "Brett Goldstein",
-          "credits": "FROM THE MOVIE \"Office Romance\", GOLDEN GLOBE AND CRITICS CHOICE NOMINATED HBO SPECIL 'THE SECOND BEST NIGHT OF YOUR LIFE' TED LASSO AND SHRINLIKG"
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Jared Freid",
-          "credits": "The Wizard of Ha's"
-        }
-      ],
-      "date": "2026-07-02",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Brett Goldstein (Ted Lasso) and Keith Robinson headline another Wednesday bill. The marquee name plus mid-week timing makes this a strong bet for surprise guests testing new material.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44242",
       "time": "12:30 am",
       "room": "MacDougal Street",
@@ -165,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 65
+      "seats_left": 59
     },
     {
       "id": "44195",
@@ -360,7 +282,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
       "sold_out": false,
-      "seats_left": 30
+      "seats_left": 20
     },
     {
       "id": "44183",
@@ -438,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 24
+      "seats_left": 16
     },
     {
       "id": "44186",
@@ -516,7 +438,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
       "sold_out": false,
-      "seats_left": 39
+      "seats_left": 32
     },
     {
       "id": "44189",
@@ -555,7 +477,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 65
+      "seats_left": 64
     },
     {
       "id": "44190",
@@ -633,7 +555,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 183
+      "seats_left": 181
     },
     {
       "id": "44193",
