@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T02:25:37+00:00",
+  "generated_at": "2026-07-03T06:08:30+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
       "sold_out": false,
-      "seats_left": 57
+      "seats_left": 53
     },
     {
       "id": "44195",
@@ -165,7 +165,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 149
+      "seats_left": 152
     },
     {
       "id": "44200",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 88
+      "seats_left": 91
     },
     {
       "id": "44204",
@@ -282,7 +282,7 @@
       "crowd_work": 3,
       "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
       "sold_out": false,
-      "seats_left": 14
+      "seats_left": 1
     },
     {
       "id": "44183",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Alex Edelman (Tony/Emmy winner) headlines with Philipp Kostelecky and Dan Soder\u2014stacked Monday late show hits your taste perfectly. This one's a must.",
       "sold_out": false,
-      "seats_left": 12
+      "seats_left": 8
     },
     {
       "id": "44186",
@@ -438,7 +438,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late show with Nikki Glaser and Brendan Sagalow. Chris Turner's improv/musical background means likely crowd engagement. Mid-week drop-in window opens.",
       "sold_out": false,
-      "seats_left": 32
+      "seats_left": 30
     },
     {
       "id": "44189",
