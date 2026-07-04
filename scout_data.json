@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:32:22+00:00",
+  "generated_at": "2026-07-04T18:04:39+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 144
+      "seats_left": 140
     },
     {
       "id": "44200",
@@ -165,7 +165,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 57
+      "seats_left": 54
     },
     {
       "id": "44204",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 25
+      "seats_left": 21
     },
     {
       "id": "44184",
@@ -399,7 +399,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 41
+      "seats_left": 39
     },
     {
       "id": "44190",
