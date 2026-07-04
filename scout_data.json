@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T02:24:17+00:00",
+  "generated_at": "2026-07-04T05:58:53+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 151
+      "seats_left": 146
     },
     {
       "id": "44200",
@@ -165,7 +165,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 64
+      "seats_left": 59
     },
     {
       "id": "44204",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 33
+      "seats_left": 32
     },
     {
       "id": "44184",
