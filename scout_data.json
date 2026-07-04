@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T22:29:21+00:00",
+  "generated_at": "2026-07-04T23:36:11+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -165,7 +165,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 48
+      "seats_left": 44
     },
     {
       "id": "44204",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 15
+      "seats_left": 13
     },
     {
       "id": "44184",
