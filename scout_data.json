@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T23:36:15+00:00",
+  "generated_at": "2026-07-04T02:24:17+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -51,84 +51,6 @@
   ],
   "shows": [
     {
-      "id": "44242",
-      "time": "12:30 am",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "James Mattern",
-          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
-        },
-        {
-          "name": "Yamaneika Saunders",
-          "credits": "\"WRITERS GUILD AWARD WINNER\", \"The Tonight Show\", Comedy Central Presents, Showtime's \"Nasty Show\", \"Grown and sexy\" on VH1, \"The Degenerates\" on Netflix, LaffMobb/Laff Tracks on TrueTV, Roast Battle on Comedy Central, Host of \"Off Topic with Yamaneika\" on Kevin Hart's LOL Radio on Sirius XM"
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Julio Diaz",
-          "credits": "HULU, DONTTELLCOMEDY"
-        },
-        {
-          "name": "Godfrey",
-          "credits": "HOST OF NEW FOX SHOW \"BULLSEYE\", FROM \"LOUIE\" CK SHOW. AS SEEN ON NBC'S \"30 ROCK\", THE MOVIE \"SOUL PLANE\", \"ZOOLANDER\", NBC'S \"3RD WATCH\", \"IT FACTOR\" ON BRAVO AND STAR OF 7 UP TV ADS."
-        }
-      ],
-      "date": "2026-07-03",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 2,
-      "crowd_work": 4,
-      "blurb": "Friday late show with solid crowd-workers (Godfrey, Yamaneika), but the lineup skews broader/louder than your benchmark taste. Drop-ins unlikely on packed weekend nights.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44195",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Casey Balsham",
-          "credits": "APPLE TV, COMEDY UO"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        }
-      ],
-      "date": "2026-07-03",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Colin Quinn headlines a solid Friday early show, but the weekend slot means drop-ins are unlikely. Quinn's a legend but not quite in your current wheelhouse.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44203",
       "time": "12:30 am",
       "room": "MacDougal Street",
@@ -165,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 149
+      "seats_left": 151
     },
     {
       "id": "44200",
@@ -243,7 +165,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 72
+      "seats_left": 64
     },
     {
       "id": "44204",
@@ -321,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 40
+      "seats_left": 33
     },
     {
       "id": "44184",
@@ -555,7 +477,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 164
+      "seats_left": 161
     },
     {
       "id": "44193",
