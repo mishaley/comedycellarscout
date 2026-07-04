@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T05:58:53+00:00",
+  "generated_at": "2026-07-04T10:09:55+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 4,
       "blurb": "Late Friday show with Alex English and Molly Kearney bringing SNL energy. Godfrey's known for heavy crowd interaction, so front row could be fun.",
       "sold_out": false,
-      "seats_left": 146
+      "seats_left": 144
     },
     {
       "id": "44200",
@@ -477,7 +477,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 161
+      "seats_left": 159
     },
     {
       "id": "44193",
