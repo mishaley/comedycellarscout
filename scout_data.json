@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T06:35:57+00:00",
+  "generated_at": "2026-07-05T10:12:49+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -164,8 +164,8 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
-      "sold_out": false,
-      "seats_left": 5
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44184",
