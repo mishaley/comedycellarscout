@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T16:35:25+00:00",
+  "generated_at": "2026-07-05T18:06:23+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 6
+      "seats_left": 2
     },
     {
       "id": "44187",
@@ -321,7 +321,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 32
+      "seats_left": 30
     },
     {
       "id": "44190",
@@ -399,7 +399,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 145
+      "seats_left": 144
     },
     {
       "id": "44193",
