@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:12:49+00:00",
+  "generated_at": "2026-07-05T15:15:47+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 35
+      "seats_left": 12
     },
     {
       "id": "44204",
@@ -243,7 +243,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday night with Greer Barnes (Chappelle Show alum) on the bill raises drop-in odds. Solid pros but not quite tailored to your specific taste.",
       "sold_out": false,
-      "seats_left": 15
+      "seats_left": 11
     },
     {
       "id": "44187",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 44
+      "seats_left": 41
     },
     {
       "id": "44192",
@@ -399,7 +399,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 150
+      "seats_left": 146
     },
     {
       "id": "44193",
