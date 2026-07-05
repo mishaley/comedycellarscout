@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T19:52:13+00:00",
+  "generated_at": "2026-07-05T21:05:14+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -321,7 +321,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 30
+      "seats_left": 27
     },
     {
       "id": "44190",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 36
+      "seats_left": 34
     },
     {
       "id": "44192",
