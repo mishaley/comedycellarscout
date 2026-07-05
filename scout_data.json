@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T02:32:54+00:00",
+  "generated_at": "2026-07-05T06:35:57+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -87,7 +87,7 @@
       "crowd_work": 3,
       "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
       "sold_out": false,
-      "seats_left": 40
+      "seats_left": 35
     },
     {
       "id": "44204",
@@ -165,7 +165,7 @@
       "crowd_work": 3,
       "blurb": "Monday show with Dan Soder headlining\u2014strong joke-writer who fits your sensibility. Early week timing slightly raises drop-in potential.",
       "sold_out": false,
-      "seats_left": 9
+      "seats_left": 5
     },
     {
       "id": "44184",
@@ -360,7 +360,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 46
+      "seats_left": 44
     },
     {
       "id": "44192",
