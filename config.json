@@ -1,10 +1,6 @@
 {
   "_comment": "Source of truth for the scout. Editable in the web app (calendar + taste list) or by hand. available_dates = nights you can go; taste_benchmark = comics whose style you like.",
   "available_dates": [
-    "2026-06-16",
-    "2026-06-17",
-    "2026-06-21",
-    "2026-06-23",
     "2026-06-28",
     "2026-06-29",
     "2026-07-02",
@@ -47,6 +43,7 @@
     "Chris Rock",
     "Louis CK",
     "Jerry Seinfeld",
-    "Aziz Ansari"
+    "Aziz Ansari",
+    "Nikki Glaser"
   ]
 }
