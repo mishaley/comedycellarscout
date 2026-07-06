@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:32:04+00:00",
+  "generated_at": "2026-07-06T00:09:57+00:00",
   "available_dates": [
     "2026-06-16",
     "2026-06-17",
@@ -50,84 +50,6 @@
     "Aziz Ansari"
   ],
   "shows": [
-    {
-      "id": "44207",
-      "time": "1:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Eva Evans",
-          "credits": "NETFLIX, VH1, DON'T TELL COMEDY"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Jenny Tian",
-          "credits": "DEADLINE' S 20 STAND-UPS TO KEEP AN EYE ON IN 2026, EDINBURGH FRINGE, TASKMASTER AU"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        }
-      ],
-      "date": "2026-07-05",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Sunday matinee with developing talent\u2014Jenny Tian and Brendan Sagalow show promise but this doesn't match your current taste profile strongly.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44204",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Andy Haynes",
-          "credits": "LATE NIGHT WITH JIMMY FALLON, CONAN, COMEDY CENTRAL PRESENTS, ROAST BATTLE"
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        }
-      ],
-      "date": "2026-07-05",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Nikki Glaser headlines again on Sunday evening. Andy Haynes adds some bite but the overall vibe doesn't stand out from the week's other shows.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44183",
       "time": "7:30 pm",
@@ -321,7 +243,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday prime-time\u2014historically the best drop-in night. Greer Barnes and Mike Yard (both Chappelle Show connections) on the bill signal possible surprises. Molly Kearney brings SNL crowd-work energy.",
       "sold_out": false,
-      "seats_left": 17
+      "seats_left": 3
     },
     {
       "id": "44190",
@@ -360,7 +282,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday late show\u2014peak drop-in territory with Dov Davidoff headlining. The night itself matters more than the specific lineup when legends test material mid-week.",
       "sold_out": false,
-      "seats_left": 32
+      "seats_left": 30
     },
     {
       "id": "44192",
@@ -399,7 +321,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early show\u2014weakest drop-in night as regulars leave for weekend gigs. Brendan Sagalow and Marina Franklin provide decent variety but nothing exceptional.",
       "sold_out": false,
-      "seats_left": 138
+      "seats_left": 136
     },
     {
       "id": "44193",
