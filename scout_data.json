@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T19:04:49+00:00",
+  "generated_at": "2026-07-07T21:07:35+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -239,8 +239,8 @@
       "taste": 2,
       "crowd_work": 3,
       "blurb": "Wednesday early-early slot (6:45pm) with mid-tier club comics. Least likely to pull a drop-in; skip unless desperate for stage time watching.",
-      "sold_out": false,
-      "seats_left": 3
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44193",
