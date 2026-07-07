@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T23:39:08+00:00",
+  "generated_at": "2026-07-07T02:33:02+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44183",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Gary Vider",
-          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Maddie Wiener",
-          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
-        }
-      ],
-      "date": "2026-07-06",
-      "weekday": "MON",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Dan Soder headlines a solid mixed bag of club comics and SNL writer Maddie Wiener. Monday early show keeps drop-in hopes modest but not zero.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44184",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Petey DeAbreu",
-          "credits": "HBO:THAT DAMN MICHAEL CHE SHOW, NPR: WAIT WAIT...DON'T TELL ME"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Alex Edelman",
-          "credits": "EMMY WINNER, SPECIAL TONY AWARD WINNER FOR HIS STAND UP SHOW ON BROADWAY, THE LATE SHOW WITH STEPHEN COLBERT, CONAN, THE EDINBURGH COMEDY AWARD WINNER"
-        },
-        {
-          "name": "Sahib Singh",
-          "credits": "COMEDY CENTRAL, ADULT SWIM, JFL NEW FACES"
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        }
-      ],
-      "date": "2026-07-06",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 4,
-      "blurb": "Nikki Glaser AND Alex Edelman on the same bill, plus Philipp Kostelecky\u2014this is a benchmark-heavy dream lineup. Monday late show sweetens drop-in odds slightly.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44186",
       "time": "7:30 pm",
@@ -318,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Wednesday early-early slot (6:45pm) with mid-tier club comics. Least likely to pull a drop-in; skip unless desperate for stage time watching.",
       "sold_out": false,
-      "seats_left": 62
+      "seats_left": 45
     },
     {
       "id": "44193",
