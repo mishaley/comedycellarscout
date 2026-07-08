@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:35:28+00:00",
+  "generated_at": "2026-07-08T10:18:26+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -279,7 +279,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn headlines a strong early Friday show. Quinn's a legend and crowd-work regular; Ryan Hamilton is clean and engaging. Worth it for Quinn alone.",
       "sold_out": false,
-      "seats_left": 33
+      "seats_left": 35
     },
     {
       "id": "44342",
@@ -357,7 +357,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn returns for the early Saturday show with Maddie Wiener (SNL writer). Quinn's crowd-work and storytelling make this a strong pick.",
       "sold_out": false,
-      "seats_left": 41
+      "seats_left": 43
     },
     {
       "id": "44346",
@@ -435,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser AND Jeff Arcuri (both benchmarks) on a Saturday evening. Glaser's crowd-work is legendary. This is the weekend standout\u2014go.",
       "sold_out": false,
-      "seats_left": 42
+      "seats_left": 36
     },
     {
       "id": "44323",
@@ -513,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Sunday late show: Nikki Glaser, Dan Soder, Chris Gethard, plus SNL's Tommy Brennan. Strong lineup with good drop-in potential for a quiet Sunday.",
       "sold_out": false,
-      "seats_left": 39
+      "seats_left": 35
     },
     {
       "id": "44326",
@@ -552,7 +552,7 @@
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 54
     },
     {
       "id": "44327",
