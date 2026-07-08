@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T20:05:14+00:00",
+  "generated_at": "2026-07-08T21:43:10+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
       "sold_out": false,
-      "seats_left": 58
+      "seats_left": 56
     },
     {
       "id": "44335",
@@ -356,8 +356,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Colin Quinn returns for the early Saturday show with Maddie Wiener (SNL writer). Quinn's crowd-work and storytelling make this a strong pick.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44346",
@@ -396,7 +396,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 75
+      "seats_left": 71
     },
     {
       "id": "44343",
@@ -435,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser AND Jeff Arcuri (both benchmarks) on a Saturday evening. Glaser's crowd-work is legendary. This is the weekend standout\u2014go.",
       "sold_out": false,
-      "seats_left": 24
+      "seats_left": 17
     },
     {
       "id": "44323",
@@ -474,7 +474,7 @@
       "crowd_work": 5,
       "blurb": "Sunday evening with Nikki Glaser headlining. Glaser's crowd-work alone makes this worth front-row; Matthew Broussard adds sharp joke-writing.",
       "sold_out": false,
-      "seats_left": 34
+      "seats_left": 36
     },
     {
       "id": "44324",
@@ -513,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Sunday late show: Nikki Glaser, Dan Soder, Chris Gethard, plus SNL's Tommy Brennan. Strong lineup with good drop-in potential for a quiet Sunday.",
       "sold_out": false,
-      "seats_left": 29
+      "seats_left": 19
     },
     {
       "id": "44326",
@@ -552,7 +552,7 @@
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
       "sold_out": false,
-      "seats_left": 42
+      "seats_left": 44
     },
     {
       "id": "44327",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 64
+      "seats_left": 61
     },
     {
       "id": "44329",
@@ -630,7 +630,7 @@
       "crowd_work": 5,
       "blurb": "Tuesday: Colin Quinn, Nikki Glaser, Rachel Feinstein. Two benchmarks plus Quinn\u2014this is a must-see. Early week plus star power = high drop-in chance.",
       "sold_out": false,
-      "seats_left": 52
+      "seats_left": 36
     },
     {
       "id": "44330",
@@ -669,7 +669,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 54
     },
     {
       "id": "44332",
@@ -708,7 +708,7 @@
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 50
     },
     {
       "id": "44333",
@@ -747,7 +747,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday late: Nikki Glaser, Keith Robinson, Gregg Rogell. Prime Wednesday timing with Glaser headlining and Louie CK alums\u2014highest drop-in odds of the week.",
       "sold_out": false,
-      "seats_left": 24
+      "seats_left": 18
     }
   ]
 }
