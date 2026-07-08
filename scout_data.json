@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T00:02:25+00:00",
+  "generated_at": "2026-07-08T02:07:19+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44186",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Petey DeAbreu",
-          "credits": "HBO:THAT DAMN MICHAEL CHE SHOW, NPR: WAIT WAIT...DON'T TELL ME"
-        },
-        {
-          "name": "Emma Willmann",
-          "credits": "From The Late Show with Stephen Colbert, MTV, Vh1, host of The Check Spot on SiriusXM"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Bobby St. Petersburg",
-          "credits": "FROM COMEDY CENTRAL,"
-        }
-      ],
-      "date": "2026-07-07",
-      "weekday": "TUE",
-      "drop_in": 2,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Tuesday early slot with workmanlike comics; Greer Barnes brings Chappelle Show cred but overall mismatch for joke-dense tastes.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44187",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Andrew Fiori",
-          "credits": "FROM COMEDY CENTRAL, HOST OF THE RAW REPORT ON SIRIUSXM"
-        },
-        {
-          "name": "Andre De Freitas",
-          "credits": "BBC"
-        },
-        {
-          "name": "Erin Jackson",
-          "credits": "FROM THE CONAN O\"BRIEN SHOW, LAST COMIC STANDING"
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Chris Turner",
-          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
-        }
-      ],
-      "date": "2026-07-07",
-      "weekday": "TUE",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Nikki Glaser headlines again with strong support from variety-act Chris Turner. Tuesday late show, decent taste fit despite unknowns in the mix.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44189",
       "time": "7:30 pm",
@@ -357,7 +279,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn headlines a strong early Friday show. Quinn's a legend and crowd-work regular; Ryan Hamilton is clean and engaging. Worth it for Quinn alone.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 47
     },
     {
       "id": "44342",
@@ -435,7 +357,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn returns for the early Saturday show with Maddie Wiener (SNL writer). Quinn's crowd-work and storytelling make this a strong pick.",
       "sold_out": false,
-      "seats_left": 52
+      "seats_left": 48
     },
     {
       "id": "44346",
@@ -513,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser AND Jeff Arcuri (both benchmarks) on a Saturday evening. Glaser's crowd-work is legendary. This is the weekend standout\u2014go.",
       "sold_out": false,
-      "seats_left": 68
+      "seats_left": 54
     },
     {
       "id": "44323",
@@ -552,7 +474,7 @@
       "crowd_work": 5,
       "blurb": "Sunday evening with Nikki Glaser headlining. Glaser's crowd-work alone makes this worth front-row; Matthew Broussard adds sharp joke-writing.",
       "sold_out": false,
-      "seats_left": 63
+      "seats_left": 47
     },
     {
       "id": "44324",
@@ -591,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Sunday late show: Nikki Glaser, Dan Soder, Chris Gethard, plus SNL's Tommy Brennan. Strong lineup with good drop-in potential for a quiet Sunday.",
       "sold_out": false,
-      "seats_left": 67
+      "seats_left": 61
     },
     {
       "id": "44326",
@@ -630,7 +552,7 @@
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
       "sold_out": false,
-      "seats_left": 62
+      "seats_left": 58
     },
     {
       "id": "44327",
@@ -708,7 +630,7 @@
       "crowd_work": 5,
       "blurb": "Tuesday: Colin Quinn, Nikki Glaser, Rachel Feinstein. Two benchmarks plus Quinn\u2014this is a must-see. Early week plus star power = high drop-in chance.",
       "sold_out": false,
-      "seats_left": 70
+      "seats_left": 65
     },
     {
       "id": "44330",
@@ -747,7 +669,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 70
+      "seats_left": 68
     },
     {
       "id": "44332",
@@ -786,7 +708,7 @@
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
       "sold_out": false,
-      "seats_left": 69
+      "seats_left": 67
     },
     {
       "id": "44333",
@@ -825,7 +747,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday late: Nikki Glaser, Keith Robinson, Gregg Rogell. Prime Wednesday timing with Glaser headlining and Louie CK alums\u2014highest drop-in odds of the week.",
       "sold_out": false,
-      "seats_left": 65
+      "seats_left": 59
     }
   ]
 }
