@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T23:11:30+00:00",
+  "generated_at": "2026-07-09T01:10:59+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -48,84 +48,6 @@
   ],
   "shows": [
     {
-      "id": "44189",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Mike Yard",
-          "credits": "FROM \"NIGHTLY SHOW WITH LARRY WILMORE\", BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Molly Kearney",
-          "credits": "STAR OF \"DMV\" ON CBS, SATURDAY NIGHT LIVE CAST MEMBER, AMAZON PRIME'S LEAGUE OF THEIR OWN, DISNEY'S THE MIGHTY DUCKS"
-        },
-        {
-          "name": "Chris Turner",
-          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
-        }
-      ],
-      "date": "2026-07-08",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Wednesday early\u2014prime drop-in night\u2014but the bill skews broader (SNL's Molly Kearney, variety comic Chris Turner). Worth gambling on a surprise guest.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44190",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Josh Ocean Thomas",
-          "credits": "\"NETFLIX IS A JOKE\", 2025 COMICS TO WATCH, DON'T TELL COMEDY"
-        },
-        {
-          "name": "Onika Mclean",
-          "credits": "HBO, NBC"
-        },
-        {
-          "name": "Dov Davidoff",
-          "credits": "FROM NBC'S \"SHADES OF BLUE\", HBO'S  \"CRASHING\",  FROM NBC'S \"RAINES\", \"JOHNNY\" FROM THE MOVIE \"INVINCIBLE\", THE TONIGHT SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\". FROM THE MOVIES \"MAX & GRACE\" AND \"ASH TUESDAY\"."
-        },
-        {
-          "name": "Gary Vider",
-          "credits": "FROM CONAN, FINALIST ON AMERICA GOT TALENT"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        }
-      ],
-      "date": "2026-07-08",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Wednesday late carries drop-in heat and Dov Davidoff's sharp energy, but the rest leans showcase-y. Roll the dice for an all-star walk-in.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44192",
       "time": "6:45 pm",
       "room": "MacDougal Street",
@@ -161,8 +83,8 @@
       "taste": 2,
       "crowd_work": 3,
       "blurb": "Wednesday early-early slot (6:45pm) with mid-tier club comics. Least likely to pull a drop-in; skip unless desperate for stage time watching.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 2
     },
     {
       "id": "44193",
@@ -240,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
       "sold_out": false,
-      "seats_left": 54
+      "seats_left": 48
     },
     {
       "id": "44335",
@@ -318,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 75
+      "seats_left": 67
     },
     {
       "id": "44339",
@@ -396,7 +318,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 67
+      "seats_left": 64
     },
     {
       "id": "44343",
@@ -434,8 +356,8 @@
       "taste": 5,
       "crowd_work": 5,
       "blurb": "Nikki Glaser AND Jeff Arcuri (both benchmarks) on a Saturday evening. Glaser's crowd-work is legendary. This is the weekend standout\u2014go.",
-      "sold_out": false,
-      "seats_left": 15
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44323",
@@ -474,7 +396,7 @@
       "crowd_work": 5,
       "blurb": "Sunday evening with Nikki Glaser headlining. Glaser's crowd-work alone makes this worth front-row; Matthew Broussard adds sharp joke-writing.",
       "sold_out": false,
-      "seats_left": 34
+      "seats_left": 30
     },
     {
       "id": "44324",
@@ -512,8 +434,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Sunday late show: Nikki Glaser, Dan Soder, Chris Gethard, plus SNL's Tommy Brennan. Strong lineup with good drop-in potential for a quiet Sunday.",
-      "sold_out": false,
-      "seats_left": 4
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44326",
@@ -552,7 +474,7 @@
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
       "sold_out": false,
-      "seats_left": 42
+      "seats_left": 21
     },
     {
       "id": "44327",
@@ -630,7 +552,7 @@
       "crowd_work": 5,
       "blurb": "Tuesday: Colin Quinn, Nikki Glaser, Rachel Feinstein. Two benchmarks plus Quinn\u2014this is a must-see. Early week plus star power = high drop-in chance.",
       "sold_out": false,
-      "seats_left": 27
+      "seats_left": 19
     },
     {
       "id": "44330",
@@ -708,7 +630,7 @@
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
       "sold_out": false,
-      "seats_left": 50
+      "seats_left": 44
     },
     {
       "id": "44333",
@@ -747,7 +669,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday late: Nikki Glaser, Keith Robinson, Gregg Rogell. Prime Wednesday timing with Glaser headlining and Louie CK alums\u2014highest drop-in odds of the week.",
       "sold_out": false,
-      "seats_left": 14
+      "seats_left": 4
     }
   ]
 }
