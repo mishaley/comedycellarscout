@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T16:29:45+00:00",
+  "generated_at": "2026-07-09T18:21:23+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
       "sold_out": false,
-      "seats_left": 39
+      "seats_left": 35
     },
     {
       "id": "44335",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 61
+      "seats_left": 57
     },
     {
       "id": "44339",
@@ -474,7 +474,7 @@
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
       "sold_out": false,
-      "seats_left": 10
+      "seats_left": 1
     },
     {
       "id": "44327",
@@ -513,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 51
     },
     {
       "id": "44329",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 23
+      "seats_left": 19
     },
     {
       "id": "44332",
@@ -630,7 +630,7 @@
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
       "sold_out": false,
-      "seats_left": 32
+      "seats_left": 17
     },
     {
       "id": "44333",
