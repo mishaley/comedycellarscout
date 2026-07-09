@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T02:25:38+00:00",
+  "generated_at": "2026-07-09T06:26:03+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
       "sold_out": false,
-      "seats_left": 46
+      "seats_left": 41
     },
     {
       "id": "44335",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 67
+      "seats_left": 66
     },
     {
       "id": "44339",
@@ -318,7 +318,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 58
+      "seats_left": 55
     },
     {
       "id": "44343",
@@ -396,7 +396,7 @@
       "crowd_work": 5,
       "blurb": "Sunday evening with Nikki Glaser headlining. Glaser's crowd-work alone makes this worth front-row; Matthew Broussard adds sharp joke-writing.",
       "sold_out": false,
-      "seats_left": 17
+      "seats_left": 13
     },
     {
       "id": "44324",
@@ -552,7 +552,7 @@
       "crowd_work": 5,
       "blurb": "Tuesday: Colin Quinn, Nikki Glaser, Rachel Feinstein. Two benchmarks plus Quinn\u2014this is a must-see. Early week plus star power = high drop-in chance.",
       "sold_out": false,
-      "seats_left": 17
+      "seats_left": 12
     },
     {
       "id": "44330",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 43
+      "seats_left": 38
     },
     {
       "id": "44332",
@@ -630,7 +630,7 @@
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
       "sold_out": false,
-      "seats_left": 38
+      "seats_left": 34
     },
     {
       "id": "44333",
