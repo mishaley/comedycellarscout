@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:21:23+00:00",
+  "generated_at": "2026-07-09T20:21:33+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 57
+      "seats_left": 55
     },
     {
       "id": "44339",
@@ -318,7 +318,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 45
+      "seats_left": 38
     },
     {
       "id": "44343",
@@ -473,8 +473,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44327",
@@ -513,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 51
+      "seats_left": 52
     },
     {
       "id": "44329",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 19
+      "seats_left": 16
     },
     {
       "id": "44332",
@@ -629,8 +629,8 @@
       "taste": 5,
       "crowd_work": 5,
       "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
-      "sold_out": false,
-      "seats_left": 17
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44333",
