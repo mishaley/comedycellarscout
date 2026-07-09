@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:21:33+00:00",
+  "generated_at": "2026-07-09T21:59:54+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
       "sold_out": false,
-      "seats_left": 35
+      "seats_left": 33
     },
     {
       "id": "44335",
@@ -513,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 52
+      "seats_left": 51
     },
     {
       "id": "44329",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
       "sold_out": false,
-      "seats_left": 16
+      "seats_left": 4
     },
     {
       "id": "44332",
