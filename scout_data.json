@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T18:09:12+00:00",
+  "generated_at": "2026-07-10T19:59:47+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -83,8 +83,8 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Late Friday show with solid mid-tier talent but no major draw. Philipp Kostelecky is on your benchmark list, but this isn't a must-see lineup.",
-      "sold_out": false,
-      "seats_left": 5
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44335",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 27
+      "seats_left": 26
     },
     {
       "id": "44339",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 20
+      "seats_left": 18
     },
     {
       "id": "44343",
