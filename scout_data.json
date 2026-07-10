@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T23:22:52+00:00",
+  "generated_at": "2026-07-10T01:10:55+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44192",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Gray West",
-          "credits": "\"NY COMEDY FESTIVAL COMICS TO WATCH\""
-        },
-        {
-          "name": "Marina Franklin",
-          "credits": "FROM CONAN O'BRIEN SHOW, THE MOVIE \"TRAINWRECK\", \"LOUIE\", \"THE NIGHTLY SHOW\", \"THE JIM GAFFIGAN SHOW\""
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Bobby St. Petersburg",
-          "credits": "FROM COMEDY CENTRAL,"
-        }
-      ],
-      "date": "2026-07-09",
-      "weekday": "THU",
-      "drop_in": 1,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Wednesday early-early slot (6:45pm) with mid-tier club comics. Least likely to pull a drop-in; skip unless desperate for stage time watching.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44193",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Kevin Dombrowski",
-          "credits": "SIRIUS/XM, SNY"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Jeff Arcuri",
-          "credits": "THE LATE SHOW W/STEPHEN COLBERT"
-        },
-        {
-          "name": "Aaron Chen",
-          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
-        },
-        {
-          "name": "Chris Turner",
-          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
-        }
-      ],
-      "date": "2026-07-09",
-      "weekday": "THU",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Jeff Arcuri AND Nikki Glaser on a Wednesday late show\u2014both benchmark comics who work the room. High drop-in potential and perfect taste match. Don't miss this.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44338",
       "time": "12:30 am",
@@ -240,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 51
     },
     {
       "id": "44339",
@@ -513,7 +435,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 49
+      "seats_left": 45
     },
     {
       "id": "44329",
