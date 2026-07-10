@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T06:25:30+00:00",
+  "generated_at": "2026-07-10T10:53:52+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
       "sold_out": false,
-      "seats_left": 28
+      "seats_left": 26
     },
     {
       "id": "44343",
