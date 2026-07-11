@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T19:09:11+00:00",
+  "generated_at": "2026-07-11T20:24:05+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -161,8 +161,8 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 1
     },
     {
       "id": "44343",
@@ -357,7 +357,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 4
+      "seats_left": 5
     },
     {
       "id": "44329",
