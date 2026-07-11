@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T00:01:21+00:00",
+  "generated_at": "2026-07-11T02:04:51+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -83,8 +83,8 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
-      "sold_out": false,
-      "seats_left": 12
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44339",
@@ -357,7 +357,7 @@
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
       "sold_out": false,
-      "seats_left": 23
+      "seats_left": 21
     },
     {
       "id": "44329",
