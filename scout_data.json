@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T23:28:56+00:00",
+  "generated_at": "2026-07-12T01:07:48+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44342",
-      "time": "12:30 am",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "James Mattern",
-          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
-        },
-        {
-          "name": "Jamie Wolf",
-          "credits": "\"NETFLIXIA A JOKE FEST 2026\" TIMEOUT 2025 COMIC TO WATCH,  WINNER NY'S FUNNIEST 2024, AMAZON PRIME, SF SKETCHFEST 2023, NY COMEDY FESTIVAL COMICS TO WATCH, PHILLY'S PHUNNIEST 2019"
-        },
-        {
-          "name": "Yamaneika Saunders",
-          "credits": "\"WRITERS GUILD AWARD WINNER\", \"The Tonight Show\", Comedy Central Presents, Showtime's \"Nasty Show\", \"Grown and sexy\" on VH1, \"The Degenerates\" on Netflix, LaffMobb/Laff Tracks on TrueTV, Roast Battle on Comedy Central, Host of \"Off Topic with Yamaneika\" on Kevin Hart's LOL Radio on Sirius XM"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Jenny Tian",
-          "credits": "DEADLINE' S 20 STAND-UPS TO KEEP AN EYE ON IN 2026, EDINBURGH FRINGE, TASKMASTER AU"
-        },
-        {
-          "name": "Usama Siddiquee",
-          "credits": "FROM KEVIN HART'S NETFLIX COMEDY COMPETITION, BET'S 50 CENTRAL, NBC, BUZZFEED"
-        }
-      ],
-      "date": "2026-07-11",
-      "weekday": "SAT",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Late Friday featuring Philipp Kostelecky (your benchmark) and Jenny Tian, both sharp writers. Solid bill, though not drop-in heavy on a packed weekend.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44339",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Maddie Wiener",
-          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "John Joseph",
-          "credits": "FROM COMEDY CENTRAL'S \"TOUGH CROWD\". FROM \"THE VIEW\", Drybarcomedy SpecialWaS I gOiNg Up oR dOwN?"
-        }
-      ],
-      "date": "2026-07-11",
-      "weekday": "SAT",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Colin Quinn returns for the early Saturday show with Maddie Wiener (SNL writer). Quinn's crowd-work and storytelling make this a strong pick.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44346",
       "time": "1:30 pm",
@@ -356,8 +278,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44329",
