@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T20:22:01+00:00",
+  "generated_at": "2026-07-12T21:24:05+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -239,8 +239,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 7
     },
     {
       "id": "44327",
