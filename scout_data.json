@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T23:27:50+00:00",
+  "generated_at": "2026-07-13T01:08:21+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44346",
-      "time": "1:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Lucas Zelnick",
-          "credits": "COMEDY CENTRAL, NETFLIX IS A JOKE, AMAZON PRIME MOONTOWER COMEDY FESTIVAL"
-        },
-        {
-          "name": "Maddie Wiener",
-          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
-        },
-        {
-          "name": "Drew Dunn",
-          "credits": "FROM THE TONIGHT SHOW, SIRIUS XM, JUST FOR LAUGHS, WINNER OF BOSTON AND SEATTLE COMEDY FESTIVALS"
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        }
-      ],
-      "date": "2026-07-12",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Saturday matinee with Maddie Wiener and Drew Dunn. Decent writing-focused bill, but weekend matinees rarely pull surprises or major heat.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44343",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Richie Redding",
-          "credits": "KEVIN HARTS LOL NETWORK, AMAZON PRIME VIDEO"
-        },
-        {
-          "name": "Jeff Arcuri",
-          "credits": "THE LATE SHOW W/STEPHEN COLBERT"
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Judah Friedlander",
-          "credits": "FROM NBC'S EMMY WINNER \"30 ROCK\", THE MOVIES \"SHOWTIME\", FROM \"MEET THE PARENTS\"."
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        }
-      ],
-      "date": "2026-07-12",
-      "weekday": "SUN",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Nikki Glaser AND Jeff Arcuri (both benchmarks) on a Saturday evening. Glaser's crowd-work is legendary. This is the weekend standout\u2014go.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44323",
       "time": "7:30 pm",
