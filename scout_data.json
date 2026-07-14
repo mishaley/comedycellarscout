@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T21:02:48+00:00",
+  "generated_at": "2026-07-14T22:31:07+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -122,8 +122,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44329",
