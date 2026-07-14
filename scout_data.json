@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T23:56:29+00:00",
+  "generated_at": "2026-07-14T01:55:19+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44323",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "James Mattern",
-          "credits": "KEVIN HART'S\"COMEDY IN COLOR, MADISON SQUARE GARDEN NETWORK'S \"PEOPLE TALKIN SPORTS\""
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Matthew Broussard",
-          "credits": "FROM CONAN, COMEDY CENTRAL HALF HOUR, FINALIST ON JEFF ROSS' \"ROAST BATTLE\""
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        }
-      ],
-      "date": "2026-07-13",
-      "weekday": "MON",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 5,
-      "blurb": "Sunday evening with Nikki Glaser headlining. Glaser's crowd-work alone makes this worth front-row; Matthew Broussard adds sharp joke-writing.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44324",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Chris Gethard",
-          "credits": "HBO SPECIAL CAREER SUICIDE, THE CHRIS GETHARD SHOW, BROAD CITY, INSIDE AMY SCHUMER"
-        },
-        {
-          "name": "Lucas Zelnick",
-          "credits": "COMEDY CENTRAL, NETFLIX IS A JOKE, AMAZON PRIME MOONTOWER COMEDY FESTIVAL"
-        },
-        {
-          "name": "Tommy Brennan",
-          "credits": "NEWEST CAST MEMBER SATURDAY NIGHT LIVE,  JUST FOR LAUGHS NEW FACES"
-        }
-      ],
-      "date": "2026-07-13",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Sunday late show: Nikki Glaser, Dan Soder, Chris Gethard, plus SNL's Tommy Brennan. Strong lineup with good drop-in potential for a quiet Sunday.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44326",
       "time": "7:30 pm",
