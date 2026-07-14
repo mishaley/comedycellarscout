@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T19:51:55+00:00",
+  "generated_at": "2026-07-14T21:02:48+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -61,8 +61,8 @@
           "credits": "THE LATE SHOW W/STEPHEN COLBERT"
         },
         {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
+          "name": "Mark Normand",
+          "credits": "FROM \"THE LATE SHOW WITH STEPHEN COLBERT\", HOUR SPECIAL ON COMEDY CENTRAL,  FOUR APPEARANCES ON THE CONAN O'BRIEN SHOW, @MIDNIGHT, TRU-TV, LAST COMIC STANDING,"
         },
         {
           "name": "Ethan Simmons-Patterson",
@@ -79,10 +79,10 @@
       ],
       "date": "2026-07-14",
       "weekday": "TUE",
-      "drop_in": 2,
-      "taste": 4,
+      "drop_in": 3,
+      "taste": 5,
       "crowd_work": 4,
-      "blurb": "Monday evening: Jeff Arcuri (benchmark) and Rosebud Baker. Arcuri's tight writing and Baker's edge make this a solid early-week show.",
+      "blurb": "Two of your benchmark comics (Arcuri and Normand) headline a solid Tuesday lineup. Normand especially loves working the room, and Rosebud Baker brings sharp writing\u2014definitely worth the front row.",
       "sold_out": true,
       "seats_left": 0
     },
@@ -122,8 +122,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 1
     },
     {
       "id": "44329",
