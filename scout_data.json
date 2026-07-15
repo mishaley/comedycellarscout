@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:55:13+00:00",
+  "generated_at": "2026-07-15T01:51:55+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44326",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Jeff Arcuri",
-          "credits": "THE LATE SHOW W/STEPHEN COLBERT"
-        },
-        {
-          "name": "Mark Normand",
-          "credits": "FROM \"THE LATE SHOW WITH STEPHEN COLBERT\", HOUR SPECIAL ON COMEDY CENTRAL,  FOUR APPEARANCES ON THE CONAN O'BRIEN SHOW, @MIDNIGHT, TRU-TV, LAST COMIC STANDING,"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Rosebud Baker",
-          "credits": "WRITER FOR SATURDAY NIGHT LIVE UPDATE, COMEDY CENTRAL SPECIAL: \"WHISKEY FISTS\", \"LIFE &BETH\" ON HULU, \"THAT DAMN MICHAEL CHE\", ON HBO"
-        },
-        {
-          "name": "Bobby St. Petersburg",
-          "credits": "FROM COMEDY CENTRAL,"
-        }
-      ],
-      "date": "2026-07-14",
-      "weekday": "TUE",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 4,
-      "blurb": "Two of your benchmark comics (Arcuri and Normand) headline a solid Tuesday lineup. Normand especially loves working the room, and Rosebud Baker brings sharp writing\u2014definitely worth the front row.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44327",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Ophira Eisenberg",
-          "credits": "host of NPR\u2019s Ask Me Another, Comedy Central, The Late Late Show, Kevin Hart\u2019s LOL Network, HBO GIRLS"
-        },
-        {
-          "name": "Cipha Sounds",
-          "credits": "ROCNATION, HOT 97 MORNING SHOW, CHAPPELLE SHOW, VH-1, MTV"
-        },
-        {
-          "name": "Lenny Marcus",
-          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-07-14",
-      "weekday": "TUE",
-      "drop_in": 3,
-      "taste": 3,
-      "crowd_work": 4,
-      "blurb": "Monday late show with Greer Barnes and club regulars. Moderate taste match, but early week timing nudges drop-in likelihood slightly higher.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44329",
       "time": "7:30 pm",
