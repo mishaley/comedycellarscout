@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:45:56+00:00",
+  "generated_at": "2026-07-15T21:03:12+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Late-night Friday with Nathan Macintosh as the strongest name, but overall a mixed bag of emerging and mid-tier comics\u2014not particularly aligned with your benchmark tastes.",
       "sold_out": false,
-      "seats_left": 59
+      "seats_left": 57
     },
     {
       "id": "44382",
@@ -357,7 +357,7 @@
       "crowd_work": 3,
       "blurb": "Sunday evening doubles down with Philipp Kostelecky again plus Phil Hanley\u2014strong joke-writing lineup that matches your sensibility well.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 45
     },
     {
       "id": "44394",
@@ -395,8 +395,8 @@
       "taste": 5,
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines with Dan Soder and Rachel Feinstein\u2014this is a must-see bill hitting all your benchmarks with guaranteed front-row engagement.",
-      "sold_out": false,
-      "seats_left": 14
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44395",
@@ -435,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Late Sunday with Nikki Glaser, KC Shornima (both your benchmarks), and strong support\u2014exceptional taste match and crowd-work potential in a prime drop-in slot.",
       "sold_out": false,
-      "seats_left": 61
+      "seats_left": 47
     },
     {
       "id": "44400",
@@ -474,7 +474,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday with Colin Quinn and Judah Friedlander offers solid Cellar veteran energy\u2014mid-week timing slightly raises drop-in odds.",
       "sold_out": false,
-      "seats_left": 53
+      "seats_left": 47
     },
     {
       "id": "44401",
@@ -513,7 +513,7 @@
       "crowd_work": 5,
       "blurb": "Late Tuesday with Nikki Glaser plus Tommy Brennan (new SNL cast) and Greer Barnes\u2014elite lineup on a prime drop-in night, absolutely worth the trip.",
       "sold_out": false,
-      "seats_left": 58
+      "seats_left": 56
     },
     {
       "id": "44403",
@@ -552,7 +552,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday early show with Colin Quinn\u2014the legendary all-star drop-in night historically lands on Wednesdays, making this the week's highest ceiling for surprises.",
       "sold_out": false,
-      "seats_left": 49
+      "seats_left": 46
     },
     {
       "id": "44404",
@@ -591,7 +591,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
       "sold_out": false,
-      "seats_left": 36
+      "seats_left": 31
     }
   ]
 }
