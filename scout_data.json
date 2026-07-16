@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T20:04:14+00:00",
+  "generated_at": "2026-07-16T21:33:46+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late-night Friday with Nathan Macintosh as the strongest name, but overall a mixed bag of emerging and mid-tier comics\u2014not particularly aligned with your benchmark tastes.",
       "sold_out": false,
-      "seats_left": 19
+      "seats_left": 15
     },
     {
       "id": "44382",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
       "sold_out": false,
-      "seats_left": 102
+      "seats_left": 100
     },
     {
       "id": "44390",
