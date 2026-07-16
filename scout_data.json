@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:30:52+00:00",
+  "generated_at": "2026-07-16T00:01:08+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44329",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Rachel Feinstein",
-          "credits": "SPECIAL ON NETFLIX, FROM THE TONIGHT SHOW,  FROM THE MOVIE \"TRAINWRECK\", GUEST CO-HOST \"THE VIEW\", COMEDY CENTRAL HALF HOUR SPECIAL"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Phil Hanley",
-          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Jamie Wolf",
-          "credits": "\"NETFLIXIA A JOKE FEST 2026\" TIMEOUT 2025 COMIC TO WATCH,  WINNER NY'S FUNNIEST 2024, AMAZON PRIME, SF SKETCHFEST 2023, NY COMEDY FESTIVAL COMICS TO WATCH, PHILLY'S PHUNNIEST 2019"
-        }
-      ],
-      "date": "2026-07-15",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Tuesday: Colin Quinn, Nikki Glaser, Rachel Feinstein. Two benchmarks plus Quinn\u2014this is a must-see. Early week plus star power = high drop-in chance.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44330",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Judah Friedlander",
-          "credits": "FROM NBC'S EMMY WINNER \"30 ROCK\", THE MOVIES \"SHOWTIME\", FROM \"MEET THE PARENTS\"."
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        }
-      ],
-      "date": "2026-07-15",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 4,
-      "blurb": "Tuesday late: Nikki Glaser, Philipp Kostelecky, Judah Friedlander. Two benchmarks on a prime drop-in night. Glaser's crowd-work seals it\u2014go.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44332",
       "time": "6:45 pm",
@@ -240,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late-night Friday with Nathan Macintosh as the strongest name, but overall a mixed bag of emerging and mid-tier comics\u2014not particularly aligned with your benchmark tastes.",
       "sold_out": false,
-      "seats_left": 49
+      "seats_left": 47
     },
     {
       "id": "44382",
@@ -318,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
       "sold_out": false,
-      "seats_left": 111
+      "seats_left": 109
     },
     {
       "id": "44390",
@@ -357,7 +279,7 @@
       "crowd_work": 3,
       "blurb": "Sunday evening doubles down with Philipp Kostelecky again plus Phil Hanley\u2014strong joke-writing lineup that matches your sensibility well.",
       "sold_out": false,
-      "seats_left": 41
+      "seats_left": 30
     },
     {
       "id": "44394",
@@ -435,7 +357,7 @@
       "crowd_work": 5,
       "blurb": "Late Sunday with Nikki Glaser, KC Shornima (both your benchmarks), and strong support\u2014exceptional taste match and crowd-work potential in a prime drop-in slot.",
       "sold_out": false,
-      "seats_left": 37
+      "seats_left": 33
     },
     {
       "id": "44400",
@@ -474,7 +396,7 @@
       "crowd_work": 4,
       "blurb": "Tuesday with Colin Quinn and Judah Friedlander offers solid Cellar veteran energy\u2014mid-week timing slightly raises drop-in odds.",
       "sold_out": false,
-      "seats_left": 43
+      "seats_left": 37
     },
     {
       "id": "44401",
@@ -513,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Late Tuesday with Nikki Glaser plus Tommy Brennan (new SNL cast) and Greer Barnes\u2014elite lineup on a prime drop-in night, absolutely worth the trip.",
       "sold_out": false,
-      "seats_left": 54
+      "seats_left": 52
     },
     {
       "id": "44403",
@@ -591,7 +513,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
       "sold_out": false,
-      "seats_left": 16
+      "seats_left": 4
     }
   ]
 }
