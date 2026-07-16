@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:40:39+00:00",
+  "generated_at": "2026-07-16T17:20:55+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -240,7 +240,7 @@
       "crowd_work": 3,
       "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
       "sold_out": false,
-      "seats_left": 104
+      "seats_left": 102
     },
     {
       "id": "44390",
@@ -278,8 +278,8 @@
       "taste": 4,
       "crowd_work": 3,
       "blurb": "Sunday evening doubles down with Philipp Kostelecky again plus Phil Hanley\u2014strong joke-writing lineup that matches your sensibility well.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44394",
@@ -435,7 +435,7 @@
       "crowd_work": 5,
       "blurb": "Late Tuesday with Nikki Glaser plus Tommy Brennan (new SNL cast) and Greer Barnes\u2014elite lineup on a prime drop-in night, absolutely worth the trip.",
       "sold_out": false,
-      "seats_left": 13
+      "seats_left": 5
     },
     {
       "id": "44403",
@@ -474,7 +474,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday early show with Colin Quinn\u2014the legendary all-star drop-in night historically lands on Wednesdays, making this the week's highest ceiling for surprises.",
       "sold_out": false,
-      "seats_left": 28
+      "seats_left": 26
     },
     {
       "id": "44404",
