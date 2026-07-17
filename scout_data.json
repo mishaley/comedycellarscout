@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T22:59:28+00:00",
+  "generated_at": "2026-07-17T00:07:57+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -48,84 +48,6 @@
   ],
   "shows": [
     {
-      "id": "44332",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Mike Yard",
-          "credits": "FROM \"NIGHTLY SHOW WITH LARRY WILMORE\", BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO."
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Nathan Macintosh",
-          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
-        }
-      ],
-      "date": "2026-07-16",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Wednesday early: Colin Quinn, Nikki Glaser, Nathan Macintosh. Mid-week is peak drop-in time, stacked bill, Glaser's crowd-work. Don't miss this.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44333",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ophira Eisenberg",
-          "credits": "host of NPR\u2019s Ask Me Another, Comedy Central, The Late Late Show, Kevin Hart\u2019s LOL Network, HBO GIRLS"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        }
-      ],
-      "date": "2026-07-16",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 5,
-      "crowd_work": 4,
-      "blurb": "Wednesday late: Nikki Glaser, Keith Robinson, Gregg Rogell. Prime Wednesday timing with Glaser headlining and Louie CK alums\u2014highest drop-in odds of the week.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44385",
       "time": "12:30 am",
       "room": "MacDougal Street",
@@ -162,7 +84,7 @@
       "crowd_work": 3,
       "blurb": "Late-night Friday with Nathan Macintosh as the strongest name, but overall a mixed bag of emerging and mid-tier comics\u2014not particularly aligned with your benchmark tastes.",
       "sold_out": false,
-      "seats_left": 14
+      "seats_left": 5
     },
     {
       "id": "44382",
@@ -474,7 +396,7 @@
       "crowd_work": 4,
       "blurb": "Wednesday early show with Colin Quinn\u2014the legendary all-star drop-in night historically lands on Wednesdays, making this the week's highest ceiling for surprises.",
       "sold_out": false,
-      "seats_left": 14
+      "seats_left": 10
     },
     {
       "id": "44404",
