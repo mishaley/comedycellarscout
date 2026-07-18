@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T23:25:11+00:00",
+  "generated_at": "2026-07-18T00:56:52+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -48,84 +48,6 @@
   ],
   "shows": [
     {
-      "id": "44385",
-      "time": "12:30 am",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Simeon Goodson",
-          "credits": "BET COMIC VIEW, COMEDY CENTRAL ARABIA COMEDY AL WAGIF"
-        },
-        {
-          "name": "Elle Orlando",
-          "credits": "DONT TELL COMEDY, CREATOR TO WATCH 2024"
-        },
-        {
-          "name": "Lev Fer",
-          "credits": "FROM RAY DONOVAN ON SHOWTIME, PODCAST \"THE LEV FER SHOW\"' SIRIUS XM"
-        },
-        {
-          "name": "Alex Kumin",
-          "credits": "Comedy Central, Timeout NY Comic to Watch, NBC"
-        },
-        {
-          "name": "Nathan Macintosh",
-          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
-        },
-        {
-          "name": "Derek Gaines",
-          "credits": "\"WRITERS GUILD AWARD WINNER\", MTV'S \"BROKE ASS GAME SHOW\", AOL ORIGINALS \"CONNECTED\""
-        }
-      ],
-      "date": "2026-07-17",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 2,
-      "crowd_work": 3,
-      "blurb": "Late-night Friday with Nathan Macintosh as the strongest name, but overall a mixed bag of emerging and mid-tier comics\u2014not particularly aligned with your benchmark tastes.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44382",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Chris Turner",
-          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
-        }
-      ],
-      "date": "2026-07-17",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 4,
-      "blurb": "Colin Quinn headlines a solid Friday early show with Cellar veterans like Rogell and Koplitz\u2014decent crowd-work potential, but Friday timing limits drop-in likelihood.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44393",
       "time": "1:30 pm",
       "room": "MacDougal Street",
@@ -162,7 +84,7 @@
       "crowd_work": 3,
       "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
       "sold_out": false,
-      "seats_left": 93
+      "seats_left": 91
     },
     {
       "id": "44390",
