@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T09:51:21+00:00",
+  "generated_at": "2026-07-19T14:59:07+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -356,8 +356,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 4
     }
   ]
 }
