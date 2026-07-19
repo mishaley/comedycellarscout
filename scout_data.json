@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:59:07+00:00",
+  "generated_at": "2026-07-19T16:04:05+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -84,7 +84,7 @@
       "crowd_work": 3,
       "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
       "sold_out": false,
-      "seats_left": 57
+      "seats_left": 54
     },
     {
       "id": "44390",
@@ -356,8 +356,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
-      "sold_out": false,
-      "seats_left": 4
+      "sold_out": true,
+      "seats_left": 0
     }
   ]
 }
