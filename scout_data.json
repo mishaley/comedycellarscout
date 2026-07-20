@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T10:51:38+00:00",
+  "generated_at": "2026-07-20T15:53:23+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -239,8 +239,8 @@
       "taste": 3,
       "crowd_work": 4,
       "blurb": "Wednesday early show with Colin Quinn\u2014the legendary all-star drop-in night historically lands on Wednesdays, making this the week's highest ceiling for surprises.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 1
     },
     {
       "id": "44404",
