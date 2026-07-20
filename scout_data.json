@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T23:32:14+00:00",
+  "generated_at": "2026-07-20T02:27:00+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44393",
-      "time": "1:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Seaton C. Smith",
-          "credits": "MENTIONED IN NEW YORK TIMES BEST OF 2023, FROM \"MULANEY\" ON FOX, FROM THE OPIE AND ANTHONY VIRUS TOUR AND THE NEW FACES SHOW AT JUST FOR LOUGHS COMEDY FESTIVAL IN MONTREAL"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Ophira Eisenberg",
-          "credits": "host of NPR\u2019s Ask Me Another, Comedy Central, The Late Late Show, Kevin Hart\u2019s LOL Network, HBO GIRLS"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-07-19",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Sunday afternoon with Philipp Kostelecky (one of your benchmarks) makes this worth considering\u2014relaxed vibe, solid taste match despite quieter slot.",
-      "sold_out": false,
-      "seats_left": 54
-    },
-    {
-      "id": "44390",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Julio Diaz",
-          "credits": "HULU, DONTTELLCOMEDY"
-        },
-        {
-          "name": "Phil Hanley",
-          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
-        },
-        {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
-        }
-      ],
-      "date": "2026-07-19",
-      "weekday": "SUN",
-      "drop_in": 2,
-      "taste": 4,
-      "crowd_work": 3,
-      "blurb": "Sunday evening doubles down with Philipp Kostelecky again plus Phil Hanley\u2014strong joke-writing lineup that matches your sensibility well.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44394",
       "time": "7:30 pm",
