@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T23:03:00+00:00",
+  "generated_at": "2026-07-21T00:59:19+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44394",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Rachel Feinstein",
-          "credits": "SPECIAL ON NETFLIX, FROM THE TONIGHT SHOW,  FROM THE MOVIE \"TRAINWRECK\", GUEST CO-HOST \"THE VIEW\", COMEDY CENTRAL HALF HOUR SPECIAL"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Nicolas Corda",
-          "credits": "HOUR SPECIAL ON NETFLIX"
-        },
-        {
-          "name": "Dan Soder",
-          "credits": "From: Netflix, Showtime's \"Billions\" and The Bonfire on Sirius/XM"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        }
-      ],
-      "date": "2026-07-20",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Nikki Glaser headlines with Dan Soder and Rachel Feinstein\u2014this is a must-see bill hitting all your benchmarks with guaranteed front-row engagement.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44395",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Phil Hanley",
-          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Kc Shornima",
-          "credits": "WEEKEND UPDATE WRITER AT SATURDAY NIGHT LIVE, JUST FOR LAUGHS NEW FACES"
-        },
-        {
-          "name": "Derrick Stroup",
-          "credits": "NETFLIX SPECIAL: NOSTALGIC, WINNER OF THE NEW FACES COMPETITION AT COMEDY WORKS, THE TONIGHT SHOW WITH JIMMY FALLON"
-        }
-      ],
-      "date": "2026-07-20",
-      "weekday": "MON",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Late Sunday with Nikki Glaser, KC Shornima (both your benchmarks), and strong support\u2014exceptional taste match and crowd-work potential in a prime drop-in slot.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44400",
       "time": "7:30 pm",
