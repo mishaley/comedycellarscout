@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T21:38:13+00:00",
+  "generated_at": "2026-07-22T23:08:10+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -276,6 +276,162 @@
       "blurb": "Late show on a Friday bumps drop-in likelihood slightly, but the bill lacks your core taste benchmarks. Solid enough lineup, not essential.",
       "sold_out": true,
       "seats_left": 0
+    },
+    {
+      "id": "44511",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Rachel Feinstein",
+          "credits": "SPECIAL ON NETFLIX, FROM THE TONIGHT SHOW,  FROM THE MOVIE \"TRAINWRECK\", GUEST CO-HOST \"THE VIEW\", COMEDY CENTRAL HALF HOUR SPECIAL"
+        },
+        {
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        }
+      ],
+      "date": "2026-07-29",
+      "weekday": "WED",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Colin Quinn and Rachel Feinstein anchor a solid Wednesday early show, but the lineup skews older/broader than your sweet spot. Feinstein works the crowd hard if you're front row.",
+      "sold_out": false,
+      "seats_left": 21
+    },
+    {
+      "id": "44512",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Casey Balsham",
+          "credits": "APPLE TV, COMEDY UO"
+        },
+        {
+          "name": "Keith Robinson",
+          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        },
+        {
+          "name": "Dov Davidoff",
+          "credits": "FROM NBC'S \"SHADES OF BLUE\", HBO'S  \"CRASHING\",  FROM NBC'S \"RAINES\", \"JOHNNY\" FROM THE MOVIE \"INVINCIBLE\", THE TONIGHT SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\". FROM THE MOVIES \"MAX & GRACE\" AND \"ASH TUESDAY\"."
+        },
+        {
+          "name": "Aaron Chen",
+          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
+        }
+      ],
+      "date": "2026-07-29",
+      "weekday": "WED",
+      "drop_in": 3,
+      "taste": 5,
+      "crowd_work": 5,
+      "blurb": "Nikki Glaser headlines a stacked Wednesday late show\u2014exactly your taste. She's brilliant with crowd work, and the room's primed for a big-name drop-in on a summer weeknight.",
+      "sold_out": false,
+      "seats_left": 23
+    },
+    {
+      "id": "44514",
+      "time": "6:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Richie Redding",
+          "credits": "KEVIN HARTS LOL NETWORK, AMAZON PRIME VIDEO"
+        },
+        {
+          "name": "Ian Fidance",
+          "credits": "BEIN IAN PODCAST, NPR\u2019S THIS AMERICAN LIFE, NETFLIX, SOPRANOS PRIMA VOLTA"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Elle Orlando",
+          "credits": "DONT TELL COMEDY, CREATOR TO WATCH 2024"
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        }
+      ],
+      "date": "2026-07-30",
+      "weekday": "THU",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
+      "sold_out": false,
+      "seats_left": 48
+    },
+    {
+      "id": "44515",
+      "time": "8:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Sean Donnelly",
+          "credits": "FROM THE TONIGHT SHOW, FROM THE LATE SHOW WITH STEPHEN COLBERT,  THE DAVID LETTERMAN SHOW, CONAN O'BRIEN, COMEDY CENTRAL HALF HOUR SPECIAL"
+        },
+        {
+          "name": "Maddie Wiener",
+          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
+        },
+        {
+          "name": "Keith Robinson",
+          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Lenny Marcus",
+          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        }
+      ],
+      "date": "2026-07-30",
+      "weekday": "THU",
+      "drop_in": 2,
+      "taste": 4,
+      "crowd_work": 5,
+      "blurb": "Nikki Glaser back-to-back on Thursday late\u2014she's a lock for your taste and loves pulling the front row in. Keith Robinson adds grit. Worth the double-dip if you caught Show #2.",
+      "sold_out": false,
+      "seats_left": 9
     }
   ]
 }
