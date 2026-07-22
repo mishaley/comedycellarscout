@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:12:31+00:00",
+  "generated_at": "2026-07-22T21:38:13+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -200,6 +200,80 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44483",
+      "time": "8:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        },
+        {
+          "name": "Keith Robinson",
+          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        },
+        {
+          "name": "Ethan Simmons-Patterson",
+          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        }
+      ],
+      "date": "2026-07-24",
+      "weekday": "FRI",
+      "drop_in": 3,
+      "taste": 5,
+      "crowd_work": 4,
+      "blurb": "Nikki Glaser headlines with Philipp Kostelecky on the bill\u2014two of your benchmark comics in one night. Friday early show means decent but not stellar drop-in odds.",
+      "sold_out": true,
+      "seats_left": 0
+    },
+    {
+      "id": "44484",
+      "time": "10:45 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Onika Mclean",
+          "credits": "HBO, NBC"
+        },
+        {
+          "name": "Bobby St. Petersburg",
+          "credits": "FROM COMEDY CENTRAL,"
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        }
+      ],
+      "date": "2026-07-24",
+      "weekday": "FRI",
+      "drop_in": 4,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Late show on a Friday bumps drop-in likelihood slightly, but the bill lacks your core taste benchmarks. Solid enough lineup, not essential.",
       "sold_out": true,
       "seats_left": 0
     }
