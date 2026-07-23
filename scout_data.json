@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T01:03:02+00:00",
+  "generated_at": "2026-07-23T02:10:55+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -126,8 +126,47 @@
       "seats_left": 0
     },
     {
-      "id": "44483",
-      "time": "8:45 pm",
+      "id": "44485",
+      "time": "12:30 am",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Simeon Goodson",
+          "credits": "BET COMIC VIEW, COMEDY CENTRAL ARABIA COMEDY AL WAGIF"
+        },
+        {
+          "name": "Matthew Broussard",
+          "credits": "FROM CONAN, COMEDY CENTRAL HALF HOUR, FINALIST ON JEFF ROSS' \"ROAST BATTLE\""
+        },
+        {
+          "name": "Jamie Wolf",
+          "credits": "\"NETFLIXIA A JOKE FEST 2026\" TIMEOUT 2025 COMIC TO WATCH,  WINNER NY'S FUNNIEST 2024, AMAZON PRIME, SF SKETCHFEST 2023, NY COMEDY FESTIVAL COMICS TO WATCH, PHILLY'S PHUNNIEST 2019"
+        },
+        {
+          "name": "Fabrizio Copano",
+          "credits": "COMEDY CENTRAL LATIN AMERICA, COMEDY CENTRAL EUROPE, NETFLIX LATE LATE SHOW WITH LAMES CORDEN"
+        },
+        {
+          "name": "Alex Kumin",
+          "credits": "Comedy Central, Timeout NY Comic to Watch, NBC"
+        },
+        {
+          "name": "Nathan Macintosh",
+          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
+        }
+      ],
+      "date": "2026-07-24",
+      "weekday": "FRI",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Late Friday show with solid club comics like Matthew Broussard and Nathan Macintosh, but lacks a major draw or standout stylistic match for your taste.",
+      "sold_out": false,
+      "seats_left": 47
+    },
+    {
+      "id": "44482",
+      "time": "6:45 pm",
       "room": "MacDougal Street",
       "comedians": [
         {
@@ -135,67 +174,36 @@
           "credits": "WINNER OF STAND UP NBC,"
         },
         {
-          "name": "Philipp Kostelecky",
-          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+          "name": "Mike Yard",
+          "credits": "FROM \"NIGHTLY SHOW WITH LARRY WILMORE\", BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO."
         },
         {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
+          "name": "Lenny Marcus",
+          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
         },
         {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+          "name": "Phil Hanley",
+          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
         },
         {
-          "name": "Ethan Simmons-Patterson",
-          "credits": "BLUE WHALE COMEDY FESTIVAL, THE KNITTING FACTORY,"
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
         },
         {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+          "name": "Colin Quinn",
+          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
+        },
+        {
+          "name": "Aaron Chen",
+          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
         }
       ],
       "date": "2026-07-24",
       "weekday": "FRI",
       "drop_in": 3,
-      "taste": 5,
+      "taste": 4,
       "crowd_work": 4,
-      "blurb": "Nikki Glaser headlines with Philipp Kostelecky on the bill\u2014two of your benchmark comics in one night. Friday early show means decent but not stellar drop-in odds.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44484",
-      "time": "10:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Onika Mclean",
-          "credits": "HBO, NBC"
-        },
-        {
-          "name": "Bobby St. Petersburg",
-          "credits": "FROM COMEDY CENTRAL,"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-07-24",
-      "weekday": "FRI",
-      "drop_in": 4,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Late show on a Friday bumps drop-in likelihood slightly, but the bill lacks your core taste benchmarks. Solid enough lineup, not essential.",
+      "blurb": "Colin Quinn headlining makes this worth catching\u2014sharp, conversational style aligns with your benchmark comics, and he's known for engaging the room.",
       "sold_out": true,
       "seats_left": 0
     },
@@ -275,7 +283,163 @@
       "crowd_work": 4,
       "blurb": "Philipp Kostelecky is on your benchmark list\u2014that alone makes this worth attending. Sunday prime slot slightly raises drop-in odds, and the lineup density (Kostelecky, Jensen, Freid) hits your taste dead-center.",
       "sold_out": false,
-      "seats_left": 29
+      "seats_left": 27
+    },
+    {
+      "id": "44505",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Rich Aronovitch",
+          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
+        },
+        {
+          "name": "Ontonio Kareem",
+          "credits": "FROM THE TONIGHT SHOW, DON'T TELL COMEDY, SIRIUSXM"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        },
+        {
+          "name": "Jordan Jensen",
+          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
+        }
+      ],
+      "date": "2026-07-27",
+      "weekday": "MON",
+      "drop_in": 4,
+      "taste": 5,
+      "crowd_work": 5,
+      "blurb": "Nikki Glaser is on your benchmark list and crushes crowd work front-row\u2014Monday prime time raises drop-in odds significantly.",
+      "sold_out": false,
+      "seats_left": 21
+    },
+    {
+      "id": "44506",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Rich Aronovitch",
+          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
+        },
+        {
+          "name": "Blake Freeman",
+          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        },
+        {
+          "name": "Jared Freid",
+          "credits": "The Wizard of Ha's"
+        },
+        {
+          "name": "Maddie Wiener",
+          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
+        }
+      ],
+      "date": "2026-07-27",
+      "weekday": "MON",
+      "drop_in": 4,
+      "taste": 5,
+      "crowd_work": 5,
+      "blurb": "Same Nikki Glaser bill as the 7:30, still Monday, still excellent for front-row fans\u2014Jordan Jensen adds solid alt energy.",
+      "sold_out": false,
+      "seats_left": 40
+    },
+    {
+      "id": "44508",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Ophira Eisenberg",
+          "credits": "host of NPR\u2019s Ask Me Another, Comedy Central, The Late Late Show, Kevin Hart\u2019s LOL Network, HBO GIRLS"
+        },
+        {
+          "name": "Geoff Chaser",
+          "credits": "FROM HBO,"
+        },
+        {
+          "name": "Erin Jackson",
+          "credits": "FROM THE CONAN O\"BRIEN SHOW, LAST COMIC STANDING"
+        },
+        {
+          "name": "Lenny Marcus",
+          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
+        },
+        {
+          "name": "Jeff Bailey",
+          "credits": "FROM HBO,"
+        }
+      ],
+      "date": "2026-07-28",
+      "weekday": "TUE",
+      "drop_in": 3,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Tuesday early show with reliable club comics but no major stylistic standouts for your taste\u2014solid, not special.",
+      "sold_out": false,
+      "seats_left": 12
+    },
+    {
+      "id": "44509",
+      "time": "9:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Gregg Rogell",
+          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
+        },
+        {
+          "name": "Brendan Sagalow",
+          "credits": "JFL new faces 2022"
+        },
+        {
+          "name": "Nikki Glaser",
+          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
+        },
+        {
+          "name": "Greer Barnes",
+          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
+        },
+        {
+          "name": "Maddie Wiener",
+          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
+        }
+      ],
+      "date": "2026-07-28",
+      "weekday": "TUE",
+      "drop_in": 4,
+      "taste": 4,
+      "crowd_work": 4,
+      "blurb": "Nikki Glaser again on Tuesday\u2014three shows in a row suggests she's working material hard, good odds for a tight set and front-row banter.",
+      "sold_out": false,
+      "seats_left": 36
     },
     {
       "id": "44511",
@@ -353,7 +517,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines a stacked Wednesday late show\u2014exactly your taste. She's brilliant with crowd work, and the room's primed for a big-name drop-in on a summer weeknight.",
       "sold_out": false,
-      "seats_left": 7
+      "seats_left": 1
     },
     {
       "id": "44514",
