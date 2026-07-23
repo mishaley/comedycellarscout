@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:22:35+00:00",
+  "generated_at": "2026-07-23T20:36:54+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid club comics like Matthew Broussard and Nathan Macintosh, but lacks a major draw or standout stylistic match for your taste.",
       "sold_out": false,
-      "seats_left": 28
+      "seats_left": 21
     },
     {
       "id": "44482",
@@ -244,7 +244,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 62
+      "seats_left": 60
     },
     {
       "id": "44490",
@@ -438,8 +438,8 @@
       "taste": 4,
       "crowd_work": 4,
       "blurb": "Nikki Glaser again on Tuesday\u2014three shows in a row suggests she's working material hard, good odds for a tight set and front-row banter.",
-      "sold_out": false,
-      "seats_left": 4
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44511",
@@ -556,7 +556,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
       "sold_out": false,
-      "seats_left": 25
+      "seats_left": 23
     },
     {
       "id": "44515",
