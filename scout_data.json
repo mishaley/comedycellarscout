@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T22:07:24+00:00",
+  "generated_at": "2026-07-23T23:29:11+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -244,7 +244,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 60
+      "seats_left": 56
     },
     {
       "id": "44490",
@@ -399,8 +399,8 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Tuesday early show with reliable club comics but no major stylistic standouts for your taste\u2014solid, not special.",
-      "sold_out": true,
-      "seats_left": 0
+      "sold_out": false,
+      "seats_left": 1
     },
     {
       "id": "44509",
