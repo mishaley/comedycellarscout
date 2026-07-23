@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:22:41+00:00",
+  "generated_at": "2026-07-23T15:56:56+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -162,7 +162,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid club comics like Matthew Broussard and Nathan Macintosh, but lacks a major draw or standout stylistic match for your taste.",
       "sold_out": false,
-      "seats_left": 40
+      "seats_left": 36
     },
     {
       "id": "44482",
@@ -244,7 +244,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 64
+      "seats_left": 62
     },
     {
       "id": "44490",
@@ -283,7 +283,7 @@
       "crowd_work": 4,
       "blurb": "Philipp Kostelecky is on your benchmark list\u2014that alone makes this worth attending. Sunday prime slot slightly raises drop-in odds, and the lineup density (Kostelecky, Jensen, Freid) hits your taste dead-center.",
       "sold_out": false,
-      "seats_left": 25
+      "seats_left": 12
     },
     {
       "id": "44505",
@@ -361,7 +361,7 @@
       "crowd_work": 5,
       "blurb": "Same Nikki Glaser bill as the 7:30, still Monday, still excellent for front-row fans\u2014Jordan Jensen adds solid alt energy.",
       "sold_out": false,
-      "seats_left": 24
+      "seats_left": 5
     },
     {
       "id": "44508",
@@ -400,7 +400,7 @@
       "crowd_work": 3,
       "blurb": "Tuesday early show with reliable club comics but no major stylistic standouts for your taste\u2014solid, not special.",
       "sold_out": false,
-      "seats_left": 5
+      "seats_left": 4
     },
     {
       "id": "44509",
@@ -439,7 +439,7 @@
       "crowd_work": 4,
       "blurb": "Nikki Glaser again on Tuesday\u2014three shows in a row suggests she's working material hard, good odds for a tight set and front-row banter.",
       "sold_out": false,
-      "seats_left": 23
+      "seats_left": 18
     },
     {
       "id": "44511",
@@ -478,7 +478,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn and Rachel Feinstein anchor a solid Wednesday early show, but the lineup skews older/broader than your sweet spot. Feinstein works the crowd hard if you're front row.",
       "sold_out": false,
-      "seats_left": 10
+      "seats_left": 5
     },
     {
       "id": "44512",
@@ -556,7 +556,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
       "sold_out": false,
-      "seats_left": 37
+      "seats_left": 25
     },
     {
       "id": "44515",
