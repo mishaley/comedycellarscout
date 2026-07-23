@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T23:08:10+00:00",
+  "generated_at": "2026-07-23T01:03:02+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44400",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Lynne Koplitz",
-          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
-        },
-        {
-          "name": "Judah Friedlander",
-          "credits": "FROM NBC'S EMMY WINNER \"30 ROCK\", THE MOVIES \"SHOWTIME\", FROM \"MEET THE PARENTS\"."
-        },
-        {
-          "name": "Brendan Sagalow",
-          "credits": "JFL new faces 2022"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-07-22",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Tuesday with Colin Quinn and Judah Friedlander offers solid Cellar veteran energy\u2014mid-week timing slightly raises drop-in odds.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44401",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Marina Franklin",
-          "credits": "FROM CONAN O'BRIEN SHOW, THE MOVIE \"TRAINWRECK\", \"LOUIE\", \"THE NIGHTLY SHOW\", \"THE JIM GAFFIGAN SHOW\""
-        },
-        {
-          "name": "Tommy Brennan",
-          "credits": "NEWEST CAST MEMBER SATURDAY NIGHT LIVE,  JUST FOR LAUGHS NEW FACES"
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        }
-      ],
-      "date": "2026-07-22",
-      "weekday": "WED",
-      "drop_in": 3,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Late Tuesday with Nikki Glaser plus Tommy Brennan (new SNL cast) and Greer Barnes\u2014elite lineup on a prime drop-in night, absolutely worth the trip.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44403",
       "time": "6:45 pm",
@@ -278,6 +200,84 @@
       "seats_left": 0
     },
     {
+      "id": "44493",
+      "time": "1:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Jon Laster",
+          "credits": "WINNER OF STAND UP NBC,"
+        },
+        {
+          "name": "Jason Salmon",
+          "credits": "\"ORANGE IS THE NEW BLACK\", RED DEAD REDEMTION, \"COMEDY CENTRAL\" WU TANG:AN AMERICAN SAGA, ALBUM \"FORCE OF NATURE, MULTIPLE TOURS OF US BASES IN EUROPE & AFGANISTAN, NATIONAL COMMERCIALS: VERIZON, BUDWISER,NAPA, GEICO,TOYOTA, POPEYE'S"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Peter Revello",
+          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
+        },
+        {
+          "name": "Jared Freid",
+          "credits": "The Wizard of Ha's"
+        },
+        {
+          "name": "Jordan Jensen",
+          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
+        }
+      ],
+      "date": "2026-07-26",
+      "weekday": "SUN",
+      "drop_in": 2,
+      "taste": 4,
+      "crowd_work": 4,
+      "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
+      "sold_out": false,
+      "seats_left": 73
+    },
+    {
+      "id": "44490",
+      "time": "7:30 pm",
+      "room": "MacDougal Street",
+      "comedians": [
+        {
+          "name": "Sean Donnelly",
+          "credits": "FROM THE TONIGHT SHOW, FROM THE LATE SHOW WITH STEPHEN COLBERT,  THE DAVID LETTERMAN SHOW, CONAN O'BRIEN, COMEDY CENTRAL HALF HOUR SPECIAL"
+        },
+        {
+          "name": "Reggie Conquest",
+          "credits": "FROM FOX'S \"ANIMAL CONTROL\". HBO'S INSECURE, HBOMAX THAT DAMN MICHAEL CHE, PAUSE WITH SAM JAY, COMEDY CENTRAL"
+        },
+        {
+          "name": "Philipp Kostelecky",
+          "credits": "BBC, COMEDY CENTRAL, COMIC RELIEF, METRO NEWSPAPER FUNNY NEW FACES"
+        },
+        {
+          "name": "Lynne Koplitz",
+          "credits": "HOUR SPECIAL ON NETFLIX, FROM JOAN & MELISSA RIVERS' REALITY SHOW: \"JOAN KNOWS BEST?\", THE IFC CHANNEL \"Z ROCK\", HOST OF WB'S \"LIFE & STYLE\", AND HOST \"CHANGE OF HEART\"."
+        },
+        {
+          "name": "Jared Freid",
+          "credits": "The Wizard of Ha's"
+        },
+        {
+          "name": "Jordan Jensen",
+          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
+        }
+      ],
+      "date": "2026-07-26",
+      "weekday": "SUN",
+      "drop_in": 3,
+      "taste": 5,
+      "crowd_work": 4,
+      "blurb": "Philipp Kostelecky is on your benchmark list\u2014that alone makes this worth attending. Sunday prime slot slightly raises drop-in odds, and the lineup density (Kostelecky, Jensen, Freid) hits your taste dead-center.",
+      "sold_out": false,
+      "seats_left": 29
+    },
+    {
       "id": "44511",
       "time": "7:30 pm",
       "room": "MacDougal Street",
@@ -314,7 +314,7 @@
       "crowd_work": 4,
       "blurb": "Colin Quinn and Rachel Feinstein anchor a solid Wednesday early show, but the lineup skews older/broader than your sweet spot. Feinstein works the crowd hard if you're front row.",
       "sold_out": false,
-      "seats_left": 21
+      "seats_left": 12
     },
     {
       "id": "44512",
@@ -353,7 +353,7 @@
       "crowd_work": 5,
       "blurb": "Nikki Glaser headlines a stacked Wednesday late show\u2014exactly your taste. She's brilliant with crowd work, and the room's primed for a big-name drop-in on a summer weeknight.",
       "sold_out": false,
-      "seats_left": 23
+      "seats_left": 7
     },
     {
       "id": "44514",
@@ -392,7 +392,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
       "sold_out": false,
-      "seats_left": 48
+      "seats_left": 43
     },
     {
       "id": "44515",
@@ -430,8 +430,8 @@
       "taste": 4,
       "crowd_work": 5,
       "blurb": "Nikki Glaser back-to-back on Thursday late\u2014she's a lock for your taste and loves pulling the front row in. Keith Robinson adds grit. Worth the double-dip if you caught Show #2.",
-      "sold_out": false,
-      "seats_left": 9
+      "sold_out": true,
+      "seats_left": 0
     }
   ]
 }
