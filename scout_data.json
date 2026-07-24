@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:29:11+00:00",
+  "generated_at": "2026-07-24T01:00:45+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -48,84 +48,6 @@
   ],
   "shows": [
     {
-      "id": "44403",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Phil Hanley",
-          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Bobby St. Petersburg",
-          "credits": "FROM COMEDY CENTRAL,"
-        }
-      ],
-      "date": "2026-07-23",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 3,
-      "crowd_work": 4,
-      "blurb": "Wednesday early show with Colin Quinn\u2014the legendary all-star drop-in night historically lands on Wednesdays, making this the week's highest ceiling for surprises.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44404",
-      "time": "8:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Ashley Austin Morris",
-          "credits": "HULU (FLEISHMAN IS IN TROUBLE), NETFLIX (INVENTING ANNA), HBO/MAX"
-        },
-        {
-          "name": "Gregg Rogell",
-          "credits": "FROM THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\"."
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Keith Robinson",
-          "credits": "\"DIFFRENT STROKES\"  COMEDY SPECIAL ON NETFLIX , FROM HBO'S \"CRASHING\",  FROM THE MOVIE \"TRAINWRECK\", HOUR COMEDY SPECIAL ON COMEDY CENTRAL, FROM CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S \"TOUGH CROWD\", HBO."
-        },
-        {
-          "name": "Dean Edwards",
-          "credits": "FROM THE TONIGHT SHOW, FROM SNL, THE MOVIES \"SPIDER-MAN\", \"GOYBAND\", \"NEW WAVE\""
-        },
-        {
-          "name": "Chris Turner",
-          "credits": "RUNNER UP ON AGT, \"MAD APPLE\" AT CIRQUE DE SOLEIL, THE LATE SHOW WITH STEPHEN COLBERT, BBC RADIO, EDINBURGH FESTIVAL"
-        }
-      ],
-      "date": "2026-07-23",
-      "weekday": "THU",
-      "drop_in": 4,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Wednesday late with Nikki Glaser, Keith Robinson, and Dean Edwards\u2014stacked Cellar roster on the best drop-in night, strong across all axes.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44485",
       "time": "12:30 am",
       "room": "MacDougal Street",
@@ -162,7 +84,7 @@
       "crowd_work": 3,
       "blurb": "Late Friday show with solid club comics like Matthew Broussard and Nathan Macintosh, but lacks a major draw or standout stylistic match for your taste.",
       "sold_out": false,
-      "seats_left": 21
+      "seats_left": 17
     },
     {
       "id": "44482",
@@ -244,7 +166,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 56
+      "seats_left": 54
     },
     {
       "id": "44490",
@@ -399,8 +321,8 @@
       "taste": 3,
       "crowd_work": 3,
       "blurb": "Tuesday early show with reliable club comics but no major stylistic standouts for your taste\u2014solid, not special.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44509",
