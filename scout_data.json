@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T22:07:24+00:00",
+  "generated_at": "2026-07-24T23:33:56+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -166,7 +166,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 29
+      "seats_left": 27
     },
     {
       "id": "44490",
@@ -478,7 +478,7 @@
       "crowd_work": 3,
       "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
       "sold_out": false,
-      "seats_left": 2
+      "seats_left": 1
     },
     {
       "id": "44515",
