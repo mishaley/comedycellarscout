@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:33:56+00:00",
+  "generated_at": "2026-07-25T02:05:48+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -48,88 +48,6 @@
   ],
   "shows": [
     {
-      "id": "44485",
-      "time": "12:30 am",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Simeon Goodson",
-          "credits": "BET COMIC VIEW, COMEDY CENTRAL ARABIA COMEDY AL WAGIF"
-        },
-        {
-          "name": "Matthew Broussard",
-          "credits": "FROM CONAN, COMEDY CENTRAL HALF HOUR, FINALIST ON JEFF ROSS' \"ROAST BATTLE\""
-        },
-        {
-          "name": "Jamie Wolf",
-          "credits": "\"NETFLIXIA A JOKE FEST 2026\" TIMEOUT 2025 COMIC TO WATCH,  WINNER NY'S FUNNIEST 2024, AMAZON PRIME, SF SKETCHFEST 2023, NY COMEDY FESTIVAL COMICS TO WATCH, PHILLY'S PHUNNIEST 2019"
-        },
-        {
-          "name": "Fabrizio Copano",
-          "credits": "COMEDY CENTRAL LATIN AMERICA, COMEDY CENTRAL EUROPE, NETFLIX LATE LATE SHOW WITH LAMES CORDEN"
-        },
-        {
-          "name": "Alex Kumin",
-          "credits": "Comedy Central, Timeout NY Comic to Watch, NBC"
-        },
-        {
-          "name": "Nathan Macintosh",
-          "credits": "The Tonight Show, Don't Tell Comedy, Nateland Presents, Variety's '10 Comics To Watch', Comedy Specials 'Money Never Wakes' (Best YouTube Special 2023 - New York Times) and 'Down With Tech' (Top 5 Special To Check Out - Vulture), Canadian"
-        }
-      ],
-      "date": "2026-07-24",
-      "weekday": "FRI",
-      "drop_in": 2,
-      "taste": 3,
-      "crowd_work": 3,
-      "blurb": "Late Friday show with solid club comics like Matthew Broussard and Nathan Macintosh, but lacks a major draw or standout stylistic match for your taste.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44482",
-      "time": "6:45 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Jon Laster",
-          "credits": "WINNER OF STAND UP NBC,"
-        },
-        {
-          "name": "Mike Yard",
-          "credits": "FROM \"NIGHTLY SHOW WITH LARRY WILMORE\", BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO."
-        },
-        {
-          "name": "Lenny Marcus",
-          "credits": "FROM \"THE TONIGHT SHOW WITH JIMMY FALLON\",\"THE DAVID LETTERMAN SHOW\",  AS SEEN ON  ASPEN AND MONTREAL COMEDY FESTIVALS"
-        },
-        {
-          "name": "Phil Hanley",
-          "credits": "COMEDY CENTRAL SPECIAL, THE LATE SHOW WITH SETH MEYERS, THE PETE HOLMES SHOW ON TBS, JOHN OLIVER'S NEW YORK STAND UP SHOW"
-        },
-        {
-          "name": "Greer Barnes",
-          "credits": "FROM HBO'S \"CRASHING\",  THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND \"THE DAVID LETTERMAN SHOW\"."
-        },
-        {
-          "name": "Colin Quinn",
-          "credits": "FROM THE MOVIE \"TRAINWRECK\", STAR OF ONE MAN SHOWS:\"RED STATE BLUE STATE\", \"UNCONSTITUTIONAL\", \"LONG STORY SHORT\" ON BROADWAY AND HBO, STAR OF COMEDY CENTRAL'S \"TOUGH CROWD\", SATURDAY NIGHT LIVE, NBC'S \"THE COLIN QUINN SHOW'."
-        },
-        {
-          "name": "Aaron Chen",
-          "credits": "FROM LATE NIGHT WITH SETH MEYERS, 'fisk\","
-        }
-      ],
-      "date": "2026-07-24",
-      "weekday": "FRI",
-      "drop_in": 3,
-      "taste": 4,
-      "crowd_work": 4,
-      "blurb": "Colin Quinn headlining makes this worth catching\u2014sharp, conversational style aligns with your benchmark comics, and he's known for engaging the room.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
       "id": "44493",
       "time": "1:30 pm",
       "room": "MacDougal Street",
@@ -166,7 +84,7 @@
       "crowd_work": 4,
       "blurb": "Sunday afternoon show with solid lineup including Jordan Jensen (rising star with sharp observational style) and Jared Freid. Drop-in unlikely for early Sunday slot, but Jensen and Freid match your taste profile well.",
       "sold_out": false,
-      "seats_left": 27
+      "seats_left": 25
     },
     {
       "id": "44490",
@@ -477,8 +395,8 @@
       "taste": 2,
       "crowd_work": 3,
       "blurb": "Thursday early slot with lesser-known comics and Ian Fidance (alt-leaning storyteller). Feels like a development night\u2014not bad, just not your profile.",
-      "sold_out": false,
-      "seats_left": 1
+      "sold_out": true,
+      "seats_left": 0
     },
     {
       "id": "44515",
