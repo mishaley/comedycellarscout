@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T23:05:16+00:00",
+  "generated_at": "2026-07-28T00:55:47+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -47,84 +47,6 @@
     "Nikki Glaser"
   ],
   "shows": [
-    {
-      "id": "44505",
-      "time": "7:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Ontonio Kareem",
-          "credits": "FROM THE TONIGHT SHOW, DON'T TELL COMEDY, SIRIUSXM"
-        },
-        {
-          "name": "Geoff Chaser",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Peter Revello",
-          "credits": "FROM THE TONIGHT SHOW, COMEDY CENTRAL"
-        },
-        {
-          "name": "Jordan Jensen",
-          "credits": "\"TAKE ME WITH YOU\" on Netflix, Late Late Show, WINNER NEW YORK'S FUNNIEST STAND UP 2021, JUST FOR LAUGHS NEW FACE 2019"
-        }
-      ],
-      "date": "2026-07-27",
-      "weekday": "MON",
-      "drop_in": 4,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Nikki Glaser is on your benchmark list and crushes crowd work front-row\u2014Monday prime time raises drop-in odds significantly.",
-      "sold_out": true,
-      "seats_left": 0
-    },
-    {
-      "id": "44506",
-      "time": "9:30 pm",
-      "room": "MacDougal Street",
-      "comedians": [
-        {
-          "name": "Rich Aronovitch",
-          "credits": "WTF with Marc Maron and Comic\u2019s Unleashed on CBS, ACCESS DAILY NBC, BEAT BOBBY FLAY FOOD NETWORK"
-        },
-        {
-          "name": "Blake Freeman",
-          "credits": "JFL NEW FACES INTERNATIONAL, MELBOURNE COMEDY FESTIVAL BEST NEWCOMER"
-        },
-        {
-          "name": "Jeff Bailey",
-          "credits": "FROM HBO,"
-        },
-        {
-          "name": "Nikki Glaser",
-          "credits": "THREE TIME HOST OF THE GOLDEN GLOBES, ROAST OF TOM BRADY, HBO, NETFLIX AND HULU SPECIALS"
-        },
-        {
-          "name": "Jared Freid",
-          "credits": "The Wizard of Ha's"
-        },
-        {
-          "name": "Maddie Wiener",
-          "credits": "WRITER ON SNL, COMEDY CENTRAL, HBO, JUST FOR LAUGHS"
-        }
-      ],
-      "date": "2026-07-27",
-      "weekday": "MON",
-      "drop_in": 4,
-      "taste": 5,
-      "crowd_work": 5,
-      "blurb": "Same Nikki Glaser bill as the 7:30, still Monday, still excellent for front-row fans\u2014Jordan Jensen adds solid alt energy.",
-      "sold_out": true,
-      "seats_left": 0
-    },
     {
       "id": "44508",
       "time": "7:30 pm",
