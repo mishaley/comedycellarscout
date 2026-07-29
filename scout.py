@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Comedy Cellar Scout — scrapes upcoming MacDougal Street lineups and uses Claude
-to score each show on three axes: drop-in likelihood, taste, and crowd-work.
+LA Comedy Scout — scrapes upcoming lineups from LA's top drop-in rooms (The
+Comedy Store and the Hollywood Improv; see venues.py) and uses Claude to score
+each show on three axes: drop-in likelihood, taste, and crowd-work.
 
 Outputs scout_data.json next to this file. The companion HTML viewer reads it.
 
@@ -22,6 +23,8 @@ import urllib.parse
 import urllib.request
 from html import unescape
 from pathlib import Path
+
+import venues  # LA venue scrapers (Comedy Store, Hollywood Improv, …)
 
 API_URL = "https://www.comedycellar.com/lineup/api/"
 # Reservation availability: the booking widget GETs this page for a short-lived
@@ -268,28 +271,29 @@ def annotate_availability(shows: list[dict]) -> None:
 
 def build_rubric(taste: list[str]) -> str:
     return f"""\
-You are a comedy-club scout rating Comedy Cellar (MacDougal Street) shows for a
-fan. Score each show on three axes from 1-5 (integers). Be honest and use the
-full range — 3 is "fine, not special." Save 5s for real standouts.
+You are a comedy-club scout rating Los Angeles stand-up shows for a fan. The
+shows come from LA's top drop-in rooms — The Comedy Store (Original Room, Main
+Room, Belly Room) and the Hollywood Improv (Main Room, The Lab). Each show
+you're given names its venue and room. Score each show on three axes from 1-5
+(integers). Be honest and use the full range — 3 is "fine, not special." Save 5s
+for real standouts.
 
-1. DROP-IN (1-5): Likelihood of a major celebrity drop-in (Chappelle, Chris
-   Rock, Louis CK, Jerry Seinfeld, John Mulaney, Bill Burr, etc.). Big names use
-   the Cellar to TEST NEW MATERIAL, so they favor quieter weeknights over packed
-   weekends — they won't bump a paying Friday/Saturday crowd, and they want a
-   low-pressure, phone-free room. Historical pattern (a 10-year analysis of
-   Cellar lineups, plus the documented all-star nights):
-     - Mon-Wed: HIGHEST. Early week is prime. The legendary all-star nights
-       (the 2013 Rock -> Chappelle set, the 2017 Seinfeld/Rock/Chappelle/Schumer
-       night) both landed on WEDNESDAYS.
-     - Sunday: good — quiet, low-pressure room.
-     - Thursday: LOWEST — many regulars leave town to headline weekend gigs.
-     - Fri/Sat: only moderate. Bigger crowds and the occasional marquee surprise,
-       but regulars are least likely to bump a sold-out early show.
-   Other signals that raise the score: an A-list headliner already on the bill,
-   lineups stacked with NYC heavyweights, comics visibly working out a special.
-   Seasonal nudge: spring (especially May) skews higher; Nov-Dec lower (comics
-   decamp to LA). The first two shows are slightly less drop-in-prone than the
-   late show but still get them.
+1. DROP-IN (1-5): Likelihood of a major celebrity drop-in (Chappelle, Rogan,
+   Bill Burr, Tom Segura, Whitney Cummings, Marc Maron, Bert Kreischer, etc.).
+   Big names use these rooms to TEST NEW MATERIAL, so they favor quieter
+   weeknights over packed weekend tourist shows, and a low-pressure room.
+   Signals:
+     - Venue/room: The Comedy Store ORIGINAL ROOM is the single most drop-in-
+       prone room in LA — unannounced sets by Store "family" (Segura, Burr,
+       Maron, Whitney, Chappelle) land there constantly. "Headliners of the OR"
+       and late Original Room sets are prime. The Hollywood Improv Main Room
+       also gets real drop-ins; the smaller/newer rooms (Belly Room, The Lab)
+       less so.
+     - Night: Mon-Thu highest (working-out-material nights). Fri/Sat only
+       moderate — bigger crowds, regulars least likely to bump a sold-out show.
+       Sunday decent.
+     - Bill signals: an A-list name already listed, a "Surprise Guest"/"Special
+       Guest" slot, or a lineup stacked with heavyweights all raise the score.
 
 2. TASTE (1-5): How well the bill matches the fan's taste. The fan's CURRENT
    benchmark comics are: {", ".join(taste)}.
@@ -323,9 +327,12 @@ def score_shows_with_claude(shows: list[dict], taste: list[str]) -> list[dict]:
     bill_text = []
     for i, s in enumerate(shows):
         comics = "\n".join(f"  - {c['name']} ({c['credits']})" if c["credits"]
-                           else f"  - {c['name']}" for c in s["comedians"])
+                           else f"  - {c['name']}" for c in s["comedians"]) \
+            or "  - (lineup not yet posted)"
+        title = f' "{s["title"]}"' if s.get("title") else ""
         bill_text.append(
-            f"Show #{i+1}: {s['date']} {s['time']} — {s['room']}\n{comics}"
+            f"Show #{i+1}: {s.get('venue','')} — {s['room']} · "
+            f"{s['date']} {s['time']}{title}\n{comics}"
         )
 
     msg = client.messages.create(
@@ -352,9 +359,9 @@ def fallback_scores(shows: list[dict]) -> list[dict]:
 
 
 def _lineup_sig(s: dict) -> tuple:
-    """Identity of a show's bill for the score cache: date, time, comic names.
-    If any of these differ from a prior scan, the bill is re-scored."""
-    return (s["date"], s["time"],
+    """Identity of a show's bill for the score cache: venue, room, date, time,
+    comic names. If any differ from a prior scan, the bill is re-scored."""
+    return (s.get("venue", ""), s.get("room", ""), s["date"], s["time"],
             tuple(c.get("name", "") for c in s.get("comedians", [])))
 
 
@@ -522,21 +529,22 @@ def _alert_text(s: dict) -> str:
     else:
         who = ", ".join(names)
     when = f"{s.get('weekday', '')} {s.get('date', '')} · {s.get('time', '')}".strip()
-    if s.get("sold_out") is False and isinstance(s.get("seats_left"), int) \
-            and 0 < s["seats_left"] <= 10:
-        avail = f"Almost gone · {s['seats_left']} seats left"
-    elif s.get("sold_out") is False:
+    where = " · ".join(x for x in (s.get("venue"), s.get("room")) if x)
+    if s.get("sold_out") is False:
         avail = "Seats available"
     else:
         avail = "Availability unconfirmed — check now"
+    title = f"{s['title']}\n" if s.get("title") else ""
     return (
-        f"🎤 Standout at the Comedy Cellar!\n"
+        f"🎤 Standout LA show!\n"
+        f"{where}\n"
         f"{when}\n"
+        f"{title}"
         f"{who}\n"
         f"Crowd {s.get('crowd_work', 0)} · A-list {s.get('drop_in', 0)} · "
         f"Taste {s.get('taste', 0)}\n"
         f"{avail}\n"
-        f"Book: {RESV_PAGE_URL}"
+        f"Book: {s.get('ticket_url', '')}"
     )
 
 
@@ -611,38 +619,14 @@ def main():
     print(f"Availability: {len(avail)} date(s) on file, "
           f"{len(scan_dates)} upcoming to scan.\n")
 
-    for date_str in scan_dates:
-        date = dt.date.fromisoformat(date_str)
-        try:
-            resp = fetch_date(date_str)
-        except Exception as e:
-            print(f"  ! {date_str}: fetch failed ({e})", file=sys.stderr)
-            continue
-
-        html = resp.get("show", {}).get("html", "")
-        if "no-shows" in html or not html.strip():
-            print(f"  · {date_str}: available night — lineup not yet posted")
-            continue
-
-        shows = parse_shows(html)
-        # Filter to MacDougal Street, drop late show.
-        mac = [s for s in shows if s["room"] == MACDOUGAL_ROOM]
-        mac.sort(key=lambda s: time_to_minutes(s["time"]))
-        mac = mac[:SHOWS_PER_NIGHT]
-
-        if not mac:
-            print(f"  · {date_str}: no MacDougal shows yet")
-            continue
-
-        for s in mac:
-            s["date"] = date_str
-            s["weekday"] = date.strftime("%a").upper()
-        all_shows.extend(mac)
-        scraped_dates.append(date_str)
-        print(f"  ✓ {date_str}: {len(mac)} MacDougal show(s)")
-
-        # Be polite to the API.
-        time.sleep(0.4)
+    # Scrape every LA venue and keep the shows on nights you're free. Each
+    # scraper already sets date/time/room/venue/lineup/ticket_url and, where the
+    # site exposes it, sold_out — so there's no separate availability call.
+    scan_set = set(scan_dates)
+    all_shows = venues.scrape_all(scan_set, today_iso)
+    for s in all_shows:
+        s["weekday"] = dt.date.fromisoformat(s["date"]).strftime("%a").upper()
+    scraped_dates = sorted({s["date"] for s in all_shows})
 
     print(f"\nFound {len(all_shows)} shows across {len(scraped_dates)} dates.")
 
@@ -702,25 +686,19 @@ def main():
         else:
             print("All bills unchanged — no Claude scoring needed this run.")
 
-    # Merge with prior run so scored shows persist. The Comedy Cellar API only
-    # exposes the next ~3-4 days, so a date scraped today won't be re-scrapable
-    # tomorrow until it comes back into the window — but we still want to keep
-    # its scored lineup. We:
-    #   - keep prior shows whose date is today or future and not re-scraped
-    #   - replace any date we successfully re-scraped (fresh data wins)
-    #   - drop anything in the past
-    fresh_dates = {s["date"] for s in all_shows}
+    # Merge with the prior run so a venue that fails on one scan doesn't drop
+    # its shows from the site. Fresh data always wins (matched by id); any prior
+    # show we didn't re-scrape this run is kept if it's still today-or-future.
+    fresh_ids = {s.get("id") for s in all_shows}
     merged = list(all_shows)
     for s in prior_data.get("shows", []):
-        if s["date"] < today_iso:
+        if s.get("date", "") < today_iso:
             continue  # past
-        if s["date"] in fresh_dates:
+        if s.get("id") in fresh_ids:
             continue  # already replaced with fresh data
         merged.append(s)
-    merged.sort(key=lambda s: (s["date"], time_to_minutes(s["time"])))
-
-    # Check live reservation availability so the viewer can flag sold-out shows.
-    annotate_availability(merged)
+    merged.sort(key=lambda s: (s["date"], time_to_minutes(s["time"]),
+                               s.get("venue", "")))
 
     # Ping WhatsApp once for any newly-posted, still-bookable standout.
     notify_standouts(merged)

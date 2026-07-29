@@ -1,18 +1,19 @@
 name: Comedy Cellar Scout
 
 on:
-  # Times are UTC. Through end of July, NYC is EDT (UTC-4).
+  # Times are UTC. LA is PDT (UTC-7) through early November.
   # Goal: never miss a standout while it's still bookable, so we scan every
-  # 30 min across the whole active day — no daytime gap where a show can post
+  # 30 min across the whole active LA day — no gap where a show can post
   # and sell out unseen. Scoring is cached per lineup, so re-scanning an
   # unchanged bill costs ~nothing.
   schedule:
-    # Daytime + evening: every 30 min, 10am ET–7:30pm ET (14:00–23:59 UTC).
-    - cron: "0,30 14-23 * * *"
-    # …continuing through midnight ET into the small hours (00:00–03:59 UTC).
-    - cron: "0,30 0-3 * * *"
-    # One more at 4am ET to catch very-late overnight postings.
-    - cron: "0 8 * * *"
+    # Daytime: every 30 min, 10am–4:30pm PT (17:00–23:59 UTC).
+    - cron: "0,30 17-23 * * *"
+    # Evening through midnight PT (00:00–06:59 UTC = 5pm–11:30pm PT).
+    - cron: "0,30 0-6 * * *"
+    # Midnight PT, plus a ~4am PT catch for very-late overnight postings.
+    - cron: "0 7 * * *"
+    - cron: "0 11 * * *"
   # Manual "Run workflow" button in the Actions tab.
   workflow_dispatch:
     inputs:

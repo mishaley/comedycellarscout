@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Comedy Cellar Scout</title>
+<title>LA Comedy Scout</title>
 <link rel="icon" type="image/jpeg" sizes="32x32" href="favicon-32.jpeg">
 <link rel="icon" type="image/jpeg" sizes="192x192" href="favicon-192.jpeg">
 <link rel="apple-touch-icon" href="apple-touch-icon.jpeg">
@@ -157,6 +157,8 @@
   .card.standout .tag { background: var(--accent); color: #fff; }
   .card .date { color: var(--muted); font-size: 12px; letter-spacing: 1px; font-weight: 600; }
   .card .time { font-size: 22px; font-weight: 700; }
+  .card .venue { color: var(--accent); font-size: 12.5px; font-weight: 700; letter-spacing: .3px; margin-top: 2px; }
+  .card .showtitle { color: var(--ink); font-size: 13.5px; font-weight: 600; margin: 1px 0 8px; }
   .card .room { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
   .chips2 { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 9px; }
   .chip2 { background: #fff; border: 1px solid var(--chip-border); border-radius: 999px; padding: 4px 10px; font-size: 12.5px; }
@@ -216,11 +218,11 @@
 <div class="app">
 
   <header class="bar">
-    <img class="logo" src="header.png" alt="Comedy Cellar"
+    <img class="logo" src="header.png" alt="LA Comedy Scout"
          onerror="this.style.display='none'">
     <div>
-      <div class="title">🎤 Comedy Cellar <span class="scout">Scout</span></div>
-      <div class="sub">MacDougal Street · First two shows only</div>
+      <div class="title">🎤 LA Comedy <span class="scout">Scout</span></div>
+      <div class="sub">Comedy Store · Hollywood Improv</div>
     </div>
     <div class="spacer"></div>
     <div class="checked" id="checked">Last checked: —</div>
@@ -351,14 +353,14 @@ async function boot() {
   }
 
   if (DATA.generated_at) {
-    // Always render in Eastern Time (the club's local time) regardless of the
-    // viewer's timezone, with a clock time of day. No "ET" label needed.
+    // Always render in Pacific Time (the venues' local time) regardless of the
+    // viewer's timezone, with a clock time of day. No "PT" label needed.
     // scout.py writes UTC; older data may lack a tz marker — treat as UTC.
     let ts = DATA.generated_at;
     if (!/[zZ]|[+-]\d{2}:?\d{2}$/.test(ts)) ts += "Z";
     document.getElementById("checked").textContent =
       "Last checked: " + new Date(ts).toLocaleString("en-US", {
-        timeZone: "America/New_York",
+        timeZone: "America/Los_Angeles",
         weekday: "long", month: "long", day: "numeric", year: "numeric",
         hour: "numeric", minute: "2-digit", hour12: true,
       });
@@ -464,7 +466,7 @@ function renderShows() {
     status.innerHTML = `${standout.length} standout show${standout.length===1?"":"s"} flagged${hiddenNote}`;
   } else if (bestBet) {
     status.innerHTML = `Best bet on your dates
-      <span class="sub">Nothing has cleared the bar yet — here's the strongest bookable night so far. New lineups post Thursday-ish.</span>${hiddenNote}`;
+      <span class="sub">Nothing has cleared the bar yet — here's the strongest bookable night so far. Lineups fill in as venues post them.</span>${hiddenNote}`;
   } else {
     status.innerHTML = `No bookable shows on your upcoming dates yet
       <span class="sub">The scan flags anything strong the moment lineups post — typically Thursday evenings.</span>${hiddenNote}`;
@@ -475,7 +477,6 @@ function renderShows() {
   document.getElementById("other-divider").style.display = other.length ? "block":"none";
 }
 
-const RESV_URL = "https://www.comedycellar.com/reservations-newyork/";
 function card(s, kind) {            // kind: "standout" | "best" | "other"
   const featured = kind === "standout" || kind === "best";
   const tag = kind === "standout" ? "STANDOUT"
@@ -483,24 +484,23 @@ function card(s, kind) {            // kind: "standout" | "best" | "other"
             :                       "BELOW THRESHOLD";
   const dateLabel = `${s.weekday||""} ${prettyShort(s.date)}`.trim().toUpperCase();
   const chips = (s.comedians||[]).map(c=>`<span class="chip2">${comicNameHtml(c.name)}</span>`).join("");
-  // Availability (from the live reservation system). Absent = not checked yet.
+  const venueLine = [s.venue, s.room].filter(Boolean).map(escapeHtml).join(" · ");
+  const title = s.title ? `<div class="showtitle">${escapeHtml(s.title)}</div>` : "";
+  // Availability comes straight from each venue's site. Absent = not exposed.
   let avail = "", book;
-  const seats = s.seats_left;
   if (s.sold_out === true) {
-    // Sold out: a single, plain "Sold out" — no separate status line.
     book = `<span class="book soldout">Sold out</span>`;
   } else {
-    if (s.sold_out === false && typeof seats === "number" && seats > 0 && seats <= 10)
-      avail = `<div class="avail low">Almost sold out · ${seats} seat${seats===1?"":"s"} left</div>`;
-    else if (s.sold_out === false)
-      avail = `<div class="avail ok">Seats available</div>`;
-    book = `<a class="book" href="${RESV_URL}" target="_blank" rel="noopener">Book →</a>`;
+    if (s.sold_out === false) avail = `<div class="avail ok">Seats available</div>`;
+    const url = s.ticket_url || "#";
+    book = `<a class="book" href="${escapeHtml(url)}" target="_blank" rel="noopener">Book →</a>`;
   }
   return `<div class="card ${featured?"standout":""} ${s.sold_out===true?"sold":""}">
     <div class="tag">${tag}</div>
     <div class="date">${dateLabel}</div>
     <div class="time">${escapeHtml(s.time||"")}</div>
-    <div class="room">${escapeHtml(s.room||"")}</div>
+    <div class="venue">${venueLine}</div>
+    ${title}
     <div class="chips2">${chips}</div>
     <div class="blurb">${escapeHtml(s.blurb||"")}</div>
     <div class="scores">
@@ -541,7 +541,7 @@ async function saveToCloud() {
   const token = getToken();
   if (!token) { setSaveStatus("err", "Not synced — add token"); return; }
   const fileBody = {
-    _comment: configComment || "Edited via the Comedy Cellar Scout web app.",
+    _comment: configComment || "Edited via the LA Comedy Scout web app.",
     available_dates: [...working.dates].sort(),
     taste_benchmark: working.taste,
   };
