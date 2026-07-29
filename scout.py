@@ -36,9 +36,13 @@ OUT_PATH = HERE / "scout_data.json"
 CONFIG_PATH = HERE / "config.json"
 LINKS_PATH = HERE / "comic_links.json"
 
-# How many days ahead to scan. Comedy Cellar posts lineups Thursday-ish for the
-# coming weekend, so most far-out dates will simply be empty.
-DAYS_AHEAD = 60
+# How many days ahead to scan. Venues post their calendars ~7 weeks out.
+DAYS_AHEAD = 90
+
+# Don't scrape/score/alert before this date — we're not going to shows until
+# after Aug 8, so scheduled runs no-op cheaply (no fetches, no API spend) until
+# then, at which point normal scanning resumes automatically.
+SCAN_START_DATE = dt.date(2026, 8, 8)
 
 # Filter: only the MacDougal Street room. Not Village Underground, not Fat
 # Black Pussycat (Bar or Lounge), not anything else.
@@ -604,6 +608,14 @@ def main():
     today_iso = today.isoformat()
     all_shows = []
     scraped_dates = []
+
+    # Paused until SCAN_START_DATE: skip all scraping/scoring/alerts so scheduled
+    # runs cost nothing (no fetches, no Claude calls) until we're actually going
+    # to shows again. The site keeps serving whatever data is already published.
+    if today < SCAN_START_DATE:
+        print(f"Scanning paused until {SCAN_START_DATE.isoformat()} "
+              f"(today is {today_iso}). No scrape/score/alerts this run.")
+        return
 
     # Load YOUR availability + taste. The scout only scans nights you're free,
     # and the viewer highlights these on the calendar regardless of whether a

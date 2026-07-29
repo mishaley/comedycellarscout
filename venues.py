@@ -42,8 +42,25 @@ _MONTHS = {m: i for i, m in enumerate(
      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
 
+_HEADERS = {
+    "User-Agent": _UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+              "image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "identity",
+    "Sec-Ch-Ua": '"Chromium";v="125", "Not.A/Brand";v="24"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"macOS"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
 def _fetch(url: str, timeout: int = 30) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": _UA})
+    req = urllib.request.Request(url, headers=_HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
 
