@@ -1,5 +1,5 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-07-29T01:10:49+00:00",
   "available_dates": [
     "2026-06-28",
     "2026-06-29",
@@ -46,5 +46,218 @@
     "Aziz Ansari",
     "Nikki Glaser"
   ],
-  "shows": []
+  "shows": [
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/14975073/",
+      "date": "2026-07-29",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/14975073/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 2,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "No lineup yet for a Wednesday Lab show \u2014 could be solid working comics testing material, but it's a coin flip without names."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/amir+k/",
+      "date": "2026-07-29",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/amir+k/",
+      "sold_out": true,
+      "weekday": "WED",
+      "drop_in": 3,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Wednesday Main Room with no lineup posted has decent drop-in potential, but you're buying blind \u2014 wait for names."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+shaw-some+show+ft.+forrest+shaw%2c+billy+gardell%2c+helen+hong%2c+karen+rontowski%2c+jay+washington%2c+nina+dicker%2c+jake+dill%2c+brandon+vestal/14982633/",
+      "date": "2026-07-29",
+      "time": "8:30 pm",
+      "room": "The Lab",
+      "title": "The Shaw-some Show",
+      "comedians": [
+        {
+          "name": "Forrest Shaw",
+          "credits": ""
+        },
+        {
+          "name": "Billy Gardell",
+          "credits": ""
+        },
+        {
+          "name": "Helen Hong",
+          "credits": ""
+        },
+        {
+          "name": "Karen Rontowski",
+          "credits": ""
+        },
+        {
+          "name": "Jay Washington",
+          "credits": ""
+        },
+        {
+          "name": "Nina Dicker",
+          "credits": ""
+        },
+        {
+          "name": "Jake Dill",
+          "credits": ""
+        },
+        {
+          "name": "Brandon Vestal",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+shaw-some+show+ft.+forrest+shaw%2c+billy+gardell%2c+helen+hong%2c+karen+rontowski%2c+jay+washington%2c+nina+dicker%2c+jake+dill%2c+brandon+vestal/14982633/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Lab show with mostly working comics; Billy Gardell (sitcom vet) is the draw, but not aligned with your joke-heavy benchmark taste."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+-+faysal+lawrence+birthday+show%21+ft.+tiffany+haddish%2c+jeff+arcuri%2c+frankie+quinones%2c+leah+rudick%2c+cj+marrinan+more+tba/14244644/",
+      "date": "2026-07-29",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv - Faysal Lawrence birthday show!",
+      "comedians": [
+        {
+          "name": "Tiffany Haddish",
+          "credits": ""
+        },
+        {
+          "name": "Jeff Arcuri",
+          "credits": ""
+        },
+        {
+          "name": "Frankie Quinones",
+          "credits": ""
+        },
+        {
+          "name": "Leah Rudick",
+          "credits": ""
+        },
+        {
+          "name": "CJ Marrinan more TBA",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+-+faysal+lawrence+birthday+show%21+ft.+tiffany+haddish%2c+jeff+arcuri%2c+frankie+quinones%2c+leah+rudick%2c+cj+marrinan+more+tba/14244644/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 3,
+      "taste": 4,
+      "crowd_work": 4,
+      "blurb": "Jeff Arcuri is a direct taste match and crowd-work heavy; Tiffany Haddish brings energy and front-row interaction \u2014 solid Wednesday Main Room bill."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+anjelah+johnson%2c+anthony+jeselnik%2c+damon+wayans%2c+brian+monarch+and+very+special+guests/14192064/",
+      "date": "2026-07-30",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Anjelah Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Anthony Jeselnik",
+          "credits": ""
+        },
+        {
+          "name": "Damon Wayans",
+          "credits": ""
+        },
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        },
+        {
+          "name": "very special guests",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+anjelah+johnson%2c+anthony+jeselnik%2c+damon+wayans%2c+brian+monarch+and+very+special+guests/14192064/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 4,
+      "taste": 4,
+      "crowd_work": 3,
+      "blurb": "Anthony Jeselnik is a sharp joke-writer close to your sensibility, and 'very special guests' on a Thursday Main Room often means real drop-ins \u2014 worth the gamble."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+other+show%21+ft.+adam+barnhardt%2c+lizzie+rose%2c+jake+bassi%2c+michael+d%27angelo%2c+camila+beatriz%2c+vivi+hoang%2c+sacaiah+shaw%2c+jason+luna%2c+silent+partners+and+more+tba%21/14198824/",
+      "date": "2026-07-30",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "The OTHER Show!",
+      "comedians": [
+        {
+          "name": "Adam Barnhardt",
+          "credits": ""
+        },
+        {
+          "name": "Lizzie Rose",
+          "credits": ""
+        },
+        {
+          "name": "Jake Bassi",
+          "credits": ""
+        },
+        {
+          "name": "Michael D'Angelo",
+          "credits": ""
+        },
+        {
+          "name": "Camila Beatriz",
+          "credits": ""
+        },
+        {
+          "name": "Vivi Hoang",
+          "credits": ""
+        },
+        {
+          "name": "Sacaiah Shaw",
+          "credits": ""
+        },
+        {
+          "name": "Jason Luna",
+          "credits": ""
+        },
+        {
+          "name": "Silent Partners",
+          "credits": ""
+        },
+        {
+          "name": "more TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+other+show%21+ft.+adam+barnhardt%2c+lizzie+rose%2c+jake+bassi%2c+michael+d%27angelo%2c+camila+beatriz%2c+vivi+hoang%2c+sacaiah+shaw%2c+jason+luna%2c+silent+partners+and+more+tba%21/14198824/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Thursday Lab lineup leans toward newer/alt comics without strong ties to your joke-dense benchmark taste \u2014 passable but not a priority."
+    }
+  ]
 }
