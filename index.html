@@ -468,7 +468,7 @@ function renderShows() {
       <span class="sub">Nothing has cleared the bar yet — here's the strongest bookable night so far. Lineups fill in as venues post them.</span>${hiddenNote}`;
   } else {
     status.innerHTML = `No bookable shows on your upcoming dates yet
-      <span class="sub">The scan flags anything strong the moment lineups post — typically Thursday evenings.</span>${hiddenNote}`;
+      <span class="sub">Scanning starts Aug 8 — the scout will flag anything strong at the Comedy Store or Hollywood Improv the moment lineups post.</span>${hiddenNote}`;
   }
   document.getElementById("standout-cards").innerHTML =
     (bestBet ? card(bestBet,"best") : "") + standout.map(s=>card(s,"standout")).join("");
