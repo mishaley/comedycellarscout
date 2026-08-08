@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T01:40:57+00:00",
+  "generated_at": "2026-08-08T03:13:14+00:00",
   "available_dates": [
     "2026-08-09",
     "2026-08-10",
@@ -103,6 +103,27 @@
     "Nikki Glaser"
   ],
   "shows": [
+    {
+      "venue": "Comedy Store",
+      "id": "comedystore:/calendar/show/3749/2026-08-09t180000-0700-sunday-potluck-free-entry",
+      "date": "2026-08-09",
+      "time": "6:00 pm",
+      "room": "Original Room",
+      "title": "Sunday Potluck Hosted by Bob Wheeler",
+      "comedians": [
+        {
+          "name": "Bob Wheeler",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://thecomedystore.com/calendar/show/3749/2026-08-09t180000-0700-sunday-potluck-free-entry",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 4,
+      "taste": 3,
+      "crowd_work": 3,
+      "blurb": "Sunday evening Original Room with just Wheeler hosting\u2014classic drop-in setup for Store regulars testing material. Worth the gamble if you're betting on unannounced heavy hitters."
+    },
     {
       "venue": "Hollywood Improv",
       "id": "improv:/hollywood/event/stronger+choices+ft.+adam+lieblein%2c+brandon+vestal%2c+bruce+jingles%2c+jay+flats%2c+jefferson+mcdonald%2c+joe+stapleton%2c+keith+pedro%2c+kiki+andersen%2c+shaena+rabbani%2c+and+more+tba/14953763/",
@@ -208,6 +229,96 @@
       "taste": 0,
       "crowd_work": 0,
       "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Comedy Store",
+      "id": "comedystore:/calendar/show/3778/2026-08-09t200000-0700-sunday-headliners",
+      "date": "2026-08-09",
+      "time": "8:00 pm",
+      "room": "Original Room",
+      "title": "Sunday Headliners",
+      "comedians": [
+        {
+          "name": "Taylor Williamson",
+          "credits": ""
+        },
+        {
+          "name": "Dean Delray",
+          "credits": ""
+        },
+        {
+          "name": "Jessie \u201cJetski\u201d Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Ryan Sickler",
+          "credits": ""
+        },
+        {
+          "name": "Brenton Biddlecombe",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://thecomedystore.com/calendar/show/3778/2026-08-09t200000-0700-sunday-headliners",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 4,
+      "taste": 3,
+      "crowd_work": 4,
+      "blurb": "Sunday Headliners in the OR\u2014Sickler's a solid road comic and the room's drop-in history is strong. Decent crowd-work potential from the lineup, worth front-row for interaction."
+    },
+    {
+      "venue": "Comedy Store",
+      "id": "comedystore:/calendar/show/4340/2026-08-09t210000-0700-100-fresh-with-sara-weinshenk-and-erica-rhodes",
+      "date": "2026-08-09",
+      "time": "9:00 pm",
+      "room": "Belly Room",
+      "title": "100% Fresh: A New Material Show",
+      "comedians": [
+        {
+          "name": "Erica Rhodes",
+          "credits": ""
+        },
+        {
+          "name": "Sara Weinshenk",
+          "credits": ""
+        },
+        {
+          "name": "Sam Tripoli",
+          "credits": ""
+        },
+        {
+          "name": "Frankie Qui\u00f1ones",
+          "credits": ""
+        },
+        {
+          "name": "Miranda Meadows",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://thecomedystore.com/calendar/show/4340/2026-08-09t210000-0700-100-fresh-with-sara-weinshenk-and-erica-rhodes",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 2,
+      "taste": 2,
+      "crowd_work": 3,
+      "blurb": "Belly Room new-material show leans alt/character-heavy (Qui\u00f1ones, Tripoli). Doesn't match your joke-dense, club-comic taste, and smaller room means fewer major drop-ins."
+    },
+    {
+      "venue": "Comedy Store",
+      "id": "comedystore:/calendar/show/4359/2026-08-09t210000-0700-goonies",
+      "date": "2026-08-09",
+      "time": "9:00 pm",
+      "room": "Belly Room",
+      "title": "Goonies",
+      "comedians": [],
+      "ticket_url": "https://thecomedystore.com/calendar/show/4359/2026-08-09t210000-0700-goonies",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 1,
+      "taste": 1,
+      "crowd_work": 2,
+      "blurb": "No lineup posted for a Belly Room show\u2014can't score taste, and smaller room makes meaningful drop-ins unlikely. Pass unless you're already at the Store."
     },
     {
       "venue": "Hollywood Improv",
