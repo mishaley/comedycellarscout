@@ -1,5 +1,5 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-08-08T01:40:57+00:00",
   "available_dates": [
     "2026-08-09",
     "2026-08-10",
@@ -102,5 +102,3630 @@
     "Aziz Ansari",
     "Nikki Glaser"
   ],
-  "shows": []
+  "shows": [
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/stronger+choices+ft.+adam+lieblein%2c+brandon+vestal%2c+bruce+jingles%2c+jay+flats%2c+jefferson+mcdonald%2c+joe+stapleton%2c+keith+pedro%2c+kiki+andersen%2c+shaena+rabbani%2c+and+more+tba/14953763/",
+      "date": "2026-08-09",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "Stronger Choices",
+      "comedians": [
+        {
+          "name": "Adam Lieblein",
+          "credits": ""
+        },
+        {
+          "name": "Brandon Vestal",
+          "credits": ""
+        },
+        {
+          "name": "Bruce Jingles",
+          "credits": ""
+        },
+        {
+          "name": "Jay Flats",
+          "credits": ""
+        },
+        {
+          "name": "Jefferson McDonald",
+          "credits": ""
+        },
+        {
+          "name": "Joe Stapleton",
+          "credits": ""
+        },
+        {
+          "name": "Keith Pedro",
+          "credits": ""
+        },
+        {
+          "name": "Kiki Andersen",
+          "credits": ""
+        },
+        {
+          "name": "Shaena Rabbani",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/stronger+choices+ft.+adam+lieblein%2c+brandon+vestal%2c+bruce+jingles%2c+jay+flats%2c+jefferson+mcdonald%2c+joe+stapleton%2c+keith+pedro%2c+kiki+andersen%2c+shaena+rabbani%2c+and+more+tba/14953763/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+al+madrigal%2c+zoltan+kaszas%2c+shapel+lacey%2c+ian+edwards%2c+danny+jolles%2c+jessica+michelle+singleton%2c+michael+rapaport%2c+dan+mahboubian+rosen%2c+matt+marx+and+more+tba/14267344/",
+      "date": "2026-08-09",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Al Madrigal",
+          "credits": ""
+        },
+        {
+          "name": "Zoltan Kaszas",
+          "credits": ""
+        },
+        {
+          "name": "Shapel Lacey",
+          "credits": ""
+        },
+        {
+          "name": "Ian Edwards",
+          "credits": ""
+        },
+        {
+          "name": "Danny Jolles",
+          "credits": ""
+        },
+        {
+          "name": "Jessica Michelle Singleton",
+          "credits": ""
+        },
+        {
+          "name": "Michael Rapaport",
+          "credits": ""
+        },
+        {
+          "name": "Dan Mahboubian Rosen",
+          "credits": ""
+        },
+        {
+          "name": "Matt Marx",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+al+madrigal%2c+zoltan+kaszas%2c+shapel+lacey%2c+ian+edwards%2c+danny+jolles%2c+jessica+michelle+singleton%2c+michael+rapaport%2c+dan+mahboubian+rosen%2c+matt+marx+and+more+tba/14267344/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft+chelsea+handler%2c++christopher+titus%2c+ron+funches%2c+sklar+brothers%2c+laurie+kilmartin%2c+zainab+johnson%2c+mike+falzone+%26+more+tba/15015993/",
+      "date": "2026-08-10",
+      "time": "7:15 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Chelsea Handler",
+          "credits": ""
+        },
+        {
+          "name": "Christopher Titus",
+          "credits": ""
+        },
+        {
+          "name": "Ron Funches",
+          "credits": ""
+        },
+        {
+          "name": "Sklar Brothers",
+          "credits": ""
+        },
+        {
+          "name": "Laurie Kilmartin",
+          "credits": ""
+        },
+        {
+          "name": "Zainab Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Mike Falzone",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft+chelsea+handler%2c++christopher+titus%2c+ron+funches%2c+sklar+brothers%2c+laurie+kilmartin%2c+zainab+johnson%2c+mike+falzone+%26+more+tba/15015993/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+lynn+maleh%2c+holly+ballantine%2c+amy+brown%2c+dylan+mckeever%2c+jessica+sele%2c+taquita+love%2c+katie+arroyo%2c+anu+bee/14816253/",
+      "date": "2026-08-10",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Mermaid Comedy Hour",
+      "comedians": [
+        {
+          "name": "Kari Assad",
+          "credits": ""
+        },
+        {
+          "name": "Lynn Maleh",
+          "credits": ""
+        },
+        {
+          "name": "Holly Ballantine",
+          "credits": ""
+        },
+        {
+          "name": "Amy Brown",
+          "credits": ""
+        },
+        {
+          "name": "Dylan McKeever",
+          "credits": ""
+        },
+        {
+          "name": "Jessica Sele",
+          "credits": ""
+        },
+        {
+          "name": "Taquita Love",
+          "credits": ""
+        },
+        {
+          "name": "Katie Arroyo",
+          "credits": ""
+        },
+        {
+          "name": "Anu Bee",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+lynn+maleh%2c+holly+ballantine%2c+amy+brown%2c+dylan+mckeever%2c+jessica+sele%2c+taquita+love%2c+katie+arroyo%2c+anu+bee/14816253/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/deon+cole%3a+does+this+work%3f/15014443/",
+      "date": "2026-08-10",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "deon cole: does this work?",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/deon+cole%3a+does+this+work%3f/15014443/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261374/",
+      "date": "2026-08-10",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261374/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/happy+hour+open+mic/14261414/",
+      "date": "2026-08-11",
+      "time": "5:15 pm",
+      "room": "The Main Room",
+      "title": "happy hour open mic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/happy+hour+open+mic/14261414/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/funny+mill+ft.+todd+glass%2c+josh+shakespeare%2c+rishi+arya%2c+zeo+niu%2c+brian+wiora%2c+rob+darocha%2c+aubie+bercy%2c+bradley+johnson%2c+mado+lilliana/14216664/",
+      "date": "2026-08-11",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Funny Mill",
+      "comedians": [
+        {
+          "name": "Todd Glass",
+          "credits": ""
+        },
+        {
+          "name": "Josh Shakespeare",
+          "credits": ""
+        },
+        {
+          "name": "Rishi Arya",
+          "credits": ""
+        },
+        {
+          "name": "Zeo Niu",
+          "credits": ""
+        },
+        {
+          "name": "Brian Wiora",
+          "credits": ""
+        },
+        {
+          "name": "Rob DaRocha",
+          "credits": ""
+        },
+        {
+          "name": "Aubie Bercy",
+          "credits": ""
+        },
+        {
+          "name": "Bradley Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Mado Lilliana",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/funny+mill+ft.+todd+glass%2c+josh+shakespeare%2c+rishi+arya%2c+zeo+niu%2c+brian+wiora%2c+rob+darocha%2c+aubie+bercy%2c+bradley+johnson%2c+mado+lilliana/14216664/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+ray+romano%2c+chelsea+handler%2c+tiffany+haddish%2c+craig+robinson%2c+brian+monarch%2c+leah+knauer+and+more+tbd/14261234/",
+      "date": "2026-08-11",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Ray Romano",
+          "credits": ""
+        },
+        {
+          "name": "Chelsea Handler",
+          "credits": ""
+        },
+        {
+          "name": "Tiffany Haddish",
+          "credits": ""
+        },
+        {
+          "name": "Craig Robinson",
+          "credits": ""
+        },
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        },
+        {
+          "name": "Leah Knauer",
+          "credits": ""
+        },
+        {
+          "name": "More TBD",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+ray+romano%2c+chelsea+handler%2c+tiffany+haddish%2c+craig+robinson%2c+brian+monarch%2c+leah+knauer+and+more+tbd/14261234/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/deon+cole%3a+does+this+work%3f/15014453/",
+      "date": "2026-08-11",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "deon cole: does this work?",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/deon+cole%3a+does+this+work%3f/15014453/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+craig+robinson%2c+zainab+johnson%2c+ray+lau%2c+jackson+mcqueen%2c+mark+hayes+and+more+tba/15000713/",
+      "date": "2026-08-11",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Craig Robinson",
+          "credits": ""
+        },
+        {
+          "name": "Zainab Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Ray Lau",
+          "credits": ""
+        },
+        {
+          "name": "Jackson McQueen",
+          "credits": ""
+        },
+        {
+          "name": "Mark Hayes",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+craig+robinson%2c+zainab+johnson%2c+ray+lau%2c+jackson+mcqueen%2c+mark+hayes+and+more+tba/15000713/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/14250454/",
+      "date": "2026-08-12",
+      "time": "6:00 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/14250454/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/%2ajust+added+ron+funches%2a+comedy+crush+ft.+tiffany+haddish%2c+adam+ray%2c+justine+marino%2c+avery+pearson+%26+huge+special+guests%21/14247834/",
+      "date": "2026-08-12",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "*JUST ADDED RON FUNCHES* COMEDY CRUSH",
+      "comedians": [
+        {
+          "name": "TIFFANY HADDISH",
+          "credits": ""
+        },
+        {
+          "name": "ADAM RAY",
+          "credits": ""
+        },
+        {
+          "name": "JUSTINE MARINO",
+          "credits": ""
+        },
+        {
+          "name": "AVERY PEARSON",
+          "credits": ""
+        },
+        {
+          "name": "HUGE SPECIAL GUESTS!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/%2ajust+added+ron+funches%2a+comedy+crush+ft.+tiffany+haddish%2c+adam+ray%2c+justine+marino%2c+avery+pearson+%26+huge+special+guests%21/14247834/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/star+f%2ackers+ft.+amy+silverberg%2c+alexa+loftus%2c+macey+isaacs%2c+courtney+o%27donnell%2c+mike+liebenson%2c+nori+reed%2c+max+fox/14953393/",
+      "date": "2026-08-12",
+      "time": "8:30 pm",
+      "room": "The Lab",
+      "title": "Star F*ckers",
+      "comedians": [
+        {
+          "name": "Amy Silverberg",
+          "credits": ""
+        },
+        {
+          "name": "Alexa Loftus",
+          "credits": ""
+        },
+        {
+          "name": "Macey Isaacs",
+          "credits": ""
+        },
+        {
+          "name": "Courtney O'Donnell",
+          "credits": ""
+        },
+        {
+          "name": "Mike Liebenson",
+          "credits": ""
+        },
+        {
+          "name": "Nori Reed",
+          "credits": ""
+        },
+        {
+          "name": "Max Fox",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/star+f%2ackers+ft.+amy+silverberg%2c+alexa+loftus%2c+macey+isaacs%2c+courtney+o%27donnell%2c+mike+liebenson%2c+nori+reed%2c+max+fox/14953393/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/new+joke+night+ft.+mike+falzone+%26+jf+harris/15002253/",
+      "date": "2026-08-13",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "New Joke Night",
+      "comedians": [
+        {
+          "name": "Mike Falzone",
+          "credits": ""
+        },
+        {
+          "name": "JF Harris",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/new+joke+night+ft.+mike+falzone+%26+jf+harris/15002253/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+damon+wayans%2c+howie+mandel%2c+ron+funches%2c+jen+murphy+and+very+special+guests/14261224/",
+      "date": "2026-08-13",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Damon Wayans",
+          "credits": ""
+        },
+        {
+          "name": "Howie Mandel",
+          "credits": ""
+        },
+        {
+          "name": "Ron Funches",
+          "credits": ""
+        },
+        {
+          "name": "Jen Murphy",
+          "credits": ""
+        },
+        {
+          "name": "Very Special Guests",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+damon+wayans%2c+howie+mandel%2c+ron+funches%2c+jen+murphy+and+very+special+guests/14261224/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/deon+cole%3a+does+this+work%3f/15014463/",
+      "date": "2026-08-13",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "deon cole: does this work?",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/deon+cole%3a+does+this+work%3f/15014463/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/michael+blackson/",
+      "date": "2026-08-13",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/michael+blackson/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lingerie+%26+laughter+ft.+pink+foxx+ft.+oj+stellar%2c+quei+tann%2c+nacya+marreiro%2c+tanjareen%2c+shannon+hardy/14250504/",
+      "date": "2026-08-14",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Lingerie & Laughter",
+      "comedians": [
+        {
+          "name": "Pink Foxx ft. OJ Stellar",
+          "credits": ""
+        },
+        {
+          "name": "Quei Tann",
+          "credits": ""
+        },
+        {
+          "name": "Nacya Marreiro",
+          "credits": ""
+        },
+        {
+          "name": "Tanjareen",
+          "credits": ""
+        },
+        {
+          "name": "Shannon Hardy",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/lingerie+%26+laughter+ft.+pink+foxx+ft.+oj+stellar%2c+quei+tann%2c+nacya+marreiro%2c+tanjareen%2c+shannon+hardy/14250504/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+maddy+kelly%2c+austin+nasso+and+more+tba/14252504/",
+      "date": "2026-08-14",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Maddy Kelly",
+          "credits": ""
+        },
+        {
+          "name": "Austin Nasso",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+maddy+kelly%2c+austin+nasso+and+more+tba/14252504/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+grind+ft.+kristy+quinn%2c+lachlan+patterson%2c+thom+tran%2c+isaac+chu%2c+jim+gallagher%2c+amy+ashton%2c+willie+krisztal%2c+dustin+david%2c+jessica+alaniz%2c+klein+boys%2c+rob+darocha+and+more+tba/14953773/",
+      "date": "2026-08-14",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "Comedy Grind",
+      "comedians": [
+        {
+          "name": "Kristy Quinn",
+          "credits": ""
+        },
+        {
+          "name": "Lachlan Patterson",
+          "credits": ""
+        },
+        {
+          "name": "Thom Tran",
+          "credits": ""
+        },
+        {
+          "name": "Isaac Chu",
+          "credits": ""
+        },
+        {
+          "name": "Jim Gallagher",
+          "credits": ""
+        },
+        {
+          "name": "Amy Ashton",
+          "credits": ""
+        },
+        {
+          "name": "Willie Krisztal",
+          "credits": ""
+        },
+        {
+          "name": "Dustin David",
+          "credits": ""
+        },
+        {
+          "name": "Jessica Alaniz",
+          "credits": ""
+        },
+        {
+          "name": "Klein Boys",
+          "credits": ""
+        },
+        {
+          "name": "Rob DaRocha",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+grind+ft.+kristy+quinn%2c+lachlan+patterson%2c+thom+tran%2c+isaac+chu%2c+jim+gallagher%2c+amy+ashton%2c+willie+krisztal%2c+dustin+david%2c+jessica+alaniz%2c+klein+boys%2c+rob+darocha+and+more+tba/14953773/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/michael+blackson/",
+      "date": "2026-08-14",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/michael+blackson/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14972963/",
+      "date": "2026-08-15",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14972963/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/damon+wayans%3a+under+construction/14250404/",
+      "date": "2026-08-15",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "damon wayans: under construction",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/damon+wayans%3a+under+construction/14250404/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14972953/",
+      "date": "2026-08-15",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14972953/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/reid+the+room+ft.+reid+brackenbury+and+more+tba%21/14257454/",
+      "date": "2026-08-15",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "Reid the Room",
+      "comedians": [
+        {
+          "name": "Reid Brackenbury",
+          "credits": ""
+        },
+        {
+          "name": "more TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/reid+the+room+ft.+reid+brackenbury+and+more+tba%21/14257454/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/jack+jr./14867513/",
+      "date": "2026-08-16",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "jack jr.",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/jack+jr./14867513/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ron+funches%3a+funchadelic/14873393/",
+      "date": "2026-08-16",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "ron funches: funchadelic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ron+funches%3a+funchadelic/14873393/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/jackie+%2b+amy%27s+summer+slam+ft.+jackie+fabulous%2c+amy+miller%2c+frankie+qui%c3%b1ones%2c+katherine+blanford%2c+felicia+folkes%2c+kevin+sullivan%2c+and+leonard+robinson/14225824/",
+      "date": "2026-08-17",
+      "time": "7:15 pm",
+      "room": "The Main Room",
+      "title": "Jackie + Amy's Summer Slam",
+      "comedians": [
+        {
+          "name": "Jackie Fabulous",
+          "credits": ""
+        },
+        {
+          "name": "Amy Miller",
+          "credits": ""
+        },
+        {
+          "name": "Frankie Qui\u00f1ones",
+          "credits": ""
+        },
+        {
+          "name": "Katherine Blanford",
+          "credits": ""
+        },
+        {
+          "name": "Felicia Folkes",
+          "credits": ""
+        },
+        {
+          "name": "Kevin Sullivan",
+          "credits": ""
+        },
+        {
+          "name": "and Leonard Robinson",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/jackie+%2b+amy%27s+summer+slam+ft.+jackie+fabulous%2c+amy+miller%2c+frankie+qui%c3%b1ones%2c+katherine+blanford%2c+felicia+folkes%2c+kevin+sullivan%2c+and+leonard+robinson/14225824/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+n+chill+ft.+maria+bruggere%2c+ian+edwards%2c+chris+waitkus%2c+char+ramtin%2c+whitney+rayner+and+more+tba/14991633/",
+      "date": "2026-08-17",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Comedy N Chill",
+      "comedians": [
+        {
+          "name": "Maria Bruggere",
+          "credits": ""
+        },
+        {
+          "name": "Ian Edwards",
+          "credits": ""
+        },
+        {
+          "name": "Chris Waitkus",
+          "credits": ""
+        },
+        {
+          "name": "Char Ramtin",
+          "credits": ""
+        },
+        {
+          "name": "Whitney Rayner",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+n+chill+ft.+maria+bruggere%2c+ian+edwards%2c+chris+waitkus%2c+char+ramtin%2c+whitney+rayner+and+more+tba/14991633/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261384/",
+      "date": "2026-08-17",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261384/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/happy+hour+open+mic/14261434/",
+      "date": "2026-08-18",
+      "time": "5:15 pm",
+      "room": "The Main Room",
+      "title": "happy hour open mic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/happy+hour+open+mic/14261434/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/shaw-some+show/14245184/",
+      "date": "2026-08-18",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "shaw-some show",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/shaw-some+show/14245184/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+anthony+jeselnik%2c+brian+monarch+and+very+special+guests/14261194/",
+      "date": "2026-08-18",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Anthony Jeselnik",
+          "credits": ""
+        },
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        },
+        {
+          "name": "VERY Special Guests",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+anthony+jeselnik%2c+brian+monarch+and+very+special+guests/14261194/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21+ft.+mark+hayes+and+more+tba%21/15002283/",
+      "date": "2026-08-18",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "Tonight at the Lab!",
+      "comedians": [
+        {
+          "name": "Mark Hayes",
+          "credits": ""
+        },
+        {
+          "name": "more TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21+ft.+mark+hayes+and+more+tba%21/15002283/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/14250464/",
+      "date": "2026-08-19",
+      "time": "6:00 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/14250464/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/legends+ft.+jay+leno%2c+greg+baldwin+and+more+tba/14236704/",
+      "date": "2026-08-19",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "Legends",
+      "comedians": [
+        {
+          "name": "Jay Leno",
+          "credits": ""
+        },
+        {
+          "name": "Greg Baldwin",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/legends+ft.+jay+leno%2c+greg+baldwin+and+more+tba/14236704/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/babe+stoppp+ft.+aparna+nancherla%2c+rachel+scanlon%2c+the+sklar+brothers%2c+kyle+prue%2c+bebe+katsenes%2c+rachel+pegram%2c+danny+sellers%2c+caroline+timoney%2c+hannah+schoen+and+more+tba%21/14991143/",
+      "date": "2026-08-19",
+      "time": "8:30 pm",
+      "room": "The Lab",
+      "title": "Babe Stoppp",
+      "comedians": [
+        {
+          "name": "Aparna Nancherla",
+          "credits": ""
+        },
+        {
+          "name": "Rachel Scanlon",
+          "credits": ""
+        },
+        {
+          "name": "The Sklar Brothers",
+          "credits": ""
+        },
+        {
+          "name": "Kyle Prue",
+          "credits": ""
+        },
+        {
+          "name": "Bebe Katsenes",
+          "credits": ""
+        },
+        {
+          "name": "Rachel Pegram",
+          "credits": ""
+        },
+        {
+          "name": "Danny Sellers",
+          "credits": ""
+        },
+        {
+          "name": "Caroline Timoney",
+          "credits": ""
+        },
+        {
+          "name": "Hannah Schoen",
+          "credits": ""
+        },
+        {
+          "name": "more TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/babe+stoppp+ft.+aparna+nancherla%2c+rachel+scanlon%2c+the+sklar+brothers%2c+kyle+prue%2c+bebe+katsenes%2c+rachel+pegram%2c+danny+sellers%2c+caroline+timoney%2c+hannah+schoen+and+more+tba%21/14991143/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/hannibal+buress/",
+      "date": "2026-08-19",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/hannibal+buress/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar+and+more+tba/14234084/",
+      "date": "2026-08-20",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "The Download Comedy Show",
+      "comedians": [
+        {
+          "name": "Kate Lav",
+          "credits": ""
+        },
+        {
+          "name": "OJ Stellar",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar+and+more+tba/14234084/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/14274474/",
+      "date": "2026-08-20",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/14274474/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/homegrown+comedy%3a+la+edition+ft.+slink+johnson%2c+jamario+mcclain%2c+chris+spencer%2c+roz+washington%2c+daisy+gonzalez%2c+boo+mulligan%2c+brent+taylor%2c+jeffrey+peterson+and+more+tba/14234124/",
+      "date": "2026-08-20",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "Homegrown Comedy: LA Edition",
+      "comedians": [
+        {
+          "name": "Slink Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Jamario McClain",
+          "credits": ""
+        },
+        {
+          "name": "Chris Spencer",
+          "credits": ""
+        },
+        {
+          "name": "Roz Washington",
+          "credits": ""
+        },
+        {
+          "name": "Daisy Gonzalez",
+          "credits": ""
+        },
+        {
+          "name": "Boo Mulligan",
+          "credits": ""
+        },
+        {
+          "name": "Brent Taylor",
+          "credits": ""
+        },
+        {
+          "name": "Jeffrey Peterson",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/homegrown+comedy%3a+la+edition+ft.+slink+johnson%2c+jamario+mcclain%2c+chris+spencer%2c+roz+washington%2c+daisy+gonzalez%2c+boo+mulligan%2c+brent+taylor%2c+jeffrey+peterson+and+more+tba/14234124/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14954443/",
+      "date": "2026-08-21",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Horror Nerd",
+      "comedians": [
+        {
+          "name": "Samantha Hale",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14954443/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14252494/",
+      "date": "2026-08-21",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14252494/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14252544/",
+      "date": "2026-08-21",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14252544/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/nika+king+and+friends/15020383/",
+      "date": "2026-08-21",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "nika king and friends",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/nika+king+and+friends/15020383/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14972983/",
+      "date": "2026-08-22",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14972983/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21/14250414/",
+      "date": "2026-08-22",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21/14250414/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14972933/",
+      "date": "2026-08-22",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14972933/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/la+vs+transplants+ft.+kayla+hardy%2c+amber+easton%2c+and+more+tba/14207274/",
+      "date": "2026-08-22",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "LA vs Transplants",
+      "comedians": [
+        {
+          "name": "Kayla Hardy",
+          "credits": ""
+        },
+        {
+          "name": "Amber Easton",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/la+vs+transplants+ft.+kayla+hardy%2c+amber+easton%2c+and+more+tba/14207274/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+other+show/14257634/",
+      "date": "2026-08-23",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "the other show",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/the+other+show/14257634/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15002343/",
+      "date": "2026-08-23",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15002343/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv%21/15005443/",
+      "date": "2026-08-24",
+      "time": "7:15 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv%21/15005443/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261364/",
+      "date": "2026-08-24",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261364/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/happy+hour+open+mic/14261424/",
+      "date": "2026-08-25",
+      "time": "5:15 pm",
+      "room": "The Main Room",
+      "title": "happy hour open mic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/happy+hour+open+mic/14261424/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/plant+mob+ft.+kyle+tomlin/14991653/",
+      "date": "2026-08-25",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "plant mob ft. kyle tomlin",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/plant+mob+ft.+kyle+tomlin/14991653/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+very+special+guests/14261214/",
+      "date": "2026-08-25",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        },
+        {
+          "name": "VERY Special Guests",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+very+special+guests/14261214/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/john+campanelli+%26+special+guest+ft.+john+campanelli+and+more+tba/14967433/",
+      "date": "2026-08-25",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "John Campanelli & Special Guest",
+      "comedians": [
+        {
+          "name": "John Campanelli",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/john+campanelli+%26+special+guest+ft.+john+campanelli+and+more+tba/14967433/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+mark+hayes+and+more+tba/15001043/",
+      "date": "2026-08-25",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Mark Hayes",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+mark+hayes+and+more+tba/15001043/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/14250474/",
+      "date": "2026-08-26",
+      "time": "6:00 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/14250474/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/amir+k/",
+      "date": "2026-08-26",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/amir+k/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+mayhem+ft.+pardis+parker%2c+dulce+sloan%2c+chris+estrada%2c+irene+tu%2c+anna+simeri%2c+sean+leary/14234134/",
+      "date": "2026-08-26",
+      "time": "8:30 pm",
+      "room": "The Lab",
+      "title": "Comedy Mayhem",
+      "comedians": [
+        {
+          "name": "Pardis Parker",
+          "credits": ""
+        },
+        {
+          "name": "Dulce Sloan",
+          "credits": ""
+        },
+        {
+          "name": "Chris Estrada",
+          "credits": ""
+        },
+        {
+          "name": "Irene Tu",
+          "credits": ""
+        },
+        {
+          "name": "Anna Simeri",
+          "credits": ""
+        },
+        {
+          "name": "Sean Leary",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+mayhem+ft.+pardis+parker%2c+dulce+sloan%2c+chris+estrada%2c+irene+tu%2c+anna+simeri%2c+sean+leary/14234134/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar+and+more+tba/14234174/",
+      "date": "2026-08-27",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "The Download Comedy Show",
+      "comedians": [
+        {
+          "name": "Kate Lav",
+          "credits": ""
+        },
+        {
+          "name": "OJ Stellar",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar+and+more+tba/14234174/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+anthony+jeselnik%2c+brian+monarch+and+very+special+guests/14261204/",
+      "date": "2026-08-27",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Anthony Jeselnik",
+          "credits": ""
+        },
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        },
+        {
+          "name": "VERY Special Guests",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+anthony+jeselnik%2c+brian+monarch+and+very+special+guests/14261204/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/clown+medicine+ft.+sarah+lawrence%2c+wrenn+woods+and+more+tba/15021493/",
+      "date": "2026-08-27",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "Clown Medicine",
+      "comedians": [
+        {
+          "name": "Sarah Lawrence",
+          "credits": ""
+        },
+        {
+          "name": "Wrenn Woods",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/clown+medicine+ft.+sarah+lawrence%2c+wrenn+woods+and+more+tba/15021493/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/chaps+comedy+ft.+sarah+cortina%2c+kylie+vincent%2c+heather+pasternak%2c+grace+bahler%2c+jacob+nakshian%2c+toby+kamish%2c+leila+hilf/14982643/",
+      "date": "2026-08-28",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Chaps Comedy",
+      "comedians": [
+        {
+          "name": "Sarah Cortina",
+          "credits": ""
+        },
+        {
+          "name": "Kylie Vincent",
+          "credits": ""
+        },
+        {
+          "name": "Heather Pasternak",
+          "credits": ""
+        },
+        {
+          "name": "Grace Bahler",
+          "credits": ""
+        },
+        {
+          "name": "Jacob Nakshian",
+          "credits": ""
+        },
+        {
+          "name": "Toby Kamish",
+          "credits": ""
+        },
+        {
+          "name": "Leila Hilf",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/chaps+comedy+ft.+sarah+cortina%2c+kylie+vincent%2c+heather+pasternak%2c+grace+bahler%2c+jacob+nakshian%2c+toby+kamish%2c+leila+hilf/14982643/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14252514/",
+      "date": "2026-08-28",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14252514/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14252564/",
+      "date": "2026-08-28",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14252564/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/hardy+party+ft.+shannon+hardy%2c+sophie+buddle%2c+jon+daly%2c+macey+isaacs%2c+langston+kerman%2c+sammy+mowrey%2c+bri+giger%2c+laurina+sachetti/15008003/",
+      "date": "2026-08-28",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "Hardy Party",
+      "comedians": [
+        {
+          "name": "Shannon Hardy",
+          "credits": ""
+        },
+        {
+          "name": "Sophie Buddle",
+          "credits": ""
+        },
+        {
+          "name": "Jon Daly",
+          "credits": ""
+        },
+        {
+          "name": "Macey Isaacs",
+          "credits": ""
+        },
+        {
+          "name": "Langston Kerman",
+          "credits": ""
+        },
+        {
+          "name": "Sammy Mowrey",
+          "credits": ""
+        },
+        {
+          "name": "Bri Giger",
+          "credits": ""
+        },
+        {
+          "name": "Laurina Sachetti",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/hardy+party+ft.+shannon+hardy%2c+sophie+buddle%2c+jon+daly%2c+macey+isaacs%2c+langston+kerman%2c+sammy+mowrey%2c+bri+giger%2c+laurina+sachetti/15008003/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/private+event/15001033/",
+      "date": "2026-08-29",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "private event",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/private+event/15001033/",
+      "sold_out": true,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21/14250384/",
+      "date": "2026-08-29",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21/14250384/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/14972973/",
+      "date": "2026-08-29",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/14972973/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ego+death+ft.+lauren+michaels%2c+alex+hooper%2c+bryan+suppan%2c+nina+dicker%2c+sha%27+lenoir%2c+demar+randy%2c+john+conroy+and+more+tba/14954463/",
+      "date": "2026-08-29",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "Ego Death",
+      "comedians": [
+        {
+          "name": "Lauren Michaels",
+          "credits": ""
+        },
+        {
+          "name": "Alex Hooper",
+          "credits": ""
+        },
+        {
+          "name": "Bryan Suppan",
+          "credits": ""
+        },
+        {
+          "name": "Nina Dicker",
+          "credits": ""
+        },
+        {
+          "name": "Sha' Lenoir",
+          "credits": ""
+        },
+        {
+          "name": "Demar Randy",
+          "credits": ""
+        },
+        {
+          "name": "John Conroy",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/ego+death+ft.+lauren+michaels%2c+alex+hooper%2c+bryan+suppan%2c+nina+dicker%2c+sha%27+lenoir%2c+demar+randy%2c+john+conroy+and+more+tba/14954463/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/stephan+dyer+%28en+espa%c3%b1ol%29/14219664/",
+      "date": "2026-08-30",
+      "time": "4:30 pm",
+      "room": "The Lab",
+      "title": "stephan dyer (en espa\u00f1ol)",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/stephan+dyer+%28en+espa%c3%b1ol%29/14219664/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/neverending+comedy+ft.+devyn+perry%2c+avry+ross+and+more+tba/14873433/",
+      "date": "2026-08-30",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "Neverending Comedy",
+      "comedians": [
+        {
+          "name": "Devyn Perry",
+          "credits": ""
+        },
+        {
+          "name": "Avry Ross",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/neverending+comedy+ft.+devyn+perry%2c+avry+ross+and+more+tba/14873433/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15002353/",
+      "date": "2026-08-30",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15002353/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv%21/15005453/",
+      "date": "2026-08-31",
+      "time": "7:15 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv%21/15005453/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/new+joke+night+ft.+mike+falzone+%26+jf+harris/15002263/",
+      "date": "2026-08-31",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "New Joke Night",
+      "comedians": [
+        {
+          "name": "Mike Falzone",
+          "credits": ""
+        },
+        {
+          "name": "JF Harris",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/new+joke+night+ft.+mike+falzone+%26+jf+harris/15002263/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261354/",
+      "date": "2026-08-31",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/14261354/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/john+campanelli+%26+special+guests/14228564/",
+      "date": "2026-09-01",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "john campanelli & special guests",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/john+campanelli+%26+special+guests/14228564/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014303/",
+      "date": "2026-09-01",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014303/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/15011013/",
+      "date": "2026-09-02",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/15011013/",
+      "sold_out": null,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014333/",
+      "date": "2026-09-03",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014333/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/hannah+jones/",
+      "date": "2026-09-04",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/hannah+jones/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010903/",
+      "date": "2026-09-04",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010903/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15011083/",
+      "date": "2026-09-04",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15011083/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010983/",
+      "date": "2026-09-05",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010983/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab/14257654/",
+      "date": "2026-09-05",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab/14257654/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010913/",
+      "date": "2026-09-05",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010913/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/house+party/14267814/",
+      "date": "2026-09-05",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "house party",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/house+party/14267814/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017193/",
+      "date": "2026-09-07",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017193/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017203/",
+      "date": "2026-09-07",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017203/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/just+pull+up+ft.+dulc%c3%a9+sloan%2c+camille+waters%2c+zainab+johnson%2c+chris+spencer%2c+jasmine+ellis%2c+skyler+higley%2c+langston+kerman+and+more+tba/14213034/",
+      "date": "2026-09-08",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Just Pull Up",
+      "comedians": [
+        {
+          "name": "Dulc\u00e9 Sloan",
+          "credits": ""
+        },
+        {
+          "name": "Camille Waters",
+          "credits": ""
+        },
+        {
+          "name": "Zainab Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Chris Spencer",
+          "credits": ""
+        },
+        {
+          "name": "Jasmine Ellis",
+          "credits": ""
+        },
+        {
+          "name": "Skyler Higley",
+          "credits": ""
+        },
+        {
+          "name": "Langston Kerman",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/just+pull+up+ft.+dulc%c3%a9+sloan%2c+camille+waters%2c+zainab+johnson%2c+chris+spencer%2c+jasmine+ellis%2c+skyler+higley%2c+langston+kerman+and+more+tba/14213034/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014373/",
+      "date": "2026-09-08",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014373/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/15011033/",
+      "date": "2026-09-09",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/15011033/",
+      "sold_out": null,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+crush+ft.+avery+pearson%2c+justine+marino+and+more+tba/14247854/",
+      "date": "2026-09-09",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Comedy Crush",
+      "comedians": [
+        {
+          "name": "Avery Pearson",
+          "credits": ""
+        },
+        {
+          "name": "Justine Marino",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+crush+ft.+avery+pearson%2c+justine+marino+and+more+tba/14247854/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar%2c+and+more+tba%21/14242224/",
+      "date": "2026-09-10",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "The Download Comedy Show",
+      "comedians": [
+        {
+          "name": "Kate Lav",
+          "credits": ""
+        },
+        {
+          "name": "OJ Stellar",
+          "credits": ""
+        },
+        {
+          "name": "and More TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar%2c+and+more+tba%21/14242224/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014353/",
+      "date": "2026-09-10",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014353/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/basshole+ft.+doug+bass+and+more+tba%21/15008013/",
+      "date": "2026-09-10",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "BASSHOLE",
+      "comedians": [
+        {
+          "name": "Doug Bass",
+          "credits": ""
+        },
+        {
+          "name": "more TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/basshole+ft.+doug+bass+and+more+tba%21/15008013/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/low+and+inside/15008043/",
+      "date": "2026-09-11",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "low and inside",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/low+and+inside/15008043/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010943/",
+      "date": "2026-09-11",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010943/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15011113/",
+      "date": "2026-09-11",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15011113/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/juan+davila/14826413/",
+      "date": "2026-09-12",
+      "time": "4:00 pm",
+      "room": "The Main Room",
+      "title": "juan davila",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/juan+davila/14826413/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/next+generation+comedy/14816333/",
+      "date": "2026-09-12",
+      "time": "4:00 pm",
+      "room": "The Lab",
+      "title": "next generation comedy",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/next+generation+comedy/14816333/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21/15011043/",
+      "date": "2026-09-12",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21/15011043/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/undiscovered+genius/15011053/",
+      "date": "2026-09-12",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "undiscovered genius",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/undiscovered+genius/15011053/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15011123/",
+      "date": "2026-09-12",
+      "time": "10:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15011123/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ron+funches%3a+funchadelic/14967513/",
+      "date": "2026-09-13",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "ron funches: funchadelic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ron+funches%3a+funchadelic/14967513/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+valerie+tosi+and+more+tba/14816413/",
+      "date": "2026-09-14",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Mermaid Comedy Hour",
+      "comedians": [
+        {
+          "name": "Kari Assad",
+          "credits": ""
+        },
+        {
+          "name": "Valerie Tosi",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+valerie+tosi+and+more+tba/14816413/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017153/",
+      "date": "2026-09-14",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017153/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014363/",
+      "date": "2026-09-15",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014363/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/john+campanelli+%26+special+guests/14228574/",
+      "date": "2026-09-15",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "john campanelli & special guests",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/john+campanelli+%26+special+guests/14228574/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/15011063/",
+      "date": "2026-09-16",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/15011063/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/legends+ft.+greg+baldwin+and+more+tba/15017233/",
+      "date": "2026-09-16",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Legends",
+      "comedians": [
+        {
+          "name": "Greg Baldwin",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/legends+ft.+greg+baldwin+and+more+tba/15017233/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/stuart+b.+thompson+%26+friends+ft.+stuart+b.+thompson+and+more+tba/14816223/",
+      "date": "2026-09-17",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Stuart B. Thompson & Friends",
+      "comedians": [
+        {
+          "name": "Stuart B. Thompson",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/stuart+b.+thompson+%26+friends+ft.+stuart+b.+thompson+and+more+tba/14816223/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014343/",
+      "date": "2026-09-17",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014343/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/queer+roast+for+the+straight+host+ft.+andrew+stier+and+more+tba/15020523/",
+      "date": "2026-09-17",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "Queer Roast for the Straight Host",
+      "comedians": [
+        {
+          "name": "Andrew Stier",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/queer+roast+for+the+straight+host+ft.+andrew+stier+and+more+tba/15020523/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/dean+stanfield/",
+      "date": "2026-09-18",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/dean+stanfield/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010933/",
+      "date": "2026-09-18",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010933/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15011093/",
+      "date": "2026-09-18",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15011093/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/yesh+malik%3a+hummusexual/14997903/",
+      "date": "2026-09-18",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "yesh malik: hummusexual",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/yesh+malik%3a+hummusexual/14997903/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010953/",
+      "date": "2026-09-19",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010953/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21/15011403/",
+      "date": "2026-09-19",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21/15011403/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010963/",
+      "date": "2026-09-19",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010963/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ego+death/14267824/",
+      "date": "2026-09-19",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "ego death",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ego+death/14267824/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/never+ending+comedy/14267834/",
+      "date": "2026-09-20",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "never ending comedy",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/never+ending+comedy/14267834/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017173/",
+      "date": "2026-09-21",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017173/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/just+pull+up+ft.+dulc%c3%a9+sloan%2c+camille+waters%2c+kali+scott%2c+kalea+mcneill%2c+david+gborie%2c+maddi+mays%2c+ron+funches+and+more+tba/14213044/",
+      "date": "2026-09-22",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Just Pull Up",
+      "comedians": [
+        {
+          "name": "Dulc\u00e9 Sloan",
+          "credits": ""
+        },
+        {
+          "name": "Camille Waters",
+          "credits": ""
+        },
+        {
+          "name": "Kali Scott",
+          "credits": ""
+        },
+        {
+          "name": "Kalea McNeill",
+          "credits": ""
+        },
+        {
+          "name": "David Gborie",
+          "credits": ""
+        },
+        {
+          "name": "Maddi Mays",
+          "credits": ""
+        },
+        {
+          "name": "Ron Funches",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/just+pull+up+ft.+dulc%c3%a9+sloan%2c+camille+waters%2c+kali+scott%2c+kalea+mcneill%2c+david+gborie%2c+maddi+mays%2c+ron+funches+and+more+tba/14213044/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014323/",
+      "date": "2026-09-22",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014323/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/15011413/",
+      "date": "2026-09-23",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/15011413/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/keegan+tindall/",
+      "date": "2026-09-23",
+      "time": "8:30 pm",
+      "room": "The Lab",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/keegan+tindall/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar%2c+and+more+tba%21/14242254/",
+      "date": "2026-09-24",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "The Download Comedy Show",
+      "comedians": [
+        {
+          "name": "Kate Lav",
+          "credits": ""
+        },
+        {
+          "name": "OJ Stellar",
+          "credits": ""
+        },
+        {
+          "name": "and More TBA!",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/the+download+comedy+show+ft.+kate+lav%2c+oj+stellar%2c+and+more+tba%21/14242254/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/hardy+party/15009693/",
+      "date": "2026-09-24",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "hardy party",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/hardy+party/15009693/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14967653/",
+      "date": "2026-09-25",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Horror Nerd",
+      "comedians": [
+        {
+          "name": "Samantha Hale",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14967653/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010973/",
+      "date": "2026-09-25",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010973/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15011103/",
+      "date": "2026-09-25",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15011103/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+grind/14216744/",
+      "date": "2026-09-25",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "comedy grind",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+grind/14216744/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010923/",
+      "date": "2026-09-26",
+      "time": "7:00 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010923/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+lab%21/15012163/",
+      "date": "2026-09-26",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "tonight at the lab!",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+lab%21/15012163/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv/15010993/",
+      "date": "2026-09-26",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "tonight at the improv",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv/15010993/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/stronger+choices+ft.+adam+lieblein+and+more+tba/14967663/",
+      "date": "2026-09-27",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "Stronger Choices",
+      "comedians": [
+        {
+          "name": "Adam Lieblein",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/stronger+choices+ft.+adam+lieblein+and+more+tba/14967663/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017163/",
+      "date": "2026-09-28",
+      "time": "9:30 pm",
+      "room": "The Main Room",
+      "title": "Improv Presents: MONDERAYS",
+      "comedians": [
+        {
+          "name": "Deray Davis",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/improv+presents%3a+monderays+with+deray+davis+%26+more/15017163/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014313/",
+      "date": "2026-09-29",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Brian Monarch",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+brian+monarch+and+more+tba/15014313/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/lab+work/15012173/",
+      "date": "2026-09-30",
+      "time": "6:15 pm",
+      "room": "The Lab",
+      "title": "lab work",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/lab+work/15012173/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/secretly+trashed/15012183/",
+      "date": "2026-10-02",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "secretly trashed",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/secretly+trashed/15012183/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/house+party/14267864/",
+      "date": "2026-10-03",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "house party",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/house+party/14267864/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/john+campanelli+%26+special+guests/15010393/",
+      "date": "2026-10-06",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "john campanelli & special guests",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/john+campanelli+%26+special+guests/15010393/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/cult+comedy+ft.+laurie+douglas%2c+sam+grody+and+more+tba/15022053/",
+      "date": "2026-10-08",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Cult Comedy",
+      "comedians": [
+        {
+          "name": "Laurie Douglas",
+          "credits": ""
+        },
+        {
+          "name": "Sam Grody",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/cult+comedy+ft.+laurie+douglas%2c+sam+grody+and+more+tba/15022053/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/basshole/15012203/",
+      "date": "2026-10-08",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "basshole",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/basshole/15012203/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+grind/14267874/",
+      "date": "2026-10-09",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "comedy grind",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+grind/14267874/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/la+mole/",
+      "date": "2026-10-10",
+      "time": "4:00 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/la+mole/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ron+funches%3a+funchadelic/14967743/",
+      "date": "2026-10-11",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "ron funches: funchadelic",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ron+funches%3a+funchadelic/14967743/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/rocky+dale+davis/",
+      "date": "2026-10-12",
+      "time": "7:15 pm",
+      "room": "The Main Room",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/rocky+dale+davis/",
+      "sold_out": true,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+valerie+tosi+and+more+tba/14816453/",
+      "date": "2026-10-12",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Mermaid Comedy Hour",
+      "comedians": [
+        {
+          "name": "Kari Assad",
+          "credits": ""
+        },
+        {
+          "name": "Valerie Tosi",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/mermaid+comedy+hour+ft.+kari+assad%2c+valerie+tosi+and+more+tba/14816453/",
+      "sold_out": false,
+      "weekday": "MON",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/comedy+crush+ft.+avery+pearson%2c+justine+marino+and+more+tba/14247864/",
+      "date": "2026-10-14",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "Comedy Crush",
+      "comedians": [
+        {
+          "name": "Avery Pearson",
+          "credits": ""
+        },
+        {
+          "name": "Justine Marino",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/comedy+crush+ft.+avery+pearson%2c+justine+marino+and+more+tba/14247864/",
+      "sold_out": false,
+      "weekday": "WED",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ego+death/14267894/",
+      "date": "2026-10-17",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "ego death",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ego+death/14267894/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/never+ending+comedy/14267904/",
+      "date": "2026-10-18",
+      "time": "7:00 pm",
+      "room": "The Lab",
+      "title": "never ending comedy",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/never+ending+comedy/14267904/",
+      "sold_out": false,
+      "weekday": "SUN",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/ben+bankas+%26+friends/15000863/",
+      "date": "2026-10-20",
+      "time": "7:30 pm",
+      "room": "The Main Room",
+      "title": "ben bankas & friends",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/ben+bankas+%26+friends/15000863/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/john+campanelli+%26+special+guests/15010403/",
+      "date": "2026-10-20",
+      "time": "9:30 pm",
+      "room": "The Lab",
+      "title": "john campanelli & special guests",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/john+campanelli+%26+special+guests/15010403/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14967813/",
+      "date": "2026-10-23",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "Horror Nerd",
+      "comedians": [
+        {
+          "name": "Samantha Hale",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/horror+nerd+ft.+samantha+hale+and+more+tba/14967813/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/vibe+check+ft.+clay+horwitz+%26+more+tba/14234464/",
+      "date": "2026-10-23",
+      "time": "9:45 pm",
+      "room": "The Lab",
+      "title": "Vibe Check",
+      "comedians": [
+        {
+          "name": "Clay Horwitz",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/vibe+check+ft.+clay+horwitz+%26+more+tba/14234464/",
+      "sold_out": false,
+      "weekday": "FRI",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/next+generation+comedy/14816473/",
+      "date": "2026-10-24",
+      "time": "4:00 pm",
+      "room": "The Lab",
+      "title": "next generation comedy",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/event/next+generation+comedy/14816473/",
+      "sold_out": false,
+      "weekday": "SAT",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/comic/natan+badalov/",
+      "date": "2026-10-29",
+      "time": "7:30 pm",
+      "room": "The Lab",
+      "title": "",
+      "comedians": [],
+      "ticket_url": "https://improv.com/hollywood/comic/natan+badalov/",
+      "sold_out": false,
+      "weekday": "THU",
+      "drop_in": 0,
+      "taste": 0,
+      "crowd_work": 0,
+      "blurb": "AI scoring disabled \u2014 raw lineup only."
+    }
+  ]
 }
