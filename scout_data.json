@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T03:13:14+00:00",
+  "generated_at": "2026-08-08T04:37:04+00:00",
   "available_dates": [
     "2026-08-09",
     "2026-08-10",
@@ -584,6 +584,47 @@
       "taste": 0,
       "crowd_work": 0,
       "blurb": "AI scoring disabled \u2014 raw lineup only."
+    },
+    {
+      "venue": "Hollywood Improv",
+      "id": "improv:/hollywood/event/tonight+at+the+improv+ft.+craig+robinson%2c+zainab+johnson%2c+donnell+rawlings%2c+ray+lau%2c+jackson+mcqueen%2c+mark+hayes+and+more+tba/15000713/",
+      "date": "2026-08-11",
+      "time": "9:45 pm",
+      "room": "The Main Room",
+      "title": "Tonight at the Improv",
+      "comedians": [
+        {
+          "name": "Craig Robinson",
+          "credits": ""
+        },
+        {
+          "name": "Zainab Johnson",
+          "credits": ""
+        },
+        {
+          "name": "Donnell Rawlings",
+          "credits": ""
+        },
+        {
+          "name": "Ray Lau",
+          "credits": ""
+        },
+        {
+          "name": "Jackson McQueen",
+          "credits": ""
+        },
+        {
+          "name": "Mark Hayes",
+          "credits": ""
+        }
+      ],
+      "ticket_url": "https://improv.com/hollywood/event/tonight+at+the+improv+ft.+craig+robinson%2c+zainab+johnson%2c+donnell+rawlings%2c+ray+lau%2c+jackson+mcqueen%2c+mark+hayes+and+more+tba/15000713/",
+      "sold_out": false,
+      "weekday": "TUE",
+      "drop_in": 3,
+      "taste": 2,
+      "crowd_work": 4,
+      "blurb": "Craig Robinson and Donnell Rawlings bring energy and audience interaction, but the bill skews toward personality-driven comedy rather than the tight joke-writing the fan prefers. Solid for a fun night, less so for material-focused fans."
     },
     {
       "venue": "Hollywood Improv",
